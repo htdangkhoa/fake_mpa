@@ -1,0 +1,16 @@
+{
+  "returnCode": 1,
+  "returnPayload": [
+    {
+      "applicationType": null,
+      "cargoLocation": "TEST11 AT TEST LOCATION11",
+      "companyName": "TEST CHEVRCN SINGAPORE-NEW",
+      "mpaRefNo": "TP17040002",
+      "refNo": "150007",
+      "status": "APPROVED",
+      "submissionDate": "09/03/18 10:15"
+    }
+  ],
+  "success": true,
+  "returnMessage": "success"
+}

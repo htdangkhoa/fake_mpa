@@ -1,0 +1,134 @@
+{
+    "returnCode": 1,
+    "isSuccessful": true,
+    "returnPayload": {
+        "agencyFee": null,
+        "agencyFeeBo": false,
+        "amendRsn": null,
+        "amendRsnBo": false,
+        "applicantName": "TEST222",
+        "billNo": null,
+        "billNoBo": false,
+        "cancelRsn": null,
+        "cancelRsnBo": false,
+        "cargoLocation": "145 AT 56",
+        "cgoGrps": [
+            "CRUDE OIL",
+            "CHEMICAL PRODUCTS"
+        ],
+        "cgoHgtI": "NO",
+        "cgoLenI": "NO",
+        "cgoWdhI": "NO",
+        "chargesView": true,
+        "cntrChrg": "$0.00",
+        "companyName": "TEST PSA CORPORATION LIMITED",
+        "contactPerson": "TEST222",
+        "convChrg": "$0.00",
+        "discCtryM": "CHINA",
+        "discPortM": "TEST",
+        "emailAddr": " ",
+        "faxNo": " ",
+        "item1DS": {
+            "billUnit": null,
+            "container": null,
+            "pay": "",
+            "rateQ": "$0.20",
+            "volume": null,
+            "weight": null
+        },
+        "item1LD": {
+            "billUnit": 30,
+            "container": null,
+            "pay": "$6.00",
+            "rateQ": "$0.20",
+            "volume": 30,
+            "weight": null
+        },
+        "item1TR": {
+            "billUnit": null,
+            "container": null,
+            "pay": "",
+            "rateQ": "$0.20",
+            "volume": null,
+            "weight": null
+        },
+        "item4ADS": {
+            "billUnit": null,
+            "container": null,
+            "pay": "",
+            "rateQ": "$155.00",
+            "volume": null,
+            "weight": null
+        },
+        "item4ALD": {
+            "billUnit": null,
+            "container": 80,
+            "pay": "$12,400.00",
+            "rateQ": "$155.00",
+            "volume": null,
+            "weight": null
+        },
+        "item4ATR": {
+            "billUnit": null,
+            "container": null,
+            "pay": "",
+            "rateQ": "$155.00",
+            "volume": null,
+            "weight": null
+        },
+        "item4BDS": {
+            "billUnit": null,
+            "container": null,
+            "pay": "",
+            "rateQ": "$220.00",
+            "volume": null,
+            "weight": null
+        },
+        "item4BLD": {
+            "billUnit": null,
+            "container": null,
+            "pay": "",
+            "rateQ": "$220.00",
+            "volume": null,
+            "weight": null
+        },
+        "item4BTR": {
+            "billUnit": null,
+            "container": null,
+            "pay": "",
+            "rateQ": "$220.00",
+            "volume": null,
+            "weight": null
+        },
+        "lateFee": null,
+        "lateFeeBo": false,
+        "loadCtryM": "SINGAPORE",
+        "loadPortM": " ",
+        "mobileNo": " ",
+        "mpaAcct": "31077A",
+        "mpaRefNo": "AP18030002",
+        "noticeMthd": "NOT REQUIRED",
+        "officeNo": "68668578",
+        "oprEndDate": "17/03/2018",
+        "oprStartDate": "15/03/2018",
+        "pfVsls": [
+            {
+                "callSignN": "VS2",
+                "craftLic": "VESSL2",
+                "opernMtdX": "LOAD",
+                "vslFlagM": "HK",
+                "vslGtQ": 5,
+                "vslM": "VESSEL2",
+                "vslTyM": "B"
+            }
+        ],
+        "refNo": "AP18030002",
+        "rejectRsn": "UNSUCCESSFUL APPLICATION - LATE APPLICATION",
+        "rejectRsnBo": true,
+        "status": "REJECTED",
+        "submissionDate": "15/03/2018 21:16",
+        "totalChrg": "$0.00",
+        "vessels": null
+    },
+    "returnMessage": "success"
+}

@@ -1,0 +1,15 @@
+{
+    "returnCode": 1,
+    "isSuccessful": true,
+    "returnPayload": [
+        {
+            "cargoLocation": "TEST10 AT TEST LOCATION10",
+            "companyName": "TEST CHEVRCN SINGAPORE-NEW",
+            "declnMthYrN": "2016",
+            "mpaRefNo": "TP17030007",
+            "refNo": "SY17040001",
+            "status": "PENDING MPA VERIFICATION"
+        }
+    ],
+    "returnMessage": "success"
+}

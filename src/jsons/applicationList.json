@@ -1,0 +1,20 @@
+{
+    "returnCode": 1,
+    "isSuccessful": true,
+    "returnPayload": [
+        {
+            "cargoLocation": "145 AT 56",
+            "companyName": "TEST PSA CORPORATION LIMITED",
+            "mpaRefNo": null,
+            "oprEndDate": "17/03/2018",
+            "oprStartDate": "15/03/2018",
+            "refNo": "AP18030002",
+            "status": "REJECTED",
+            "vesselName": "VESSEL2",
+            "vessels": [
+                "VESSEL2"
+            ]
+        }
+    ],
+    "returnMessage": "success"
+}

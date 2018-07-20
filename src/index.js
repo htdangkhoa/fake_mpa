@@ -8,6 +8,13 @@ import route from './routes';
 
 dotenv.config();
 
+global.errors = {
+  returnCode: 0,
+  isSuccessful: false,
+  returnPayload: null,
+  returnMessage: 'error',
+};
+
 const cpus = os.cpus().length;
 
 const app = express();

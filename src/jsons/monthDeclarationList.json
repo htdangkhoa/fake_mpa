@@ -1,0 +1,15 @@
+{
+    "returnCode": 1,
+    "isSuccessful": true,
+    "returnPayload": [
+        {
+            "cargoLocation": "TERM AT TERM MON TEST",
+            "companyName": "TEST CHEVRCN SINGAPORE-NEW",
+            "declnMthYrN": "MAR 2018",
+            "mpaRefNo": "TP17040001",
+            "refNo": "DM17030207",
+            "status": "SUBMITTED"
+        }
+    ],
+    "returnMessage": "success"
+}
