@@ -4,6 +4,9 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cluster from 'cluster';
 import os from 'os';
+import path from 'path';
+import fs from 'fs';
+import showdown from 'showdown';
 import route from './routes';
 
 dotenv.config();
@@ -19,9 +22,22 @@ const cpus = os.cpus().length;
 
 const app = express();
 
+const converter = new showdown.Converter({
+  tables: true,
+});
+converter.setFlavor('github');
+
 app.use([bodyParser.json(), bodyParser.urlencoded({ extended: false })]);
 
 app.use('/api', route);
+
+app.get('/api', (req, res) => {
+  const filePath = path.join(__dirname, './docs.md');
+
+  const file = fs.readFileSync(filePath, 'utf8');
+
+  res.send(converter.makeHtml(file));
+});
 
 if (cluster.isMaster) {
   console.info(`Server is running on port: ${process.env.PORT}`);
