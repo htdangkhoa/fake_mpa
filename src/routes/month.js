@@ -7,15 +7,44 @@ import monthlYears from '../jsons/monthlYears';
 const router = express.Router();
 
 router.get('/monthDeclarationList', (req, res) => {
-  res.json(monthDeclarationList);
+  const {
+    userId,
+    orgCode,
+    refNo,
+    mpaRefNo,
+    submitStartDate,
+    submitEndDate,
+    cargoOprYear,
+    cargoOprMonth,
+  } = req.query;
+
+  if (
+    orgCode === 'CAL'
+    && refNo === 'DM17030207'
+    && mpaRefNo === 'TP17040001'
+    && submitStartDate === '26/02/2018'
+    && submitEndDate === '26/04/2018'
+    && cargoOprYear === '2018'
+    && cargoOprMonth === '03'
+  ) return res.json(monthDeclarationList);
+
+  return res.json(global.errors);
 });
 
 router.get('/monthDeclarationDetail', (req, res) => {
-  res.json(monthDeclarationDetail);
+  const { refNo } = req.query;
+
+  if (refNo === 'DM17030207') return res.json(monthDeclarationDetail);
+
+  return res.json(global.errors);
 });
 
 router.get('/monthlYears', (req, res) => {
-  res.json(monthlYears);
+  const { orgCode } = req.query;
+
+  if (orgCode === 'CAL') return res.json(monthlYears);
+
+  return res.json(global.errors);
 });
 
 export default router;
