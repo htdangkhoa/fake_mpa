@@ -1,0 +1,13 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "id": 17,
+      "timestamp": 1522944001000,
+      "link": [],
+      "msg1": "\u003cb\u003emyMaritime@SG will not be available on 07 Apr 2018 from 0800hrs to 0830hrs for preventive maintenance.\u003c/b\u003e",
+      "msg2": "myMaritime@SG will not be available on 07 Apr 2018 from 0800hrs to 0830hrs for preventive maintenance."
+    }
+  ]
+}

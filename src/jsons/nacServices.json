@@ -1,0 +1,30 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "id": 2,
+      "name": "VESSEL ALERT SERVICE",
+      "standard": false,
+      "pageId": "vasVesselConfigurationPage",
+      "events": [
+        {
+          "id": 1,
+          "name": "When there is an update in the ETA of the vessel"
+        },
+        {
+          "id": 2,
+          "name": "When the vessel reports its arrival"
+        },
+        {
+          "id": 3,
+          "name": "When the vessel moved to a location in port"
+        },
+        {
+          "id": 4,
+          "name": "When the vessel reports its departure"
+        }
+      ]
+    }
+  ]
+}
