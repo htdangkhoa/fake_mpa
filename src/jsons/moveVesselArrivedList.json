@@ -1,0 +1,1200 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "timeArrived": 1523246040000,
+      "agentName": "KIM HOCK BEE MARINE PTE LTD",
+      "purpose": [],
+      "vslId": "113627",
+      "vslName": "ABERDEEN BAY 2306",
+      "vslCallsign": "",
+      "location": "P.PUNGGOL AGGREGATE TM",
+      "vslIMO": "",
+      "vslFlagCode": "ID"
+    },
+    {
+      "timeArrived": 1523244000000,
+      "agentName": "AGIOS NIKOLAOS SHIPPING SERVICES",
+      "purpose": [],
+      "vslId": "3901",
+      "vslName": "ALPHA CENTURY",
+      "vslCallsign": "SWJV",
+      "location": "EASTERN BUNKERG ANCH C/",
+      "vslIMO": "0009226530",
+      "vslFlagCode": "GR"
+    },
+    {
+      "timeArrived": 1523235360000,
+      "agentName": "OCEAN TANKERS (PRIVATE) LIMITED",
+      "purpose": [
+        {
+          "code": "4",
+          "desc": "Taking Supplies"
+        }
+      ],
+      "vslId": "34395",
+      "vslName": "AN WEI",
+      "vslCallsign": "9V5931",
+      "location": "OCEAN TANKERS P L",
+      "vslIMO": "0008029583",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523247000000,
+      "agentName": "AXCEL MARINE PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "77069",
+      "vslName": "ANDROMEDA V",
+      "vslCallsign": "9V9256",
+      "location": "DISEMB GRD EAST BOUND",
+      "vslIMO": "0009174115",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523240580000,
+      "agentName": "BINTAN RESORT FERRIES PTE LTD",
+      "purpose": [
+        {
+          "code": "2",
+          "desc": "Embarking/Disembarking Passengers"
+        }
+      ],
+      "vslId": "60446",
+      "vslName": "ARIA BUPALA",
+      "vslCallsign": "9V5109",
+      "location": "TANAH MERAH FERRY TERM",
+      "vslIMO": "0009123556",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523228340000,
+      "agentName": "ASL OFFSHORE \u0026 MARINE PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "108274",
+      "vslName": "ASL TRANSPORTER 2",
+      "vslCallsign": "9V2637",
+      "location": "Departed",
+      "vslIMO": "0009717149",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523238300000,
+      "agentName": "MERIDIAN PORT AGENCIES PTE LTD",
+      "purpose": [
+        {
+          "code": "3",
+          "desc": "Taking Bunkers"
+        }
+      ],
+      "vslId": "109753",
+      "vslName": "BARROW ISLAND",
+      "vslCallsign": "VRMK7",
+      "location": "EASTERN ANCHORAGE/5416A",
+      "vslIMO": "0009610743",
+      "vslFlagCode": "HK"
+    },
+    {
+      "timeArrived": 1523229060000,
+      "agentName": "BAYSWATER SHPG \u0026 F\u0027DING PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "54827",
+      "vslName": "BAYSWATER 128",
+      "vslCallsign": "",
+      "location": "JURONG PORT BERTH 3",
+      "vslIMO": "",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523238180000,
+      "agentName": "HAI SENG MARINE SERVICES PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "55514",
+      "vslName": "BINA MARINE 106",
+      "vslCallsign": "",
+      "location": "SMALL CRAFT A ANCH",
+      "vslIMO": "",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523245440000,
+      "agentName": "KK WONG MARINE SERVICES",
+      "purpose": [],
+      "vslId": "37794",
+      "vslName": "BINA MARINE 36",
+      "vslCallsign": "",
+      "location": "P.PUNGGOL AGGREGATE TM",
+      "vslIMO": "",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523236500000,
+      "agentName": "WILHELMSEN SHIPS SERVICE (S) PL",
+      "purpose": [],
+      "vslId": "34724",
+      "vslName": "BM BREEZE",
+      "vslCallsign": "3EQX3",
+      "location": "EASTERN HOLDING ANCH B/5314A",
+      "vslIMO": "0009364227",
+      "vslFlagCode": "PA"
+    },
+    {
+      "timeArrived": 1523232900000,
+      "agentName": "SHARP PORT SERVICES PTE LTD",
+      "purpose": [
+        {
+          "code": "3",
+          "desc": "Taking Bunkers"
+        },
+        {
+          "code": "4",
+          "desc": "Taking Supplies"
+        },
+        {
+          "code": "5",
+          "desc": "Changing Crews"
+        }
+      ],
+      "vslId": "94207",
+      "vslName": "BRENTHOLMEN",
+      "vslCallsign": "V7RU5",
+      "location": "EASTERN SP PURP ANCH A/5717D",
+      "vslIMO": "0009436393",
+      "vslFlagCode": "MH"
+    },
+    {
+      "timeArrived": 1523239200000,
+      "agentName": "BRIGHTOIL SHIPPING AGENCY PTE LT",
+      "purpose": [],
+      "vslId": "54293",
+      "vslName": "BRIGHTOIL GEM",
+      "vslCallsign": "VRKW5",
+      "location": "EASTERN PETROL ANCH A/5414A",
+      "vslIMO": "0009602655",
+      "vslFlagCode": "HK"
+    },
+    {
+      "timeArrived": 1523237100000,
+      "agentName": "BUANA SHIPPING \u0026 MARINE PTE LTD",
+      "purpose": [],
+      "vslId": "26520",
+      "vslName": "BUANA OCEAN 08",
+      "vslCallsign": "",
+      "location": "JURONG PORT BERTH 3",
+      "vslIMO": "",
+      "vslFlagCode": "ID"
+    },
+    {
+      "timeArrived": 1523234640000,
+      "agentName": "PROSPAQ MARINE PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "99758",
+      "vslName": "BUANA OCEAN 23",
+      "vslCallsign": "",
+      "location": "TUAS LANDING",
+      "vslIMO": "",
+      "vslFlagCode": "ID"
+    },
+    {
+      "timeArrived": 1523241000000,
+      "agentName": "SEAWELL MARINE PTE LTD",
+      "purpose": [],
+      "vslId": "35886",
+      "vslName": "CAPE TAFT",
+      "vslCallsign": "V7PT9",
+      "location": "EASTERN SP PURP ANCH A/5616A",
+      "vslIMO": "0009401221",
+      "vslFlagCode": "MH"
+    },
+    {
+      "timeArrived": 1523245500000,
+      "agentName": "ORIENT AGENCY PTE LTD",
+      "purpose": [],
+      "vslId": "46309",
+      "vslName": "CHANG HANG ZHEN ZHU",
+      "vslCallsign": "BUPK",
+      "location": "WESTERN PETRO ANCH B/",
+      "vslIMO": "0009583299",
+      "vslFlagCode": "CN"
+    },
+    {
+      "timeArrived": 1523239800000,
+      "agentName": "NORTRANS SHIPPING AGENCIES PL",
+      "purpose": [
+        {
+          "code": "3",
+          "desc": "Taking Bunkers"
+        }
+      ],
+      "vslId": "42482",
+      "vslName": "CHARISMA",
+      "vslCallsign": "V7PH7",
+      "location": "EASTERN SP PURP ANCH A/5616A",
+      "vslIMO": "0009409132",
+      "vslFlagCode": "MH"
+    },
+    {
+      "timeArrived": 1523246100000,
+      "agentName": "INCHCAPE SHPG SERVICES (S) P L",
+      "purpose": [],
+      "vslId": "34874",
+      "vslName": "CLIPPER HERMES",
+      "vslCallsign": "LAIC6",
+      "location": "SUDONG SP PURP ANCH/",
+      "vslIMO": "0009378151",
+      "vslFlagCode": "NO"
+    },
+    {
+      "timeArrived": 1523238060000,
+      "agentName": "INFINITI SHIPPING PTE LTD",
+      "purpose": [],
+      "vslId": "48032",
+      "vslName": "COMFORT SHIPPING 2472",
+      "vslCallsign": "",
+      "location": "P.PUNGGOL AGGREGATE TM",
+      "vslIMO": "",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523243100000,
+      "agentName": "MERIDIAN PORT AGENCIES PTE LTD",
+      "purpose": [],
+      "vslId": "112883",
+      "vslName": "CURIA",
+      "vslCallsign": "HBLM",
+      "location": "EASTERN SP PURP ANCH A/5617D",
+      "vslIMO": "0009710048",
+      "vslFlagCode": "CH"
+    },
+    {
+      "timeArrived": 1523229300000,
+      "agentName": "AV SHIPPING PTE LTD",
+      "purpose": [],
+      "vslId": "50731",
+      "vslName": "DENSA COUGAR",
+      "vslCallsign": "9HA2601",
+      "location": "EASTERN BUNKERG ANCH B/0017A",
+      "vslIMO": "0009586849",
+      "vslFlagCode": "MT"
+    },
+    {
+      "timeArrived": 1523234100000,
+      "agentName": "GOODWOOD SHIPPING AGENCIES P L",
+      "purpose": [],
+      "vslId": "26111",
+      "vslName": "DHT FALCON",
+      "vslCallsign": "VRNB8",
+      "location": "EASTERN HOLDING ANCH B/0000C",
+      "vslIMO": "0009310147",
+      "vslFlagCode": "HK"
+    },
+    {
+      "timeArrived": 1523230500000,
+      "agentName": "BALTIC AGENCIES PTE LTD",
+      "purpose": [
+        {
+          "code": "4",
+          "desc": "Taking Supplies"
+        },
+        {
+          "code": "5",
+          "desc": "Changing Crews"
+        }
+      ],
+      "vslId": "88307",
+      "vslName": "DIAMANTINA",
+      "vslCallsign": "9V9973",
+      "location": "WESTERN ANCHORAGE/4814B",
+      "vslIMO": "0009144469",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523229600000,
+      "agentName": "WINNERS SHIPMGT \u0026 AGENCY SERVICE",
+      "purpose": [
+        {
+          "code": "3",
+          "desc": "Taking Bunkers"
+        },
+        {
+          "code": "4",
+          "desc": "Taking Supplies"
+        },
+        {
+          "code": "5",
+          "desc": "Changing Crews"
+        }
+      ],
+      "vslId": "5827",
+      "vslName": "EQUINOX DAWN",
+      "vslCallsign": "ZCGK6",
+      "location": "EASTERN BUNKERG ANCH B/5917A",
+      "vslIMO": "0009229673",
+      "vslFlagCode": "KY"
+    },
+    {
+      "timeArrived": 1523245500000,
+      "agentName": "SEANCO PTE LTD",
+      "purpose": [],
+      "vslId": "96771",
+      "vslName": "ESTOLAR",
+      "vslCallsign": "DSRO5",
+      "location": "SUDONG SP PURP ANCH/",
+      "vslIMO": "0009326225",
+      "vslFlagCode": "KR"
+    },
+    {
+      "timeArrived": 1523229900000,
+      "agentName": "THOME SHIP MANAGEMENT PTE LTD",
+      "purpose": [
+        {
+          "code": "3",
+          "desc": "Taking Bunkers"
+        },
+        {
+          "code": "4",
+          "desc": "Taking Supplies"
+        },
+        {
+          "code": "5",
+          "desc": "Changing Crews"
+        }
+      ],
+      "vslId": "93411",
+      "vslName": "FALCON MAJESTIC",
+      "vslCallsign": "9V5389",
+      "location": "EASTERN BUNKERG ANCH B/0017B",
+      "vslIMO": "0009374284",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523231100000,
+      "agentName": "GAC (SINGAPORE) PTE LTD",
+      "purpose": [],
+      "vslId": "55460",
+      "vslName": "GASLOG SKAGEN",
+      "vslCallsign": "ZCEJ7",
+      "location": "SUDONG SP PURP ANCH/4210A",
+      "vslIMO": "0009626285",
+      "vslFlagCode": "BM"
+    },
+    {
+      "timeArrived": 1523226900000,
+      "agentName": "INCHCAPE SHPG SERVICES (S) P L",
+      "purpose": [],
+      "vslId": "113328",
+      "vslName": "GOLDWAY",
+      "vslCallsign": "D5JC6",
+      "location": "EASTERN PETROL ANCH A/5414B",
+      "vslIMO": "0009742900",
+      "vslFlagCode": "LR"
+    },
+    {
+      "timeArrived": 1523233560000,
+      "agentName": "KIM HOCK BEE MARINE PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "108725",
+      "vslName": "HANAUMA BAY 2506",
+      "vslCallsign": "",
+      "location": "PROHIBITED ANCH IN EJS",
+      "vslIMO": "",
+      "vslFlagCode": "ID"
+    },
+    {
+      "timeArrived": 1523228400000,
+      "agentName": "HANGLI SHIPPING PTE LTD",
+      "purpose": [],
+      "vslId": "35176",
+      "vslName": "HANGLIMA",
+      "vslCallsign": "PLHK",
+      "location": "WESTERN ANCHORAGE/4914C",
+      "vslIMO": "0009074846",
+      "vslFlagCode": "ID"
+    },
+    {
+      "timeArrived": 1523239980000,
+      "agentName": "KIM HOCK BEE MARINE PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "56362",
+      "vslName": "HARBOUR BAY 2305",
+      "vslCallsign": "",
+      "location": "PROHIBITED ANCH IN EJS",
+      "vslIMO": "",
+      "vslFlagCode": "ID"
+    },
+    {
+      "timeArrived": 1523245380000,
+      "agentName": "HORIZON FAST FERRY PTE LTD",
+      "purpose": [
+        {
+          "code": "2",
+          "desc": "Embarking/Disembarking Passengers"
+        }
+      ],
+      "vslId": "110398",
+      "vslName": "HORIZON 6",
+      "vslCallsign": "9V3269",
+      "location": "Departed",
+      "vslIMO": "0009764609",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523236860000,
+      "agentName": "HORIZON FAST FERRY PTE LTD",
+      "purpose": [
+        {
+          "code": "2",
+          "desc": "Embarking/Disembarking Passengers"
+        }
+      ],
+      "vslId": "108544",
+      "vslName": "HORIZON 7",
+      "vslCallsign": "9V2415",
+      "location": "BATAM",
+      "vslIMO": "0009732137",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523247060000,
+      "agentName": "HORIZON FAST FERRY PTE LTD",
+      "purpose": [],
+      "vslId": "108044",
+      "vslName": "HORIZON 8",
+      "vslCallsign": "9V2414",
+      "location": "REGIONAL FERRY PLAT 1",
+      "vslIMO": "0009732125",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523231160000,
+      "agentName": "HORIZON FAST FERRY PTE LTD",
+      "purpose": [
+        {
+          "code": "2",
+          "desc": "Embarking/Disembarking Passengers"
+        }
+      ],
+      "vslId": "108044",
+      "vslName": "HORIZON 8",
+      "vslCallsign": "9V2414",
+      "location": "Departed",
+      "vslIMO": "0009732125",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523229060000,
+      "agentName": "INFINITI SHIPPING PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "48274",
+      "vslName": "INFINITI 5",
+      "vslCallsign": "",
+      "location": "JURONG PORT BERTH 5",
+      "vslIMO": "",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523234460000,
+      "agentName": "ASL OFFSHORE \u0026 MARINE PTE LTD",
+      "purpose": [
+        {
+          "code": "6",
+          "desc": "Repair/Docking"
+        }
+      ],
+      "vslId": "27768",
+      "vslName": "INTAN T3501",
+      "vslCallsign": "9V7032",
+      "location": "TUAS FINGER 2 SLOT 2",
+      "vslIMO": "0009424338",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523231100000,
+      "agentName": "GAC (SINGAPORE) PTE LTD",
+      "purpose": [],
+      "vslId": "46634",
+      "vslName": "JM SUTERA 2",
+      "vslCallsign": "9MLS2",
+      "location": "WESTERN PETRO ANCH A/",
+      "vslIMO": "0009434096",
+      "vslFlagCode": "MY"
+    },
+    {
+      "timeArrived": 1523227740000,
+      "agentName": "SENTEK MARINE \u0026 TRADING PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "32220",
+      "vslName": "KANTEK 2",
+      "vslCallsign": "9VNX3",
+      "location": "EASTERN SP PURP ANCH A",
+      "vslIMO": "0009450222",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523233440000,
+      "agentName": "LINE FAST PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "45736",
+      "vslName": "KARIANGAU EXPRESS",
+      "vslCallsign": "J7DG3",
+      "location": "SMALL CRAFT A ANCH/5718D",
+      "vslIMO": "0009133032",
+      "vslFlagCode": "DM"
+    },
+    {
+      "timeArrived": 1523231100000,
+      "agentName": "GAC (SINGAPORE) PTE LTD",
+      "purpose": [
+        {
+          "code": "3",
+          "desc": "Taking Bunkers"
+        }
+      ],
+      "vslId": "41940",
+      "vslName": "KENTA",
+      "vslCallsign": "3EUN5",
+      "location": "EASTERN BUNKERG ANCH A/0317A",
+      "vslIMO": "0009553050",
+      "vslFlagCode": "PA"
+    },
+    {
+      "timeArrived": 1523239500000,
+      "agentName": "AXCEL MARINE PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "115961",
+      "vslName": "KG 18",
+      "vslCallsign": "T8A2715",
+      "location": "CHANGI PROJECT AREA/0018D",
+      "vslIMO": "0009841976",
+      "vslFlagCode": "PW"
+    },
+    {
+      "timeArrived": 1523236500000,
+      "agentName": "GLOBE BULK SERVICES PTE LTD",
+      "purpose": [],
+      "vslId": "44284",
+      "vslName": "KNIGHTSHIP",
+      "vslCallsign": "D5MN5",
+      "location": "EASTERN BUNKERG ANCH A/0517B",
+      "vslIMO": "0009507893",
+      "vslFlagCode": "LR"
+    },
+    {
+      "timeArrived": 1523238660000,
+      "agentName": "INFINITI SHIPPING PTE LTD",
+      "purpose": [],
+      "vslId": "41214",
+      "vslName": "KOI 2",
+      "vslCallsign": "",
+      "location": "P.PUNGGOL AGGREGATE TM",
+      "vslIMO": "",
+      "vslFlagCode": "SL"
+    },
+    {
+      "timeArrived": 1523230200000,
+      "agentName": "RCL FEEDER PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "34873",
+      "vslName": "LOBIVIA",
+      "vslCallsign": "ELZC7",
+      "location": "BRANI TERMINAL BERTH 5/",
+      "vslIMO": "0009228564",
+      "vslFlagCode": "LR"
+    },
+    {
+      "timeArrived": 1523236860000,
+      "agentName": "MAJESTIC FAST FERRY PTE LTD",
+      "purpose": [
+        {
+          "code": "2",
+          "desc": "Embarking/Disembarking Passengers"
+        }
+      ],
+      "vslId": "114140",
+      "vslName": "MAJESTIC DREAM",
+      "vslCallsign": "9V5318",
+      "location": "Departed",
+      "vslIMO": "0009817638",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523241120000,
+      "agentName": "MAJESTIC FAST FERRY PTE LTD",
+      "purpose": [
+        {
+          "code": "2",
+          "desc": "Embarking/Disembarking Passengers"
+        }
+      ],
+      "vslId": "114141",
+      "vslName": "MAJESTIC PRIDE",
+      "vslCallsign": "9V5354",
+      "location": "Departed",
+      "vslIMO": "0009819519",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523244000000,
+      "agentName": "MERIDIAN PORT AGENCIES PTE LTD",
+      "purpose": [],
+      "vslId": "54951",
+      "vslName": "MANIFESTO",
+      "vslCallsign": "9V9574",
+      "location": "SUDONG SP PURP ANCH/",
+      "vslIMO": "0009625152",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523244000000,
+      "agentName": "WILHELMSEN SHIPS SERVICE (S) PL",
+      "purpose": [],
+      "vslId": "90109",
+      "vslName": "MARAN CANOPUS",
+      "vslCallsign": "SXUQ",
+      "location": "EASTERN PETROL ANCH A/5514B",
+      "vslIMO": "0009330563",
+      "vslFlagCode": "GR"
+    },
+    {
+      "timeArrived": 1523244000000,
+      "agentName": "OCEAN TANKERS (PRIVATE) LIMITED",
+      "purpose": [],
+      "vslId": "30925",
+      "vslName": "MARINE PRIORITY",
+      "vslCallsign": "9V3429",
+      "location": "SELAT PAUH PETRO ANCH",
+      "vslIMO": "0008814122",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523241540000,
+      "agentName": "ENERGY LOGISTICS PTE LTD",
+      "purpose": [],
+      "vslId": "39208",
+      "vslName": "MARITIME MESRA",
+      "vslCallsign": "9V7484",
+      "location": "TUAS OFFSHORE MC BTH 2",
+      "vslIMO": "0009550864",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523238300000,
+      "agentName": "QINGAN SHIPPING PTE LTD",
+      "purpose": [],
+      "vslId": "81633",
+      "vslName": "MARUGAWA",
+      "vslCallsign": "9WFG3",
+      "location": "JURONG PORT BERTH 7/",
+      "vslIMO": "0009291157",
+      "vslFlagCode": "MY"
+    },
+    {
+      "timeArrived": 1523244000000,
+      "agentName": "ALMANAC MARITIME PTE LTD",
+      "purpose": [],
+      "vslId": "16842",
+      "vslName": "MATUMBA",
+      "vslCallsign": "D5FH7",
+      "location": "EASTERN BUNKERG ANCH C/0017C",
+      "vslIMO": "0009330082",
+      "vslFlagCode": "LR"
+    },
+    {
+      "timeArrived": 1523245200000,
+      "agentName": "MCC TRANSPORT SINGAPORE PTE LTD",
+      "purpose": [],
+      "vslId": "115666",
+      "vslName": "MCC SHENZHEN",
+      "vslCallsign": "V2GK7",
+      "location": "PASIR PANJANG BERTH 09/",
+      "vslIMO": "0009634696",
+      "vslFlagCode": "AG"
+    },
+    {
+      "timeArrived": 1523228100000,
+      "agentName": "ENERGY LOGISTICS PTE LTD",
+      "purpose": [],
+      "vslId": "28115",
+      "vslName": "MICLYN 257",
+      "vslCallsign": "",
+      "location": "TUAS OFFSHORE MC BTH 2/",
+      "vslIMO": "",
+      "vslFlagCode": "ID"
+    },
+    {
+      "timeArrived": 1523235000000,
+      "agentName": "POSH FLEET SERVICES PTE LTD",
+      "purpose": [
+        {
+          "code": "4",
+          "desc": "Taking Supplies"
+        },
+        {
+          "code": "7",
+          "desc": "Approved Laid-up"
+        }
+      ],
+      "vslId": "51678",
+      "vslName": "MMA CRYSTAL",
+      "vslCallsign": "9V3089",
+      "location": "SELAT PAUH ANCH/4513C",
+      "vslIMO": "0009594212",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523227200000,
+      "agentName": "MERIDIAN PORT AGENCIES PTE LTD",
+      "purpose": [
+        {
+          "code": "6",
+          "desc": "Repair/Docking"
+        }
+      ],
+      "vslId": "54333",
+      "vslName": "MORSTON",
+      "vslCallsign": "9V9144",
+      "location": "SUDONG SP PURP ANCH/4309A",
+      "vslIMO": "0009608300",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523240400000,
+      "agentName": "MEDITERRANEAN SHIPPING CO. SE AS",
+      "purpose": [],
+      "vslId": "54400",
+      "vslName": "MSC RUBY",
+      "vslCallsign": "D5NJ4",
+      "location": "PASIR PANJANG BERTH 17/",
+      "vslIMO": "0009502960",
+      "vslFlagCode": "LR"
+    },
+    {
+      "timeArrived": 1523243460000,
+      "agentName": "ENG LEE SHIPPING CO PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "107748",
+      "vslName": "NAP 254",
+      "vslCallsign": "",
+      "location": "EASTERN ANCHORAGE",
+      "vslIMO": "",
+      "vslFlagCode": "ID"
+    },
+    {
+      "timeArrived": 1523239860000,
+      "agentName": "OCEAN TANKERS (PRIVATE) LIMITED",
+      "purpose": [
+        {
+          "code": "5",
+          "desc": "Changing Crews"
+        },
+        {
+          "code": "9",
+          "desc": "Others"
+        }
+      ],
+      "vslId": "46419",
+      "vslName": "OCEAN SOLAR",
+      "vslCallsign": "9V8200",
+      "location": "EASTERN SP PURP ANCH A",
+      "vslIMO": "0009589592",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523227200000,
+      "agentName": "BLU SHIPPING PTE LTD",
+      "purpose": [],
+      "vslId": "85336",
+      "vslName": "OCEAN UTE",
+      "vslCallsign": "V7UT5",
+      "location": "EASTERN ANCHORAGE/5315B",
+      "vslIMO": "0009074925",
+      "vslFlagCode": "MH"
+    },
+    {
+      "timeArrived": 1523244000000,
+      "agentName": "SINODA SHIPPING AGENCY PTE LTD",
+      "purpose": [],
+      "vslId": "54242",
+      "vslName": "ODESSA",
+      "vslCallsign": "9HA3043",
+      "location": "SUDONG SP PURP ANCH/",
+      "vslIMO": "0009633458",
+      "vslFlagCode": "MT"
+    },
+    {
+      "timeArrived": 1523233200000,
+      "agentName": "MERIDIAN PORT AGENCIES PTE LTD",
+      "purpose": [
+        {
+          "code": "3",
+          "desc": "Taking Bunkers"
+        }
+      ],
+      "vslId": "56097",
+      "vslName": "PEACE GEM",
+      "vslCallsign": "3FMP4",
+      "location": "EASTERN BUNKERG ANCH B/5917D",
+      "vslIMO": "0009663348",
+      "vslFlagCode": "PA"
+    },
+    {
+      "timeArrived": 1523230800000,
+      "agentName": "CMA CGM \u0026 ANL (SINGAPORE) PTE LT",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        },
+        {
+          "code": "5",
+          "desc": "Changing Crews"
+        }
+      ],
+      "vslId": "5334",
+      "vslName": "PERFORMANCE",
+      "vslCallsign": "9HA3804",
+      "location": "PASIR PANJANG BERTH 35/",
+      "vslIMO": "0009250971",
+      "vslFlagCode": "MT"
+    },
+    {
+      "timeArrived": 1523227800000,
+      "agentName": "ENERGY MARINE SERVICES PTE LTD",
+      "purpose": [],
+      "vslId": "35107",
+      "vslName": "RABIGH SUNSHINE",
+      "vslCallsign": "3ESS6",
+      "location": "OIL TANKING BERTH 11/",
+      "vslIMO": "0009416068",
+      "vslFlagCode": "PA"
+    },
+    {
+      "timeArrived": 1523246700000,
+      "agentName": "K LINE (SINGAPORE) PTE LTD",
+      "purpose": [],
+      "vslId": "28333",
+      "vslName": "SIERRA NEVADA HIGHWAY",
+      "vslCallsign": "3EIO4",
+      "location": "PASIR PANJANG BERTH 13/",
+      "vslIMO": "0009325439",
+      "vslFlagCode": "PA"
+    },
+    {
+      "timeArrived": 1523229300000,
+      "agentName": "SMIT SINGAPORE P L",
+      "purpose": [],
+      "vslId": "7899",
+      "vslName": "SMIT CYCLONE",
+      "vslCallsign": "S6FO8",
+      "location": "S TECH NORTH PIER EAST/",
+      "vslIMO": "0007603588",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523234760000,
+      "agentName": "KK WONG MARINE SERVICES",
+      "purpose": [],
+      "vslId": "50546",
+      "vslName": "SOL 2305",
+      "vslCallsign": "",
+      "location": "TUAS LANDING",
+      "vslIMO": "",
+      "vslFlagCode": "ID"
+    },
+    {
+      "timeArrived": 1523243400000,
+      "agentName": "KK WONG MARINE SERVICES",
+      "purpose": [],
+      "vslId": "95951",
+      "vslName": "SOL 2306",
+      "vslCallsign": "",
+      "location": "P.PUNGGOL AGGREGATE TM",
+      "vslIMO": "",
+      "vslFlagCode": "ID"
+    },
+    {
+      "timeArrived": 1523234640000,
+      "agentName": "KK WONG MARINE SERVICES",
+      "purpose": [],
+      "vslId": "56040",
+      "vslName": "SOL 2315",
+      "vslCallsign": "",
+      "location": "PROHIBITED ANCH IN EJS",
+      "vslIMO": "0005630346",
+      "vslFlagCode": "ID"
+    },
+    {
+      "timeArrived": 1523246100000,
+      "agentName": "MOL SINGAPORE PTE LTD",
+      "purpose": [],
+      "vslId": "31024",
+      "vslName": "STAR RIVER",
+      "vslCallsign": "3FTA3",
+      "location": "PASIR PANJANG BERTH 23/",
+      "vslIMO": "0009316373",
+      "vslFlagCode": "PA"
+    },
+    {
+      "timeArrived": 1523235000000,
+      "agentName": "JOHNASIA SHIPPING S PTE LTD",
+      "purpose": [
+        {
+          "code": "3",
+          "desc": "Taking Bunkers"
+        }
+      ],
+      "vslId": "80313",
+      "vslName": "SUNNY BOKE",
+      "vslCallsign": "H3XI",
+      "location": "EASTERN BUNKERG ANCH A/0518C",
+      "vslIMO": "0009198240",
+      "vslFlagCode": "PA"
+    },
+    {
+      "timeArrived": 1523240700000,
+      "agentName": "STANDARD MARITIME PTE LTD",
+      "purpose": [],
+      "vslId": "99147",
+      "vslName": "THANH VAN 16",
+      "vslCallsign": "3WPQ9",
+      "location": "WESTERN QUAR IMM ANCH/4912B",
+      "vslIMO": "0009748942",
+      "vslFlagCode": "VN"
+    },
+    {
+      "timeArrived": 1523235600000,
+      "agentName": "SINODA SHIPPING AGENCY PTE LTD",
+      "purpose": [],
+      "vslId": "99445",
+      "vslName": "THEODOROS P",
+      "vslCallsign": "D5LO4",
+      "location": "EASTERN BUNKERG ANCH C/5716C",
+      "vslIMO": "0009589970",
+      "vslFlagCode": "LR"
+    },
+    {
+      "timeArrived": 1523241000000,
+      "agentName": "S5 ASIA PTE LTD",
+      "purpose": [],
+      "vslId": "37103",
+      "vslName": "TRUSTEE",
+      "vslCallsign": "PJIZ",
+      "location": "EASTERN SP PURP ANCH A/5716A",
+      "vslIMO": "0008902955",
+      "vslFlagCode": "CW"
+    },
+    {
+      "timeArrived": 1523238900000,
+      "agentName": "CMA CGM \u0026 ANL (SINGAPORE) PTE LT",
+      "purpose": [],
+      "vslId": "17540",
+      "vslName": "VICTORIA SCHULTE",
+      "vslCallsign": "P3ZZ9",
+      "location": "PASIR PANJANG BERTH 32/",
+      "vslIMO": "0009312418",
+      "vslFlagCode": "CY"
+    },
+    {
+      "timeArrived": 1523234100000,
+      "agentName": "NYK GROUP SOUTH ASIA PTE LTD",
+      "purpose": [],
+      "vslId": "12892",
+      "vslName": "VIRGO LEADER",
+      "vslCallsign": "H3YE",
+      "location": "EASTERN BUNKERG ANCH A/0318D",
+      "vslIMO": "0009273894",
+      "vslFlagCode": "PA"
+    },
+    {
+      "timeArrived": 1523244000000,
+      "agentName": "MOBCO SHIPPING PTE LTD",
+      "purpose": [
+        {
+          "code": "4",
+          "desc": "Taking Supplies"
+        },
+        {
+          "code": "5",
+          "desc": "Changing Crews"
+        }
+      ],
+      "vslId": "55025",
+      "vslName": "VYACHESLAV TIKHONOV",
+      "vslCallsign": "UBSH6",
+      "location": "EASTERN ANCHORAGE/5216D",
+      "vslIMO": "0009538115",
+      "vslFlagCode": "RU"
+    },
+    {
+      "timeArrived": 1523239320000,
+      "agentName": "INFINITI SHIPPING PTE LTD",
+      "purpose": [],
+      "vslId": "97229",
+      "vslName": "WAN CHENG 35",
+      "vslCallsign": "",
+      "location": "P.PUNGGOL AGGREGATE TM",
+      "vslIMO": "",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523233800000,
+      "agentName": "HAI SENG MARINE SERVICES PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "92394",
+      "vslName": "WINBUILD 2312",
+      "vslCallsign": "",
+      "location": "TUAS LANDING",
+      "vslIMO": "0009658769",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523242980000,
+      "agentName": "HAI SENG MARINE SERVICES PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "92436",
+      "vslName": "WINBUILD 2313",
+      "vslCallsign": "",
+      "location": "P.PUNGGOL AGGREGATE TM",
+      "vslIMO": "0005630220",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523229300000,
+      "agentName": "JOHNASIA SHIPPING S PTE LTD",
+      "purpose": [
+        {
+          "code": "3",
+          "desc": "Taking Bunkers"
+        }
+      ],
+      "vslId": "26913",
+      "vslName": "WINNING ENDURANCE",
+      "vslCallsign": "9V5631",
+      "location": "EASTERN BUNKERG ANCH A/0418D",
+      "vslIMO": "0009232058",
+      "vslFlagCode": "SG"
+    },
+    {
+      "timeArrived": 1523240100000,
+      "agentName": "GAC (SINGAPORE) PTE LTD",
+      "purpose": [
+        {
+          "code": "5",
+          "desc": "Changing Crews"
+        },
+        {
+          "code": "6",
+          "desc": "Repair/Docking"
+        }
+      ],
+      "vslId": "96990",
+      "vslName": "WOODSIDE ROGERS",
+      "vslCallsign": "SVBS6",
+      "location": "RAFFLES RESERVED ANCH/4511C",
+      "vslIMO": "0009627485",
+      "vslFlagCode": "GR"
+    },
+    {
+      "timeArrived": 1523245500000,
+      "agentName": "AXCEL MARINE PTE LTD",
+      "purpose": [
+        {
+          "code": "1",
+          "desc": "Cargo Operation"
+        }
+      ],
+      "vslId": "116465",
+      "vslName": "XIANG FA 998",
+      "vslCallsign": "3FEE7",
+      "location": "AYER MERBAU PROJ AREA/",
+      "vslIMO": "0009849722",
+      "vslFlagCode": "PA"
+    },
+    {
+      "timeArrived": 1523239500000,
+      "agentName": "YANG MING (SINGAPORE) PTE LTD",
+      "purpose": [],
+      "vslId": "49018",
+      "vslName": "YM WEALTH",
+      "vslCallsign": "A8EI4",
+      "location": "PASIR PANJANG BERTH 30/",
+      "vslIMO": "0009278088",
+      "vslFlagCode": "LR"
+    }
+  ]
+}

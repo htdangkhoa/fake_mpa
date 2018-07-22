@@ -28,8 +28,8 @@ router.get('/filterMessage', (req, res) => {
     userId === 'dnvacc17'
     && serviceId === '2'
     && eventId === '1'
-    && startDate === 1520667837097
-    && endDate === 1523246153634
+    && startDate === '1520667837097'
+    && endDate === '1523246153634'
     && targetId === '0'
   ) return res.json(filterMessages);
 

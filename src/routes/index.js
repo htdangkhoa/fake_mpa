@@ -6,6 +6,7 @@ import company from './company';
 import announcements from './announcement';
 import feedback from './feedback';
 import inbox from './inbox';
+import move from './move';
 
 export default [
   term,
@@ -16,4 +17,5 @@ export default [
   announcements,
   feedback,
   inbox,
+  move,
 ];
