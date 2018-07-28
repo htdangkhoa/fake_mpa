@@ -5,7 +5,7 @@ import filterMessages from '../jsons/filterMessages';
 
 const router = express.Router();
 
-router.get('/recentMessages', (req, res) => {
+router.get('/getRecentMessages', (req, res) => {
   const { qty } = req.query;
 
   if (qty < 20 && qty >= 0) {
@@ -19,7 +19,7 @@ router.get('/nacServices', (req, res) => {
   res.json(nacServices);
 });
 
-router.get('/filterMessage', (req, res) => {
+router.get('/getFilterMessage', (req, res) => {
   const {
     userId, serviceId, eventId, startDate, endDate, adminMode, targetId,
   } = req.query;

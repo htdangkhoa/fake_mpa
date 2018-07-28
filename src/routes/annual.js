@@ -7,7 +7,7 @@ import annualTariffItemDetail from '../jsons/annualTariffItemDetail';
 
 const router = express.Router();
 
-router.get('/annualStatementList', (req, res) => {
+router.get('/getAnnualStatementList', (req, res) => {
   const {
     userId, orgCode, refNo, submitStartDate, submitEndDate, cargoOprYear,
   } = req.query;
@@ -23,7 +23,7 @@ router.get('/annualStatementList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/annualStatementDetail', (req, res) => {
+router.get('/getAnnualStatementDetail', (req, res) => {
   const { refNo } = req.query;
 
   if (refNo === 'SY17030005') return res.json(annualStatementDetail);
@@ -31,7 +31,7 @@ router.get('/annualStatementDetail', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/annualTariffItemDetail', (req, res) => {
+router.get('/getAnnualTariffItemDetail', (req, res) => {
   const {
     refNo,
     itemCode,

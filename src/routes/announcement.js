@@ -5,7 +5,7 @@ import announcementsNone from '../jsons/announcements_none';
 
 const router = express.Router();
 
-router.get('/announcements', (req, res) => {
+router.get('/getAnnouncements', (req, res) => {
   const count = Math.round(Math.random() * 1);
 
   if (count !== 0) {

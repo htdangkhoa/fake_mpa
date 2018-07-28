@@ -16,7 +16,7 @@ import moveDailyShippingStateListPDF from '../jsons/moveDailyShippingStateListPD
 
 const router = express.Router();
 
-router.get('/moveWatchList', (req, res) => {
+router.get('/getMoveWatchList', (req, res) => {
   const { userId } = req.query;
 
   if (userId === 'mpancs02') return res.json(moveWatchList);
@@ -24,7 +24,7 @@ router.get('/moveWatchList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveVesselStatusInPortList', (req, res) => {
+router.get('/getMoveVesselStatusInPortList', (req, res) => {
   const {
     userId, vslName, vslCallsign, vslIMO,
   } = req.query;
@@ -34,7 +34,7 @@ router.get('/moveVesselStatusInPortList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveVesselStatusInPortDetail', (req, res) => {
+router.get('/getMoveVesselStatusInPortDetail', (req, res) => {
   const {
     userId, vslId, paymentRequired, orgCode,
   } = req.query;
@@ -44,7 +44,7 @@ router.get('/moveVesselStatusInPortDetail', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveVesselStatusInPortDetailPDF', (req, res) => {
+router.get('/getMoveVesselStatusInPortDetailPDF', (req, res) => {
   const { userId } = req.query;
 
   if (userId === 'mpancs01') return res.json(moveVesselStatusInPortDetailPDF);
@@ -52,7 +52,7 @@ router.get('/moveVesselStatusInPortDetailPDF', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveVesselArrivedList', (req, res) => {
+router.get('/getMoveVesselArrivedList', (req, res) => {
   const { orgCode } = req.query;
 
   if (orgCode === 'MPA') return res.json(moveVesselArrivedList);
@@ -60,7 +60,7 @@ router.get('/moveVesselArrivedList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveVesselArrivedListPDF', (req, res) => {
+router.get('/getMoveVesselArrivedListPDF', (req, res) => {
   const { orgCode } = req.query;
 
   if (orgCode === 'MPA') return res.json(moveVesselArrivedListPDF);
@@ -68,7 +68,7 @@ router.get('/moveVesselArrivedListPDF', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveVesselDueToArriveList', (req, res) => {
+router.get('/getMoveVesselDueToArriveList', (req, res) => {
   const { appRefNo } = req.query;
 
   if (appRefNo === '201709000070') return res.json(moveVesselDueToArriveList);
@@ -76,7 +76,7 @@ router.get('/moveVesselDueToArriveList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveVesselDueToArriveListPDF', (req, res) => {
+router.get('/getMoveVesselDueToArriveListPDF', (req, res) => {
   const { appRefNo } = req.query;
 
   if (appRefNo === '201709000070') return res.json(moveVesselDueToArriveListPDF);
@@ -84,7 +84,7 @@ router.get('/moveVesselDueToArriveListPDF', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveVesselDepartedList', (req, res) => {
+router.get('/getMoveVesselDepartedList', (req, res) => {
   const { sno } = req.query;
 
   if (sno === '1') return res.json(moveVesselDepartedList);
@@ -92,7 +92,7 @@ router.get('/moveVesselDepartedList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveVesselDepartedListPDF', (req, res) => {
+router.get('/getMoveVesselDepartedListPDF', (req, res) => {
   const { sno } = req.query;
 
   if (sno === '1') return res.json(moveVesselDepartedListPDF);
@@ -100,7 +100,7 @@ router.get('/moveVesselDepartedListPDF', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveVesselDueToDepartList', (req, res) => {
+router.get('/getMoveVesselDueToDepartList', (req, res) => {
   const {
     userId, byProfile, date, time,
   } = req.query;
@@ -110,7 +110,7 @@ router.get('/moveVesselDueToDepartList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveVesselDueToDepartListPDF', (req, res) => {
+router.get('/getMoveVesselDueToDepartListPDF', (req, res) => {
   const {
     userId, byProfile, date, time,
   } = req.query;
@@ -120,7 +120,7 @@ router.get('/moveVesselDueToDepartListPDF', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveDailyShippingStateList', (req, res) => {
+router.get('/getMoveDailyShippingStateList', (req, res) => {
   const {
     userId, byProfile, indicator, paymentRequired, orgCode,
   } = req.query;
@@ -136,7 +136,7 @@ router.get('/moveDailyShippingStateList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/moveDailyShippingStateListPDF', (req, res) => {
+router.get('/getMoveDailyShippingStateListPDF', (req, res) => {
   const {
     userId, byProfile, indicator, paymentRequired, orgCode,
   } = req.query;

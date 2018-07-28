@@ -5,7 +5,7 @@ import termDetail from '../jsons/termDetail';
 
 const router = express.Router();
 
-router.get('/termList', (req, res) => {
+router.get('/getTermList', (req, res) => {
   const {
     userId, orgCode, mpaRefNo, location,
   } = req.query;
@@ -15,7 +15,7 @@ router.get('/termList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/termDetail', (req, res) => {
+router.get('/getTermDetail', (req, res) => {
   const { refNo } = req.query;
 
   if (refNo === 'TP17040002') return res.json(termDetail);

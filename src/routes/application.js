@@ -5,7 +5,7 @@ import applicationDetail from '../jsons/applicationDetail';
 
 const router = express.Router();
 
-router.get('/applicationList', (req, res) => {
+router.get('/getApplicationList', (req, res) => {
   const {
     userId, orgCode, refNo, status, location, submitStartDate, submitEndDate,
   } = req.query;
@@ -24,7 +24,7 @@ router.get('/applicationList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/applicationDetail', (req, res) => {
+router.get('/getApplicationDetail', (req, res) => {
   const { refNo } = req.query;
 
   if (refNo === 'AP18030002') return res.json(applicationDetail);

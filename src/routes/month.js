@@ -6,7 +6,7 @@ import monthlYears from '../jsons/monthlYears';
 
 const router = express.Router();
 
-router.get('/monthDeclarationList', (req, res) => {
+router.get('/getMonthDeclarationList', (req, res) => {
   const {
     userId,
     orgCode,
@@ -31,7 +31,7 @@ router.get('/monthDeclarationList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/monthDeclarationDetail', (req, res) => {
+router.get('/getMonthDeclarationDetail', (req, res) => {
   const { refNo } = req.query;
 
   if (refNo === 'DM17030207') return res.json(monthDeclarationDetail);
