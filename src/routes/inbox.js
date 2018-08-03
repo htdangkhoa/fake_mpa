@@ -12,7 +12,7 @@ router.get('/getRecentMessages', (req, res) => {
     recentMessages.returnPayload.length -= recentMessages.returnPayload.length - qty;
   }
 
-  res.send(recentMessages.returnPayload);
+  res.send(recentMessages);
 });
 
 router.get('/nacServices', (req, res) => {
