@@ -1,0 +1,29 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": {
+    "purpose": [
+      {
+        "code": "1",
+        "desc": "Cargo Operation"
+      }
+    ],
+    "agentName": "SENTEK MARINE \u0026 TRADING PTE LTD",
+    "vslId": "57023",
+    "vslName": "SENTEK 28",
+    "vslCallsign": "9V2148",
+    "vslFlagCode": "SG",
+    "vslFlagName": "SINGAPORE",
+    "vslIMO": "0009537238",
+    "vslType": "TANKER",
+    "vslLength": "64",
+    "vslImg": "",
+    "arrivalEst": 1519400160000,
+    "arrivalRpt": 1519403820000,
+    "lat": "1.296247124671936",
+    "long": "103.9651107788086",
+    "locnFr": "",
+    "locnTo": "",
+    "vslGRT": "1589"
+  }
+}

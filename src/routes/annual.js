@@ -55,8 +55,4 @@ router.get('/getAnnualTariffItemDetail', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/getVesselInPortList', (req, res) => {
-  res.json(vesselInPortList);
-});
-
 export default router;

@@ -7,6 +7,7 @@ import announcements from './announcement';
 import feedback from './feedback';
 import inbox from './inbox';
 import move from './move';
+import vessel from './vessel';
 
 export default [
   term,
@@ -18,4 +19,5 @@ export default [
   feedback,
   inbox,
   move,
+  vessel,
 ];
