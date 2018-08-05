@@ -1,0 +1,64 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": {
+    "transactionTypes": [
+      {
+        "code": 0,
+        "desc": "View All Transactions                                                                                                                                                                                   "
+      },
+      {
+        "code": 1,
+        "desc": "Credit Purchase                                                                                                                                                                                         "
+      },
+      {
+        "code": 9304,
+        "desc": "Vessel Movement Alert Service                                                                                                                                                                           "
+      },
+      {
+        "code": 9305,
+        "desc": "Vessel Mobile Service                                                                                                                                                                                   "
+      },
+      {
+        "code": 9306,
+        "desc": "Enquiry of Vessel Information                                                                                                                                                                           "
+      },
+      {
+        "code": 9308,
+        "desc": "Daily Shipping State List                                                                                                                                                                               "
+      },
+      {
+        "code": 9309,
+        "desc": "I-Track (Own Vessel)                                                                                                                                                                                    "
+      },
+      {
+        "code": 9310,
+        "desc": "I-Track (Other Vessels)                                                                                                                                                                                 "
+      }
+    ],
+    "creditThresholdTypes": [
+      "5.00",
+      "10.00",
+      "20.00"
+    ],
+    "giroAccounts": [],
+    "giroTopupAmounts": [
+      {
+        "id": 448000,
+        "amt": "10.00"
+      },
+      {
+        "id": 448001,
+        "amt": "50.00"
+      },
+      {
+        "id": 448002,
+        "amt": "100.00"
+      },
+      {
+        "id": 448004,
+        "amt": "300.00"
+      }
+    ]
+  }
+}

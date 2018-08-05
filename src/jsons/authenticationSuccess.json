@@ -1,0 +1,11 @@
+{
+  "returnCode": 1,
+  "returnMessage": "Login ID [mpancs04] last system access Apr  9 2018 10:47AM",
+  "returnPayload": {
+    "userId": "mpancs04",
+    "name": "Test ID Four",
+    "email": "performance_test04@ncs.com",
+    "orgCode": "MPA",
+    "isAdmin": false
+  }
+}

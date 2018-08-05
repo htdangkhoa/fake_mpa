@@ -8,6 +8,9 @@ import feedback from './feedback';
 import inbox from './inbox';
 import move from './move';
 import vessel from './vessel';
+import authentication from './authentication';
+import vas from './vas';
+import eWallet from './eWallet';
 
 export default [
   term,
@@ -20,4 +23,7 @@ export default [
   inbox,
   move,
   vessel,
+  authentication,
+  vas,
+  eWallet,
 ];

@@ -13,6 +13,8 @@ import moveVesselDueToDepartList from '../jsons/moveVesselDueToDepartList';
 import moveVesselDueToDepartListPDF from '../jsons/moveVesselDueToDepartListPDF';
 import moveDailyShippingStateList from '../jsons/moveDailyShippingStateList';
 import moveDailyShippingStateListPDF from '../jsons/moveDailyShippingStateListPDF';
+import addMOVEWatchList from '../jsons/addMOVEWatchList';
+import removeMOVEWatchList from '../jsons/removeMOVEWatchList';
 
 const router = express.Router();
 
@@ -148,6 +150,26 @@ router.get('/getMoveDailyShippingStateListPDF', (req, res) => {
     && paymentRequired === 'true'
     && orgCode === 'MPA'
   ) return res.json(moveDailyShippingStateListPDF);
+
+  return res.json(global.errors);
+});
+
+router.post('/addMOVEWatchList', (req, res) => {
+  const { userId, vslId } = req.body;
+
+  if (userId === 'mpancs02' && vslId === '57023') {
+    return res.json(addMOVEWatchList);
+  }
+
+  return res.json(global.errors);
+});
+
+router.delete('/removeMOVEWatchList', (req, res) => {
+  const { userId, vslId } = req.query;
+
+  if (userId === 'mpancs02' && vslId === '57023') {
+    return res.json(removeMOVEWatchList);
+  }
 
   return res.json(global.errors);
 });

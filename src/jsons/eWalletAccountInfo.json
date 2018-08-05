@@ -1,0 +1,12 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": {
+    "creditBalance": "0.03",
+    "creditThreshold": "10.00",
+    "mat": "",
+    "autoTopup": false,
+    "autoTopupAcctNo": "",
+    "autoTopupAmt": ""
+  }
+}
