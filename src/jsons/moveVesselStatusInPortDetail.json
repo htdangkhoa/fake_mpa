@@ -74,7 +74,17 @@
           "remark": ""
         }
       ],
-      "fmvmt": [],
+      "fmvmt": [
+        {
+          "pilot": 1498179600000,
+          "srt": 1498180500000,
+          "toa": 1498213200000,
+          "hgt": "100",
+          "dft": "200",
+          "fromDesc": "SPA",
+          "toDesc": "CDE"
+        }
+      ],
       "prevCall": [
         {
           "timeArrived": 1498186800000,
