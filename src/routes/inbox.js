@@ -5,7 +5,7 @@ import filterMessages from '../jsons/filterMessages';
 
 const router = Router();
 
-router.get('/getRecentMessages', (req, res) => {
+router.post('/getRecentMessages', (req, res) => {
   const { qty } = req.query;
 
   if (qty < 20 && qty >= 0) {
@@ -15,11 +15,11 @@ router.get('/getRecentMessages', (req, res) => {
   res.send(recentMessages);
 });
 
-router.get('/nacServices', (req, res) => {
+router.post('/nacServices', (req, res) => {
   res.json(nacServices);
 });
 
-router.get('/getFilterMessage', (req, res) => {
+router.post('/getFilterMessage', (req, res) => {
   const {
     userId, serviceId, eventId, startDate, endDate, adminMode, targetId,
   } = req.query;

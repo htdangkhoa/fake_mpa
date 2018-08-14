@@ -6,7 +6,7 @@ import monthlYears from '../jsons/monthlYears';
 
 const router = Router();
 
-router.get('/getMonthDeclarationList', (req, res) => {
+router.post('/getMonthDeclarationList', (req, res) => {
   const {
     userId,
     orgCode,
@@ -31,7 +31,7 @@ router.get('/getMonthDeclarationList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/getMonthDeclarationDetail', (req, res) => {
+router.post('/getMonthDeclarationDetail', (req, res) => {
   const { refNo } = req.query;
 
   if (refNo === 'DM17030207') return res.json(monthDeclarationDetail);
@@ -39,7 +39,7 @@ router.get('/getMonthDeclarationDetail', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/monthlYears', (req, res) => {
+router.post('/monthlYears', (req, res) => {
   const { orgCode } = req.query;
 
   if (orgCode === 'CAL') return res.json(monthlYears);

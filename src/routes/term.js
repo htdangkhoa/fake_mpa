@@ -5,7 +5,7 @@ import termDetail from '../jsons/termDetail';
 
 const router = Router();
 
-router.get('/getTermList', (req, res) => {
+router.post('/getTermList', (req, res) => {
   const {
     userId, orgCode, mpaRefNo, location,
   } = req.query;
@@ -15,7 +15,7 @@ router.get('/getTermList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/getTermDetail', (req, res) => {
+router.post('/getTermDetail', (req, res) => {
   const { refNo } = req.query;
 
   if (refNo === 'TP17040002') return res.json(termDetail);

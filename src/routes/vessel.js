@@ -5,7 +5,7 @@ import vesselArrived from '../jsons/vesselArrived';
 
 const router = Router();
 
-router.get('/getVesselInPortList', (req, res) => {
+router.post('/getVesselInPortList', (req, res) => {
   const { userId } = req.query;
 
   if (userId === 'mpancs01') return res.json(vesselInPortList);
@@ -13,7 +13,7 @@ router.get('/getVesselInPortList', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/getVesselInPortDetail', (req, res) => {
+router.post('/getVesselInPortDetail', (req, res) => {
   const { userId, vslId } = req.query;
 
   if (userId === 'mpancs01' && vslId === '57023') return res.json(vesselInPortDetail);
@@ -21,6 +21,6 @@ router.get('/getVesselInPortDetail', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/getVesselArrived', (req, res) => res.json(vesselArrived));
+router.post('/getVesselArrived', (req, res) => res.json(vesselArrived));
 
 export default router;

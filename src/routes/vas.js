@@ -5,7 +5,7 @@ import vasConfiguration from '../jsons/vasConfiguration';
 
 const router = Router();
 
-router.get('/getVASVessel', (req, res) => {
+router.post('/getVASVessel', (req, res) => {
   const {
     userId, vslName, vslCallsign, vslIMO,
   } = req.query;
@@ -29,7 +29,7 @@ router.post('/addVASConfiguration', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/getVASConfiguration', (req, res) => {
+router.post('/getVASConfiguration', (req, res) => {
   const { userId } = req.query;
 
   if (userId === 'mpancs04') {

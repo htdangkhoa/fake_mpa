@@ -7,7 +7,7 @@ import eWalletCreditThreshold from '../jsons/eWalletCreditThreshold';
 
 const router = Router();
 
-router.get('/getEWalletMasterData', (req, res) => {
+router.post('/getEWalletMasterData', (req, res) => {
   const { userId, orgCode } = req.query;
 
   if (userId === 'mpancs04' && orgCode === 'MPA') {
@@ -17,7 +17,7 @@ router.get('/getEWalletMasterData', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/getEWalletAccountInfo', (req, res) => {
+router.post('/getEWalletAccountInfo', (req, res) => {
   const { userId, orgCode } = req.query;
 
   if (userId === 'mpancs04' && orgCode === 'MPA') {
@@ -27,7 +27,7 @@ router.get('/getEWalletAccountInfo', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/getEWalletTransactionHistory', (req, res) => {
+router.post('/getEWalletTransactionHistory', (req, res) => {
   const {
     userId, orgCode, transType, dateType,
   } = req.query;
@@ -39,7 +39,7 @@ router.get('/getEWalletTransactionHistory', (req, res) => {
   return res.json(global.errors);
 });
 
-router.get('/getEWalletTransactionHistoryPDF', (req, res) => {
+router.post('/getEWalletTransactionHistoryPDF', (req, res) => {
   const {
     userId, orgCode, transType, dateType,
   } = req.query;
@@ -51,7 +51,7 @@ router.get('/getEWalletTransactionHistoryPDF', (req, res) => {
   return res.json(global.errors);
 });
 
-router.put('/updateEWalletCreditThreshold', (req, res) => {
+router.post('/updateEWalletCreditThreshold', (req, res) => {
   const { userId, orgCode, creditThreshold } = req.query;
 
   if (userId === 'mpancs04' && orgCode === 'MPA' && creditThreshold === '10.00') {
