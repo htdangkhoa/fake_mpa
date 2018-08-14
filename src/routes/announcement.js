@@ -1,9 +1,9 @@
-import express from 'express';
+import { Router } from 'express';
 
 import announcements from '../jsons/announcements';
 import announcementsNone from '../jsons/announcements_none';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/getAnnouncements', (req, res) => {
   const count = Math.round(Math.random() * 1);

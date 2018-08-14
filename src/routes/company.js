@@ -1,8 +1,8 @@
-import express from 'express';
+import { Router } from 'express';
 
 import companyName from '../jsons/companyName';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/getCompanyName', (req, res) => {
   const { orgCode } = req.query;

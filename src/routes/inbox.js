@@ -1,9 +1,9 @@
-import express from 'express';
+import { Router } from 'express';
 import recentMessages from '../jsons/recentMessages';
 import nacServices from '../jsons/nacServices';
 import filterMessages from '../jsons/filterMessages';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/getRecentMessages', (req, res) => {
   const { qty } = req.query;

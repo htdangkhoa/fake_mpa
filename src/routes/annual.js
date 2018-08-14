@@ -1,11 +1,11 @@
-import express from 'express';
+import { Router } from 'express';
 import vesselInPortList from '../jsons/vesselInPortList';
 
 import annualStatementList from '../jsons/annualStatementList';
 import annualStatementDetail from '../jsons/annualStatementDetail';
 import annualTariffItemDetail from '../jsons/annualTariffItemDetail';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/getAnnualStatementList', (req, res) => {
   const {

@@ -1,9 +1,9 @@
-import express from 'express';
+import { Router } from 'express';
 
 import termList from '../jsons/termList';
 import termDetail from '../jsons/termDetail';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/getTermList', (req, res) => {
   const {

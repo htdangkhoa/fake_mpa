@@ -1,8 +1,8 @@
-import express from 'express';
+import { Router } from 'express';
 import authenticationSuccess from '../jsons/authenticationSuccess';
 import authenticationFail from '../jsons/authenticationFail';
 
-const router = express.Router();
+const router = Router();
 
 router.post('/submitAuthentication', (req, res) => {
   const { type, userId, password } = req.body;

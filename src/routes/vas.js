@@ -1,9 +1,9 @@
-import express from 'express';
+import { Router } from 'express';
 import vasVessel from '../jsons/vasVessel';
 import addVASConfiguration from '../jsons/addVASConfiguration';
 import vasConfiguration from '../jsons/vasConfiguration';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/getVASVessel', (req, res) => {
   const {

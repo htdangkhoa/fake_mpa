@@ -1,11 +1,11 @@
-import express from 'express';
+import { Router } from 'express';
 import eWalletMasterData from '../jsons/eWalletMasterData';
 import eWalletAccountInfo from '../jsons/eWalletAccountInfo';
 import eWalletTransactionHistory from '../jsons/eWalletTransactionHistory';
 import eWalletTransactionHistoryPDF from '../jsons/eWalletTransactionHistoryPDF';
 import eWalletCreditThreshold from '../jsons/eWalletCreditThreshold';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/getEWalletMasterData', (req, res) => {
   const { userId, orgCode } = req.query;

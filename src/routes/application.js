@@ -1,9 +1,9 @@
-import express from 'express';
+import { Router } from 'express';
 
 import applicationList from '../jsons/applicationList';
 import applicationDetail from '../jsons/applicationDetail';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/getApplicationList', (req, res) => {
   const {

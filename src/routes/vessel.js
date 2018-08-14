@@ -1,9 +1,9 @@
-import express from 'express';
+import { Router } from 'express';
 import vesselInPortList from '../jsons/vesselInPortList';
 import vesselInPortDetail from '../jsons/vesselInPortDetail';
 import vesselArrived from '../jsons/vesselArrived';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/getVesselInPortList', (req, res) => {
   const { userId } = req.query;

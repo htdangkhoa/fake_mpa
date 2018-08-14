@@ -1,10 +1,10 @@
-import express from 'express';
+import { Router } from 'express';
 
 import monthDeclarationList from '../jsons/monthDeclarationList';
 import monthDeclarationDetail from '../jsons/monthDeclarationDetail';
 import monthlYears from '../jsons/monthlYears';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/getMonthDeclarationList', (req, res) => {
   const {

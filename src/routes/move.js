@@ -1,4 +1,4 @@
-import express from 'express';
+import { Router } from 'express';
 import moveWatchList from '../jsons/moveWatchList';
 import moveVesselStatusInPortList from '../jsons/moveVesselStatusInPortList';
 import moveVesselStatusInPortDetail from '../jsons/moveVesselStatusInPortDetail';
@@ -16,7 +16,7 @@ import moveDailyShippingStateListPDF from '../jsons/moveDailyShippingStateListPD
 import addMOVEWatchList from '../jsons/addMOVEWatchList';
 import removeMOVEWatchList from '../jsons/removeMOVEWatchList';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/getMoveWatchList', (req, res) => {
   const { userId } = req.query;
