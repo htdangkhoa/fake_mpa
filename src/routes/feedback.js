@@ -13,7 +13,7 @@ router.post('/sendFeedback', (req, res) => {
     imgBinary,
     latitude,
     longitude,
-  } = req.body;
+  } = req.query;
 
   res.json({
     returnCode: 0,

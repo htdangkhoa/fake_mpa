@@ -1,0 +1,22 @@
+{
+  "returnCode": 0,
+  "returnPayload": [
+    {
+      "appRefNo": 201804000111,
+      "sno": 1,
+      "appDt": 1522987496566,
+      "opsAreaCode": "ASPP",
+      "opsStartDt": 1522994400000,
+      "opsEndDt": 1523008800000,
+      "delVslName": "STAR I",
+      "delVslCraftLicNo": "SB 0755A",
+      "recVslName": "HAI YIN I",
+      "recVslCraftLicNo": "SB 0717I",
+      "opsBkrTypeCode": "MGO",
+      "opsBkrSrcCode": "OT",
+      "iso8127": "",
+      "coqRef": "",
+      "xferQty": 100
+    }
+  ]
+}

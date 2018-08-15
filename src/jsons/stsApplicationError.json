@@ -1,0 +1,13 @@
+{
+  "returnCode": 1,
+  "returnPayload": [
+    {
+      "field": "userId",
+      "message": "This is a mandatory field"
+    },
+    {
+      "field": "orgCode",
+      "message": "This is a mandatory field"
+    }
+  ]
+}

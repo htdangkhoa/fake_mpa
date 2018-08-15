@@ -155,7 +155,7 @@ router.post('/getMoveDailyShippingStateListPDF', (req, res) => {
 });
 
 router.post('/addMOVEWatchList', (req, res) => {
-  const { userId, vslId } = req.body;
+  const { userId, vslId } = req.query;
 
   if (userId === 'mpancs02' && vslId === '57023') {
     return res.json(addMOVEWatchList);

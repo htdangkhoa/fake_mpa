@@ -1,0 +1,38 @@
+{
+  "returnCode": 0,
+  "returnPayload": {
+    "userId": "vptacc01",
+    "orgCode": "VPT",
+    "appRefNo": 201804000030,
+    "appDt": 1522655733900,
+    "applicant": {
+      "applicantName": "Goh Zai Fa",
+      "contactName": "Goh Zai Fa",
+      "coName": "ZAIFA TRADING P L",
+      "mobileNo": "98765422",
+      "officeNo": "",
+      "email": ""
+    },
+    "operations": [
+      {
+        "sno": 1,
+        "delVslNo": 108706,
+        "delVslName": "ALI MOD",
+        "delVslCraftLicNo": "SB 0098X",
+        "delVslCallsign": "9V5361",
+        "recVslNo": 108342,
+        "recVslName": "KOTO",
+        "recVslCraftLicNo": "SB 0929U",
+        "recVslCallsign": "9V2868",
+        "opsStartDt": 1522663200000,
+        "opsEndDt": 1522670400000,
+        "opsAreaCode": "AEPBC",
+        "opsBkrTypeCode": "MGO",
+        "opsBkrSrcCode": "OT",
+        "iso8127": "",
+        "coqRef": "",
+        "xferQty": 20
+      }
+    ]
+  }
+}

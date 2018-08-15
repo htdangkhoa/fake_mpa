@@ -11,7 +11,8 @@ import vessel from './vessel';
 import authentication from './authentication';
 import vas from './vas';
 import eWallet from './eWallet';
-import tidal from './tidal'
+import tidal from './tidal';
+import sts from './sts';
 
 export default [
   term,
@@ -28,4 +29,5 @@ export default [
   vas,
   eWallet,
   tidal,
+  sts,
 ];

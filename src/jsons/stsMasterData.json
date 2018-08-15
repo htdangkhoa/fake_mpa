@@ -1,0 +1,36 @@
+{
+  "returnCode": 0,
+  "returnPayload": {
+    "opsArea": [
+      {
+        "code": "AEPBC",
+        "desc": "EASTERN PETROL ANCH C"
+      },
+      {
+        "code": "ARP",
+        "desc": "RAFFLES PETRO ANCH"
+      },
+      {
+        "code": "ASPP",
+        "desc": "SELAT PAUH PETRO ANCH"
+      },
+      {
+        "code": "ASPH",
+        "desc": "SUDONG PETRO HLDG ANCH"
+      }
+    ],
+    "bkrType": [
+      "HSD",
+      "LUB",
+      "MDO",
+      "MFO",
+      "MGO",
+      "OTH"
+    ],
+    "bkrSource": [
+      "OPL",
+      "DF",
+      "OT"
+    ]
+  }
+}

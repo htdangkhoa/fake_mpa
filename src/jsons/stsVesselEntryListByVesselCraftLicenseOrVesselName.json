@@ -1,0 +1,155 @@
+{
+  "returnCode": 0,
+  "returnPayload": [
+    {
+      "vslNo": 40578,
+      "vslName": "MARINE PROMISE",
+      "vslCraftLicNo": "0352A",
+      "vslCraftLicStatus": "D",
+      "vslCraftLicValidFr": 1396281600000,
+      "vslCraftLicValidTo": 253402185600000,
+      "vslCallsign": "",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 95642,
+      "vslName": "MARINE PROSPER",
+      "vslCraftLicNo": "0718G",
+      "vslCraftLicStatus": "A",
+      "vslCraftLicValidFr": 1398873600000,
+      "vslCraftLicValidTo": 253402185600000,
+      "vslCallsign": "9V9203",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 30028,
+      "vslName": "MARINE PROTECTOR",
+      "vslCraftLicNo": "0293B",
+      "vslCraftLicStatus": "A",
+      "vslCraftLicValidFr": 1391184000000,
+      "vslCraftLicValidTo": 253402185600000,
+      "vslCallsign": "9V3432",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 4361,
+      "vslName": "OCEAN PROGRESS",
+      "vslCraftLicNo": "0312B",
+      "vslCraftLicStatus": "D",
+      "vslCraftLicValidFr": 657388800000,
+      "vslCraftLicValidTo": 688838400000,
+      "vslCallsign": "",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 57565,
+      "vslName": "ORIENTAL PROSPERITY",
+      "vslCraftLicNo": "0424B",
+      "vslCraftLicStatus": "R",
+      "vslCraftLicValidFr": 867686400000,
+      "vslCraftLicValidTo": 899136000000,
+      "vslCallsign": "",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 7904,
+      "vslName": "PALMSTONE PROSPERITY",
+      "vslCraftLicNo": "0196J",
+      "vslCraftLicStatus": "D",
+      "vslCraftLicValidFr": 1375286400000,
+      "vslCraftLicValidTo": 253402185600000,
+      "vslCallsign": "",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 78004,
+      "vslName": "PROGRESS",
+      "vslCraftLicNo": "0508G",
+      "vslCraftLicStatus": "R",
+      "vslCraftLicValidFr": 1317398400000,
+      "vslCraftLicValidTo": 253402185600000,
+      "vslCallsign": "JVWD5",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 60147,
+      "vslName": "PROGRESS 6",
+      "vslCraftLicNo": "0442J",
+      "vslCraftLicStatus": "D",
+      "vslCraftLicValidFr": 1385827200000,
+      "vslCraftLicValidTo": 253402185600000,
+      "vslCallsign": "9MQV4",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 22829,
+      "vslName": "PROGRESSIVE POWER",
+      "vslCraftLicNo": "0130H",
+      "vslCraftLicStatus": "R",
+      "vslCraftLicValidFr": 441648000000,
+      "vslCraftLicValidTo": 473184000000,
+      "vslCallsign": "",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 91414,
+      "vslName": "PROSPER 8",
+      "vslCraftLicNo": "0624E",
+      "vslCraftLicStatus": "A",
+      "vslCraftLicValidFr": 1341072000000,
+      "vslCraftLicValidTo": 253402185600000,
+      "vslCallsign": "9V7467",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 385,
+      "vslName": "PROSPER THREE",
+      "vslCraftLicNo": "0189H",
+      "vslCraftLicStatus": "R",
+      "vslCraftLicValidFr": 1206979200000,
+      "vslCraftLicValidTo": 1238428800000,
+      "vslCallsign": "T2DP3",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 12399,
+      "vslName": "PROSPER TWO",
+      "vslCraftLicNo": "0561C",
+      "vslCraftLicStatus": "D",
+      "vslCraftLicValidFr": 1306857600000,
+      "vslCraftLicValidTo": 253402185600000,
+      "vslCallsign": "",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 108857,
+      "vslName": "SEA PROSPERITY",
+      "vslCraftLicNo": "5115A",
+      "vslCraftLicStatus": "A",
+      "vslCraftLicValidFr": 1427040000000,
+      "vslCraftLicValidTo": 253402185600000,
+      "vslCallsign": "9V2704",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 2473,
+      "vslName": "SS PROSPERITY",
+      "vslCraftLicNo": "0211H",
+      "vslCraftLicStatus": "D",
+      "vslCraftLicValidFr": 1359648000000,
+      "vslCraftLicValidTo": 253402185600000,
+      "vslCallsign": "",
+      "tagCnt": 0
+    },
+    {
+      "vslNo": 71582,
+      "vslName": "STRAITS PROGRESS",
+      "vslCraftLicNo": "0484F",
+      "vslCraftLicStatus": "D",
+      "vslCraftLicValidFr": 1330531200000,
+      "vslCraftLicValidTo": 253402185600000,
+      "vslCallsign": "",
+      "tagCnt": 0
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import authenticationFail from '../jsons/authenticationFail';
 const router = Router();
 
 router.post('/submitAuthentication', (req, res) => {
-  const { type, userId, password } = req.body;
+  const { type, userId, password } = req.query;
 
   if (userId === 'mpancs04' && password === '1' && type === '1') {
     return res.json(authenticationSuccess);

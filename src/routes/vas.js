@@ -20,7 +20,7 @@ router.post('/getVASVessel', (req, res) => {
 router.post('/addVASConfiguration', (req, res) => {
   const {
     userId, vslId, events, hours,
-  } = req.body;
+  } = req.query;
 
   if (userId === 'mpancs04' && vslId === '9999' && events === '1234' && hours === 'N') {
     return res.json(addVASConfiguration);
