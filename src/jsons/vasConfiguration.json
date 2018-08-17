@@ -3,10 +3,10 @@
   "returnMessage": "",
   "returnPayload": [
     {
-      "event": "1234",
+      "event": "124",
       "alertType": "N",
-      "pageHours": "N",
-      "vslId": "46398",
+      "pageHours": "0",
+      "vslId": "38266",
       "vslName": "DM 44",
       "vslCallsign": "JVTS4   ",
       "vslIMO": "0005630021",
@@ -15,10 +15,10 @@
       "vslGRT": "25.00"
     },
     {
-      "event": "1234",
-      "alertType": "N",
+      "event": "34",
+      "alertType": "O",
       "pageHours": "N",
-      "vslId": "50682",
+      "vslId": "28819",
       "vslName": "DM 33",
       "vslCallsign": "JVHY5   ",
       "vslIMO": "0005630133",
