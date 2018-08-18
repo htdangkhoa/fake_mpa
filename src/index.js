@@ -39,6 +39,10 @@ app.get('/api', (req, res) => {
   res.send(converter.makeHtml(file));
 });
 
+app.get('/', (req, res) => {
+  res.send(`MPA Server.`);
+});
+
 if (cluster.isMaster) {
   console.info(`Server is running on port: ${process.env.PORT}`);
   console.info(`Master ${process.pid} is running`);

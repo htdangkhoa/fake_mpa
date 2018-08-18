@@ -4,7 +4,8 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node"
+    "start": "nodemon src/index.js --exec babel-node",
+    "now": "now --public && now ln mpa.now.sh && now rm mpa --safe"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
