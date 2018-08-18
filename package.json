@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon src/index.js --exec babel-node",
-    "now": "now --public && now ln mpa.now.sh && now rm mpa --safe"
+    "now": "chmod +x ./build.sh && ./build.sh"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
