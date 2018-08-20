@@ -1,0 +1,110 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "id": 10,
+      "name": "myMaritime@SG/Marinet",
+      "subCategories": [
+        {
+          "id": 27,
+          "name": "Marinet Helpdesk"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Port Matters",
+      "subCategories": [
+        {
+          "id": 28,
+          "name": "One Stop Document Centre"
+        },
+        {
+          "id": 29,
+          "name": "General bunkering enquiries"
+        },
+        {
+          "id": 30,
+          "name": "Vessel Traffic Management"
+        },
+        {
+          "id": 31,
+          "name": "Marine Environment \u0026 Safety"
+        },
+        {
+          "id": 32,
+          "name": "Port Security"
+        },
+        {
+          "id": 33,
+          "name": "Hydrographic-related"
+        },
+        {
+          "id": 44,
+          "name": "Marine Refuse"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Shipping Matters",
+      "subCategories": [
+        {
+          "id": 34,
+          "name": "Singapore Registry of Ships (SRS)"
+        },
+        {
+          "id": 35,
+          "name": "Seafarers\u0027 Matters"
+        },
+        {
+          "id": 36,
+          "name": "Ship Regulatory Development"
+        },
+        {
+          "id": 37,
+          "name": "Flag/Port State Control, Ship Surveys \u0026 Certification"
+        },
+        {
+          "id": 38,
+          "name": "Certificates of Competency (COC)"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Business and Enterprise",
+      "subCategories": [
+        {
+          "id": 39,
+          "name": "Enquiries on Maritime Sector Incentive (MSI)"
+        },
+        {
+          "id": 40,
+          "name": "Enquiries on Maritime Cluster Fund (MCF)"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Corporate Communications",
+      "subCategories": [
+        {
+          "id": 41,
+          "name": "Media enquiries"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "General Enquiries",
+      "subCategories": [
+        {
+          "id": 42,
+          "name": "Quality Service Manager (QSM)"
+        }
+      ]
+    }
+  ]
+}

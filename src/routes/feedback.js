@@ -1,6 +1,11 @@
 import { Router } from 'express';
+import feedbackCategories from '../jsons/feedbackCategories';
 
 const router = Router();
+
+router.post('/getFeedbackCategories', (req, res) => {
+  res.json(feedbackCategories);
+});
 
 router.post('/sendFeedback', (req, res) => {
   const {
