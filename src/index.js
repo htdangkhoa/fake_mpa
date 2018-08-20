@@ -21,8 +21,8 @@ const cpus = os.cpus().length;
 const app = express();
 
 app.use([
-  bodyParser.json(),
-  bodyParser.urlencoded({ extended: false }),
+  bodyParser.urlencoded({ limit: '50mb', extended: true }),
+  bodyParser.json({ limit: '50mb' }),
   helmet(),
 ]);
 

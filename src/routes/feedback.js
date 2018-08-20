@@ -1,9 +1,10 @@
 import { Router } from 'express';
+import { isUndefined, isEmpty } from 'lodash';
 import feedbackCategories from '../jsons/feedbackCategories';
 
 const router = Router();
 
-router.post('/getFeedbackCategories', (req, res) => {
+router.get('/getFeedbackCategories', (req, res) => {
   res.json(feedbackCategories);
 });
 
@@ -18,9 +19,19 @@ router.post('/sendFeedback', (req, res) => {
     imgBinary,
     latitude,
     longitude,
-  } = req.query;
+  } = req.body;
 
-  res.json({
+  if (
+    isUndefined(subcategory)
+    || isUndefined(email)
+    || isUndefined(name)
+    || isUndefined(contact)
+    || isUndefined(message)
+  ) {
+    return res.json(global.errors);
+  }
+
+  return res.json({
     returnCode: 0,
     isSuccessful: true,
     returnPayload: {
