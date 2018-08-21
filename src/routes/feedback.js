@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { isUndefined, isEmpty } from 'lodash';
+import { isUndefined } from 'lodash';
 import feedbackCategories from '../jsons/feedbackCategories';
 
 const router = Router();
