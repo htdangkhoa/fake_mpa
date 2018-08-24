@@ -41,7 +41,7 @@
       "10.00",
       "20.00"
     ],
-    "giroAccounts": [],
+    "giroAccounts": ["1234567"],
     "giroTopupAmounts": [
       {
         "id": 448000,
