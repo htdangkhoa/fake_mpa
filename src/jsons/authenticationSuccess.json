@@ -6,6 +6,6 @@
     "name": "Test ID Four",
     "email": "performance_test04@ncs.com",
     "orgCode": "MPA",
-    "isAdmin": false
+    "isAdmin": true
   }
 }

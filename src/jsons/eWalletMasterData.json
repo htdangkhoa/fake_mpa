@@ -5,35 +5,35 @@
     "transactionTypes": [
       {
         "code": 0,
-        "desc": "View All Transactions                                                                                                                                                                                   "
+        "desc": "View All Transactions"
       },
       {
         "code": 1,
-        "desc": "Credit Purchase                                                                                                                                                                                         "
+        "desc": "Credit Purchase"
       },
       {
         "code": 9304,
-        "desc": "Vessel Movement Alert Service                                                                                                                                                                           "
+        "desc": "Vessel Movement Alert Service"
       },
       {
         "code": 9305,
-        "desc": "Vessel Mobile Service                                                                                                                                                                                   "
+        "desc": "Vessel Mobile Service"
       },
       {
         "code": 9306,
-        "desc": "Enquiry of Vessel Information                                                                                                                                                                           "
+        "desc": "Enquiry of Vessel Information"
       },
       {
         "code": 9308,
-        "desc": "Daily Shipping State List                                                                                                                                                                               "
+        "desc": "Daily Shipping State List"
       },
       {
         "code": 9309,
-        "desc": "I-Track (Own Vessel)                                                                                                                                                                                    "
+        "desc": "I-Track (Own Vessel)"
       },
       {
         "code": 9310,
-        "desc": "I-Track (Other Vessels)                                                                                                                                                                                 "
+        "desc": "I-Track (Other Vessels)"
       }
     ],
     "creditThresholdTypes": [
@@ -41,7 +41,7 @@
       "10.00",
       "20.00"
     ],
-    "giroAccounts": [],
+    "giroAccounts": ["1234567"],
     "giroTopupAmounts": [
       {
         "id": 448000,

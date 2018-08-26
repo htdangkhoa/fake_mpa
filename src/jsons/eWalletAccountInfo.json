@@ -4,9 +4,9 @@
   "returnPayload": {
     "creditBalance": "0.03",
     "creditThreshold": "10.00",
-    "mat": "",
-    "autoTopup": false,
-    "autoTopupAcctNo": "",
-    "autoTopupAmt": ""
+    "mat": "SGD",
+    "autoTopup": true,
+    "autoTopupAcctNo": "1234567",
+    "autoTopupAmt": "10.00"
   }
 }
