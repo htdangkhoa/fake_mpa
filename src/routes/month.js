@@ -26,25 +26,25 @@ router.post('/getMonthDeclarationList', (req, res) => {
     && submitEndDate === '26/04/2018'
     && cargoOprYear === '2018'
     && cargoOprMonth === '03'
-  ) return res.json(monthDeclarationList);
+  ) return res.status(200).json(monthDeclarationList);
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/getMonthDeclarationDetail', (req, res) => {
   const { refNo } = req.query;
 
-  if (refNo === 'DM17030207') return res.json(monthDeclarationDetail);
+  if (refNo === 'DM17030207') return res.status(200).json(monthDeclarationDetail);
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/monthlYears', (req, res) => {
   const { orgCode } = req.query;
 
-  if (orgCode === 'CAL') return res.json(monthlYears);
+  if (orgCode === 'CAL') return res.status(200).json(monthlYears);
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 export default router;

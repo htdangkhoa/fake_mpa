@@ -18,17 +18,17 @@ router.post('/getAnnualStatementList', (req, res) => {
     && submitStartDate === '26/02/2017'
     && submitEndDate === '26/04/2017'
     && cargoOprYear === '2016'
-  ) return res.json(annualStatementList);
+  ) return res.status(200).json(annualStatementList);
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/getAnnualStatementDetail', (req, res) => {
   const { refNo } = req.query;
 
-  if (refNo === 'SY17030005') return res.json(annualStatementDetail);
+  if (refNo === 'SY17030005') return res.status(200).json(annualStatementDetail);
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/getAnnualTariffItemDetail', (req, res) => {
@@ -50,9 +50,9 @@ router.post('/getAnnualTariffItemDetail', (req, res) => {
     && indicator === 'YES'
     && primaryitemName === 'All goods including general cargo--Loaded on vessel at wharf'
     && activityName === 'Loaded on vessel at wharf'
-  ) return res.json(annualTariffItemDetail);
+  ) return res.status(200).json(annualTariffItemDetail);
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 export default router;

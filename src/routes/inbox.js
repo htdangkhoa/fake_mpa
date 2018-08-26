@@ -31,9 +31,9 @@ router.post('/getFilterMessage', (req, res) => {
     && startDate === '1520667837097'
     && endDate === '1523246153634'
     && targetId === '0'
-  ) return res.json(filterMessages);
+  ) return res.status(200).json(filterMessages);
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 export default router;

@@ -18,18 +18,18 @@ router.post('/getApplicationList', (req, res) => {
     && submitStartDate === '26/02/2018'
     && submitEndDate === '26/04/2018'
   ) {
-    return res.json(applicationList);
+    return res.status(200).json(applicationList);
   }
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/getApplicationDetail', (req, res) => {
   const { refNo } = req.query;
 
-  if (refNo === 'AP18030002') return res.json(applicationDetail);
+  if (refNo === 'AP18030002') return res.status(200).json(applicationDetail);
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 export default router;

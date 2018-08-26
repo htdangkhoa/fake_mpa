@@ -10,17 +10,17 @@ router.post('/getTermList', (req, res) => {
     userId, orgCode, mpaRefNo, location,
   } = req.query;
 
-  if (orgCode === 'CAL' && mpaRefNo === 'TP17040002' && location === 'TEST11 AT TE') return res.json(termList);
+  if (orgCode === 'CAL' && mpaRefNo === 'TP17040002' && location === 'TEST11 AT TE') return res.status(200).json(termList);
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/getTermDetail', (req, res) => {
   const { refNo } = req.query;
 
-  if (refNo === 'TP17040002') return res.json(termDetail);
+  if (refNo === 'TP17040002') return res.status(200).json(termDetail);
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 export default router;

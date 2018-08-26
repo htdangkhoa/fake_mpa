@@ -8,10 +8,10 @@ router.post('/submitAuthentication', (req, res) => {
   const { type, userId, password } = req.query;
 
   if (userId === 'mpancs04' && password === '1' && type === '1') {
-    return res.json(authenticationSuccess);
+    return res.status(200).json(authenticationSuccess);
   }
 
-  return res.json(authenticationFail);
+  return res.status(200).json(authenticationFail);
 });
 
 export default router;

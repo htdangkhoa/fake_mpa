@@ -11,20 +11,20 @@ router.post('/getEWalletMasterData', (req, res) => {
   const { userId, orgCode } = req.query;
 
   if (userId === 'mpancs04' && orgCode === 'MPA') {
-    return res.json(eWalletMasterData);
+    return res.status(200).json(eWalletMasterData);
   }
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/getEWalletAccountInfo', (req, res) => {
   const { userId, orgCode } = req.query;
 
   if (userId === 'mpancs04' && orgCode === 'MPA') {
-    return res.json(eWalletAccountInfo);
+    return res.status(200).json(eWalletAccountInfo);
   }
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/getEWalletTransactionHistory', (req, res) => {
@@ -33,10 +33,10 @@ router.post('/getEWalletTransactionHistory', (req, res) => {
   } = req.query;
 
   if (userId === 'cabacc07' && orgCode === 'CAB' && transType === '9304' && dateType === '4') {
-    return res.json(eWalletTransactionHistory);
+    return res.status(200).json(eWalletTransactionHistory);
   }
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/getEWalletTransactionHistoryPDF', (req, res) => {
@@ -45,20 +45,20 @@ router.post('/getEWalletTransactionHistoryPDF', (req, res) => {
   } = req.query;
 
   if (userId === 'cabacc07' && orgCode === 'CAB' && transType === '9304' && dateType === '4') {
-    return res.json(eWalletTransactionHistoryPDF);
+    return res.status(200).json(eWalletTransactionHistoryPDF);
   }
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/updateEWalletCreditThreshold', (req, res) => {
   const { userId, orgCode, creditThreshold } = req.query;
 
   if (userId === 'mpancs04' && orgCode === 'MPA' && creditThreshold === '10.00') {
-    return res.json(eWalletCreditThreshold);
+    return res.status(200).json(eWalletCreditThreshold);
   }
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 export default router;

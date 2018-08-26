@@ -28,10 +28,10 @@ router.post('/sendFeedback', (req, res) => {
     || isUndefined(contact)
     || isUndefined(message)
   ) {
-    return res.json(global.errors);
+    return res.status(400).json(global.errors);
   }
 
-  return res.json({
+  return res.status(200).json({
     returnCode: 0,
     isSuccessful: true,
     returnPayload: {

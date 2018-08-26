@@ -7,9 +7,9 @@ const router = Router();
 router.post('/getCompanyName', (req, res) => {
   const { orgCode } = req.query;
 
-  if (orgCode === 'CAL') return res.json(companyName);
+  if (orgCode === 'CAL') return res.status(200).json(companyName);
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 export default router;

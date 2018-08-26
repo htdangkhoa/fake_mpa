@@ -9,10 +9,10 @@ router.get('/getAnnouncements', (req, res) => {
   const count = Math.round(Math.random() * 1);
 
   if (count !== 0) {
-    return res.json(announcements);
+    return res.status(200).json(announcements);
   }
 
-  return res.json(announcementsNone);
+  return res.status(200).json(announcementsNone);
 });
 
 export default router;

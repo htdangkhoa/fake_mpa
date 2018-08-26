@@ -11,10 +11,10 @@ router.post('/getVASVessel', (req, res) => {
   } = req.query;
 
   if (userId === 'mpancs04' && vslName === 'PIL') {
-    return res.json(vasVessel);
+    return res.status(200).json(vasVessel);
   }
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/addVASConfiguration', (req, res) => {
@@ -23,20 +23,20 @@ router.post('/addVASConfiguration', (req, res) => {
   } = req.query;
 
   if (userId === 'mpancs04' && vslId === '9999' && events === '1234' && hours === 'N') {
-    return res.json(addVASConfiguration);
+    return res.status(200).json(addVASConfiguration);
   }
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 router.post('/getVASConfiguration', (req, res) => {
   const { userId } = req.query;
 
   if (userId === 'mpancs04') {
-    return res.json(vasConfiguration);
+    return res.status(200).json(vasConfiguration);
   }
 
-  return res.json(global.errors);
+  return res.status(400).json(global.errors);
 });
 
 export default router;
