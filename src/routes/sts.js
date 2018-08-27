@@ -7,6 +7,7 @@ import stsApplicationListByRecent from '../jsons/stsApplicationListByRecent';
 import stsApplicationListBySearchTerms from '../jsons/stsApplicationListBySearchTerms';
 import stsMasterData from '../jsons/stsMasterData';
 import stsVesselEntryListByVesselCraftLicenseOrVesselName from '../jsons/stsVesselEntryListByVesselCraftLicenseOrVesselName';
+import cancelSTSOperation from '../jsons/cancelSTSOperation';
 
 const router = Router();
 
@@ -86,6 +87,18 @@ router.post('/submitSTSApplication', (req, res) => {
     applicant,
     operations,
   });
+});
+
+router.post('/cancelSTSOperation', (req, res) => {
+  const {
+    userId, orgCode, appRefNo, sno,
+  } = req.query;
+
+  if (userId === 'mpancs01' && orgCode === 'MPA' && appRefNo === '201709000070' && sno === '1') {
+    return res.status(200).json(cancelSTSOperation);
+  }
+
+  return res.status(400).json(global.errors);
 });
 
 export default router;
