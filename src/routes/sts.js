@@ -80,12 +80,17 @@ router.post('/submitSTSApplication', (req, res) => {
   }
 
   return res.status(200).json({
-    userId,
-    orgCode,
-    appRefNo,
-    appDt,
-    applicant,
-    operations,
+    returnCode: 1,
+    isSuccessful: true,
+    returnPayload: {
+      userId,
+      orgCode,
+      appRefNo,
+      appDt,
+      applicant,
+      operations,
+    },
+    returnMessage: '',
   });
 });
 
