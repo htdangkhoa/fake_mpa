@@ -58,7 +58,7 @@ router.post('/getSTSApplicationListByCancellable', (req, res) => {
   return res.status(400).json(global.errors);
 });
 
-router.post('/getSTSMasterData', (req, res) => res.json(stsMasterData));
+router.get('/getSTSMasterData', (req, res) => res.json(stsMasterData));
 
 router.post('/getSTSVesselEntryListByVesselCraftLicenseOrVesselName', (req, res) => {
   const { userId, searchTerm } = req.query;
