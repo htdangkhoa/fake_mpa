@@ -34,6 +34,8 @@ router.post('/getEWalletTransactionHistory', (req, res) => {
 
   if (userId === 'cabacc07' && orgCode === 'CAB' && transType === '9304' && dateType === '4') {
     return res.status(200).json(eWalletTransactionHistory);
+  } else {
+    return res.status(200).json(eWalletTransactionHistoryNoResult);
   }
 
   return res.status(400).json(global.errors);
