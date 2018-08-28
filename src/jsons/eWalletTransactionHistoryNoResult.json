@@ -1,0 +1,12 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": {
+    "srchTransType": "Vessel Movement Alert Service                                                                                                                                                                           ",
+    "srchPeriod": "Last 3 Months (Feb 2018 to Apr 2018)",
+    "accountBalance": "0.00",
+    "totalCredited": "0.00",
+    "totalDebited": "0.00",
+    "records": []
+  }
+}
