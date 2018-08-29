@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 import bodyParser from 'body-parser';
 import helmet from 'helmet';
+import timeout from 'connect-timeout';
 import cluster from 'cluster';
 import os from 'os';
 import route from './routes';
@@ -24,6 +25,7 @@ app.use([
   bodyParser.urlencoded({ limit: '50mb', extended: true }),
   bodyParser.json({ limit: '50mb' }),
   helmet(),
+  timeout('120s'),
 ]);
 
 app.use('/api', route);
