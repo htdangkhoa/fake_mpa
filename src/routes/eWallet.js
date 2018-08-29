@@ -2,6 +2,7 @@ import { Router } from 'express';
 import eWalletMasterData from '../jsons/eWalletMasterData';
 import eWalletAccountInfo from '../jsons/eWalletAccountInfo';
 import eWalletTransactionHistory from '../jsons/eWalletTransactionHistory';
+import eWalletTransactionHistoryNoResult from '../jsons/eWalletTransactionHistoryNoResult';
 import eWalletTransactionHistoryPDF from '../jsons/eWalletTransactionHistoryPDF';
 import eWalletCreditThreshold from '../jsons/eWalletCreditThreshold';
 
