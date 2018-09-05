@@ -5,7 +5,7 @@ import companyName from '../jsons/companyName';
 const router = Router();
 
 router.post('/getCompanyName', (req, res) => {
-  const { orgCode } = req.query;
+  const { orgCode } = req.body;
 
   if (orgCode === 'CAL') return res.status(200).json(companyName);
 
