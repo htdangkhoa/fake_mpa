@@ -16,7 +16,7 @@ router.post('/getMonthDeclarationList', (req, res) => {
     submitEndDate,
     cargoOprYear,
     cargoOprMonth,
-  } = req.query;
+  } = req.body;
 
   if (
     orgCode === 'CAL'
@@ -32,7 +32,7 @@ router.post('/getMonthDeclarationList', (req, res) => {
 });
 
 router.post('/getMonthDeclarationDetail', (req, res) => {
-  const { refNo } = req.query;
+  const { refNo } = req.body;
 
   if (refNo === 'DM17030207') return res.status(200).json(monthDeclarationDetail);
 
@@ -40,7 +40,7 @@ router.post('/getMonthDeclarationDetail', (req, res) => {
 });
 
 router.post('/monthlYears', (req, res) => {
-  const { orgCode } = req.query;
+  const { orgCode } = req.body;
 
   if (orgCode === 'CAL') return res.status(200).json(monthlYears);
 
