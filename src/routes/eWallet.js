@@ -9,7 +9,7 @@ import eWalletCreditThreshold from '../jsons/eWalletCreditThreshold';
 const router = Router();
 
 router.post('/getEWalletMasterData', (req, res) => {
-  const { userId, orgCode } = req.query;
+  const { userId, orgCode } = req.body;
 
   if (userId === 'mpancs04' && orgCode === 'MPA') {
     return res.status(200).json(eWalletMasterData);
@@ -19,7 +19,7 @@ router.post('/getEWalletMasterData', (req, res) => {
 });
 
 router.post('/getEWalletAccountInfo', (req, res) => {
-  const { userId, orgCode } = req.query;
+  const { userId, orgCode } = req.body;
 
   if (userId === 'mpancs04' && orgCode === 'MPA') {
     return res.status(200).json(eWalletAccountInfo);
@@ -31,7 +31,7 @@ router.post('/getEWalletAccountInfo', (req, res) => {
 router.post('/getEWalletTransactionHistory', (req, res) => {
   const {
     userId, orgCode, transType, dateType,
-  } = req.query;
+  } = req.body;
 
   if (userId === 'cabacc07' && orgCode === 'CAB' && transType === '9304' && dateType === '4') {
     return res.status(200).json(eWalletTransactionHistory);
@@ -43,7 +43,7 @@ router.post('/getEWalletTransactionHistory', (req, res) => {
 router.post('/getEWalletTransactionHistoryPDF', (req, res) => {
   const {
     userId, orgCode, transType, dateType,
-  } = req.query;
+  } = req.body;
 
   if (userId === 'cabacc07' && orgCode === 'CAB' && transType === '9304' && dateType === '4') {
     return res.status(200).json(eWalletTransactionHistoryPDF);
@@ -53,7 +53,7 @@ router.post('/getEWalletTransactionHistoryPDF', (req, res) => {
 });
 
 router.post('/updateEWalletCreditThreshold', (req, res) => {
-  const { userId, orgCode, creditThreshold } = req.query;
+  const { userId, orgCode, creditThreshold } = req.body;
 
   if (userId === 'mpancs04' && orgCode === 'MPA' && creditThreshold === '10.00') {
     return res.status(200).json(eWalletCreditThreshold);
