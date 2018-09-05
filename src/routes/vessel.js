@@ -6,7 +6,7 @@ import vesselArrived from '../jsons/vesselArrived';
 const router = Router();
 
 router.post('/getVesselInPortList', (req, res) => {
-  const { userId } = req.query;
+  const { userId } = req.body;
 
   if (userId === 'mpancs01') return res.status(200).json(vesselInPortList);
 
@@ -14,7 +14,7 @@ router.post('/getVesselInPortList', (req, res) => {
 });
 
 router.post('/getVesselInPortDetail', (req, res) => {
-  const { userId, vslId } = req.query;
+  const { userId, vslId } = req.body;
 
   if (userId === 'mpancs01' && vslId === '57023') return res.status(200).json(vesselInPortDetail);
 
