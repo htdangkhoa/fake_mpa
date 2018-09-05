@@ -10,7 +10,7 @@ const router = Router();
 router.post('/getAnnualStatementList', (req, res) => {
   const {
     userId, orgCode, refNo, submitStartDate, submitEndDate, cargoOprYear,
-  } = req.query;
+  } = req.body;
 
   if (
     orgCode === 'CAL'
@@ -24,7 +24,7 @@ router.post('/getAnnualStatementList', (req, res) => {
 });
 
 router.post('/getAnnualStatementDetail', (req, res) => {
-  const { refNo } = req.query;
+  const { refNo } = req.body;
 
   if (refNo === 'SY17030005') return res.status(200).json(annualStatementDetail);
 
@@ -40,7 +40,7 @@ router.post('/getAnnualTariffItemDetail', (req, res) => {
     indicator,
     primaryitemName,
     activityName,
-  } = req.query;
+  } = req.body;
 
   if (
     refNo === 'SY17030005'
