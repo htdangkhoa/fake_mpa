@@ -8,7 +8,7 @@ const router = Router();
 router.post('/getVASVessel', (req, res) => {
   const {
     userId, vslName, vslCallsign, vslIMO,
-  } = req.query;
+  } = req.body;
 
   if (userId === 'mpancs04' && vslName === 'PIL') {
     return res.status(200).json(vasVessel);
@@ -20,7 +20,7 @@ router.post('/getVASVessel', (req, res) => {
 router.post('/addVASConfiguration', (req, res) => {
   const {
     userId, vslId, events, hours,
-  } = req.query;
+  } = req.body;
 
   if (userId === 'mpancs04' && vslId === '9999' && events === '1234' && hours === 'N') {
     return res.status(200).json(addVASConfiguration);
@@ -30,7 +30,7 @@ router.post('/addVASConfiguration', (req, res) => {
 });
 
 router.post('/getVASConfiguration', (req, res) => {
-  const { userId } = req.query;
+  const { userId } = req.body;
 
   if (userId === 'mpancs04') {
     return res.status(200).json(vasConfiguration);
