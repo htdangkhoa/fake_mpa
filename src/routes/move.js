@@ -19,7 +19,7 @@ import removeMOVEWatchList from '../jsons/removeMOVEWatchList';
 const router = Router();
 
 router.post('/getMoveWatchList', (req, res) => {
-  const { userId } = req.query;
+  const { userId } = req.body;
 
   if (userId === 'mpancs02') return res.status(200).json(moveWatchList);
 
@@ -29,7 +29,7 @@ router.post('/getMoveWatchList', (req, res) => {
 router.post('/getMoveVesselStatusInPortList', (req, res) => {
   const {
     userId, vslName, vslCallsign, vslIMO,
-  } = req.query;
+  } = req.body;
 
   if (userId === 'mpancs04' && vslName === 'PIL') return res.status(200).json(moveVesselStatusInPortList);
 
@@ -39,7 +39,7 @@ router.post('/getMoveVesselStatusInPortList', (req, res) => {
 router.post('/getMoveVesselStatusInPortDetail', (req, res) => {
   const {
     userId, vslId, paymentRequired, orgCode,
-  } = req.query;
+  } = req.body;
 
   if (userId === 'mpancs04' && vslId === '30970' && paymentRequired === 'true' && orgCode === 'MPA') return res.status(200).json(moveVesselStatusInPortDetail);
 
@@ -47,7 +47,7 @@ router.post('/getMoveVesselStatusInPortDetail', (req, res) => {
 });
 
 router.post('/getMoveVesselStatusInPortDetailPDF', (req, res) => {
-  const { userId } = req.query;
+  const { userId } = req.body;
 
   if (userId === 'mpancs01') return res.status(200).json(moveVesselStatusInPortDetailPDF);
 
@@ -55,7 +55,7 @@ router.post('/getMoveVesselStatusInPortDetailPDF', (req, res) => {
 });
 
 router.post('/getMoveVesselArrivedList', (req, res) => {
-  const { orgCode } = req.query;
+  const { orgCode } = req.body;
 
   if (orgCode === 'MPA') return res.status(200).json(moveVesselArrivedList);
 
@@ -63,7 +63,7 @@ router.post('/getMoveVesselArrivedList', (req, res) => {
 });
 
 router.post('/getMoveVesselArrivedListPDF', (req, res) => {
-  const { orgCode } = req.query;
+  const { orgCode } = req.body;
 
   if (orgCode === 'MPA') return res.status(200).json(moveVesselArrivedListPDF);
 
@@ -71,7 +71,7 @@ router.post('/getMoveVesselArrivedListPDF', (req, res) => {
 });
 
 router.post('/getMoveVesselDueToArriveList', (req, res) => {
-  const { appRefNo } = req.query;
+  const { appRefNo } = req.body;
 
   if (appRefNo === '201709000070') return res.status(200).json(moveVesselDueToArriveList);
 
@@ -79,7 +79,7 @@ router.post('/getMoveVesselDueToArriveList', (req, res) => {
 });
 
 router.post('/getMoveVesselDueToArriveListPDF', (req, res) => {
-  const { appRefNo } = req.query;
+  const { appRefNo } = req.body;
 
   if (appRefNo === '201709000070') return res.status(200).json(moveVesselDueToArriveListPDF);
 
@@ -87,7 +87,7 @@ router.post('/getMoveVesselDueToArriveListPDF', (req, res) => {
 });
 
 router.post('/getMoveVesselDepartedList', (req, res) => {
-  const { sno } = req.query;
+  const { sno } = req.body;
 
   if (sno === '1') return res.status(200).json(moveVesselDepartedList);
 
@@ -95,7 +95,7 @@ router.post('/getMoveVesselDepartedList', (req, res) => {
 });
 
 router.post('/getMoveVesselDepartedListPDF', (req, res) => {
-  const { sno } = req.query;
+  const { sno } = req.body;
 
   if (sno === '1') return res.status(200).json(moveVesselDepartedListPDF);
 
@@ -105,7 +105,7 @@ router.post('/getMoveVesselDepartedListPDF', (req, res) => {
 router.post('/getMoveVesselDueToDepartList', (req, res) => {
   const {
     userId, byProfile, date, time,
-  } = req.query;
+  } = req.body;
 
   if (byProfile === 'false' && time === '6') return res.status(200).json(moveVesselDueToDepartList);
 
@@ -115,7 +115,7 @@ router.post('/getMoveVesselDueToDepartList', (req, res) => {
 router.post('/getMoveVesselDueToDepartListPDF', (req, res) => {
   const {
     userId, byProfile, date, time,
-  } = req.query;
+  } = req.body;
 
   if (byProfile === 'false' && time === '6') return res.status(200).json(moveVesselDueToDepartListPDF);
 
@@ -125,7 +125,7 @@ router.post('/getMoveVesselDueToDepartListPDF', (req, res) => {
 router.post('/getMoveDailyShippingStateList', (req, res) => {
   const {
     userId, byProfile, indicator, paymentRequired, orgCode,
-  } = req.query;
+  } = req.body;
 
   if (
     userId === 'mpancs04'
@@ -141,7 +141,7 @@ router.post('/getMoveDailyShippingStateList', (req, res) => {
 router.post('/getMoveDailyShippingStateListPDF', (req, res) => {
   const {
     userId, byProfile, indicator, paymentRequired, orgCode,
-  } = req.query;
+  } = req.body;
 
   if (
     userId === 'mpancs04'
@@ -155,7 +155,7 @@ router.post('/getMoveDailyShippingStateListPDF', (req, res) => {
 });
 
 router.post('/addMOVEWatchList', (req, res) => {
-  const { userId, vslId } = req.query;
+  const { userId, vslId } = req.body;
 
   if (userId === 'mpancs02' && vslId === '57023') {
     return res.status(200).json(addMOVEWatchList);
@@ -165,7 +165,7 @@ router.post('/addMOVEWatchList', (req, res) => {
 });
 
 router.post('/removeMOVEWatchList', (req, res) => {
-  const { userId, vslId } = req.query;
+  const { userId, vslId } = req.body;
 
   if (userId === 'mpancs02' && vslId === '57023') {
     return res.status(200).json(removeMOVEWatchList);
