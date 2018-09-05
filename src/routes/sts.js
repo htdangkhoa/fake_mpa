@@ -12,7 +12,7 @@ import cancelSTSOperation from '../jsons/cancelSTSOperation';
 const router = Router();
 
 router.post('/getSTSApplication', (req, res) => {
-  const { userId, orgCode, appRefNo } = req.query;
+  const { userId, orgCode, appRefNo } = req.body;
 
   if (userId === 'vptacc01' && orgCode === 'VPT' && appRefNo === '201804000030') {
     return res.status(200).json(stsApplication);
@@ -24,7 +24,7 @@ router.post('/getSTSApplication', (req, res) => {
 router.post('/getSTSApplicationListBySearchTerms', (req, res) => {
   const {
     userId, orgCode, searchTerm, opsDt,
-  } = req.query;
+  } = req.body;
 
   if (
     userId === 'mpancs01'
@@ -39,7 +39,7 @@ router.post('/getSTSApplicationListBySearchTerms', (req, res) => {
 });
 
 router.post('/getSTSApplicationListByRecent', (req, res) => {
-  const { userId, orgCode } = req.query;
+  const { userId, orgCode } = req.body;
 
   if (userId === 'mpancs01' && orgCode === 'MPA') {
     return res.status(200).json(stsApplicationListByRecent);
@@ -49,7 +49,7 @@ router.post('/getSTSApplicationListByRecent', (req, res) => {
 });
 
 router.post('/getSTSApplicationListByCancellable', (req, res) => {
-  const { userId, orgCode } = req.query;
+  const { userId, orgCode } = req.body;
 
   if (userId === 'hymaccs1' && orgCode === 'HYM') {
     return res.status(200).json(stsApplicationListByCancellable);
@@ -61,7 +61,7 @@ router.post('/getSTSApplicationListByCancellable', (req, res) => {
 router.get('/getSTSMasterData', (req, res) => res.json(stsMasterData));
 
 router.post('/getSTSVesselEntryListByVesselCraftLicenseOrVesselName', (req, res) => {
-  const { userId, searchTerm } = req.query;
+  const { userId, searchTerm } = req.body;
 
   if (userId === 'mpancs04' && searchTerm === 'PRO') {
     return res.status(200).json(stsVesselEntryListByVesselCraftLicenseOrVesselName);
@@ -97,7 +97,7 @@ router.post('/submitSTSApplication', (req, res) => {
 router.post('/cancelSTSOperation', (req, res) => {
   const {
     userId, orgCode, appRefNo, sno,
-  } = req.query;
+  } = req.body;
 
   if (userId === 'mpancs01' && orgCode === 'MPA' && appRefNo === '201709000070' && sno === '1') {
     return res.status(200).json(cancelSTSOperation);
