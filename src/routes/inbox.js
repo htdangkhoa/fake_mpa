@@ -6,7 +6,7 @@ import filterMessages from '../jsons/filterMessages';
 const router = Router();
 
 router.post('/getRecentMessages', (req, res) => {
-  const { qty } = req.query;
+  const { qty } = req.body;
 
   if (qty < 20 && qty >= 0) {
     recentMessages.returnPayload.length -= recentMessages.returnPayload.length - qty;
@@ -22,7 +22,7 @@ router.post('/nacServices', (req, res) => {
 router.post('/getFilterMessage', (req, res) => {
   const {
     userId, serviceId, eventId, startDate, endDate, adminMode, targetId,
-  } = req.query;
+  } = req.body;
 
   if (
     userId === 'dnvacc17'
