@@ -8,7 +8,7 @@ const router = Router();
 router.post('/getApplicationList', (req, res) => {
   const {
     userId, orgCode, refNo, status, location, submitStartDate, submitEndDate,
-  } = req.query;
+  } = req.body;
 
   if (
     orgCode === 'PSA'
@@ -25,7 +25,7 @@ router.post('/getApplicationList', (req, res) => {
 });
 
 router.post('/getApplicationDetail', (req, res) => {
-  const { refNo } = req.query;
+  const { refNo } = req.body;
 
   if (refNo === 'AP18030002') return res.status(200).json(applicationDetail);
 
