@@ -8,7 +8,7 @@ const router = Router();
 router.post('/getTermList', (req, res) => {
   const {
     userId, orgCode, mpaRefNo, location,
-  } = req.query;
+  } = req.body;
 
   if (orgCode === 'CAL' && mpaRefNo === 'TP17040002' && location === 'TEST11 AT TE') return res.status(200).json(termList);
 
