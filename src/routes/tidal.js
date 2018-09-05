@@ -5,7 +5,7 @@ import tidalAtlasTimeSeriesReading from '../jsons/tidalAtlasTimeSeriesReading';
 const router = Router();
 
 router.post('/getTidalAtlasMap', (req, res) => {
-  const { location, date, time } = req.query;
+  const { location, date, time } = req.body;
 
   if (location === 'SSP' && date === '20180409' && time === '0000') {
     return res.status(200).json(tidalAtlasMap);
@@ -15,7 +15,7 @@ router.post('/getTidalAtlasMap', (req, res) => {
 });
 
 router.post('/getTidalAtlasTimeSeriesReading', (req, res) => {
-  const { location, point } = req.query;
+  const { location, point } = req.body;
 
   if (location === 'SSP' && point === 'A') {
     return res.status(200).json(tidalAtlasTimeSeriesReading);
