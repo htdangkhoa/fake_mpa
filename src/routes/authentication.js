@@ -8,7 +8,7 @@ import submitChangePasswordSuccess from '../jsons/submitChangePasswordSuccess';
 const router = Router();
 
 router.post('/submitAuthentication', (req, res) => {
-  const { type, userId, password } = req.query;
+  const { type, userId, password } = req.body;
 
   if (userId === 'mpancs04' && password === '1' && type === '1') {
     return res.status(200).json(authenticationSuccess);
@@ -20,7 +20,7 @@ router.post('/submitAuthentication', (req, res) => {
 router.post('/submitChangePassword', (req, res) => {
   const {
     type, userId, oldPassword, newPassword,
-  } = req.query;
+  } = req.body;
 
   if (userId !== 'mpancs05' || oldPassword !== '1') {
     return res.json(submitChangePassword);
