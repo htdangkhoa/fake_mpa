@@ -16,7 +16,7 @@ router.post('/getTermList', (req, res) => {
 });
 
 router.post('/getTermDetail', (req, res) => {
-  const { refNo } = req.query;
+  const { refNo } = req.body;
 
   if (refNo === 'TP17040002') return res.status(200).json(termDetail);
 
