@@ -1,0 +1,51 @@
+{
+		"returnCode" : 0,
+		"returnPayload" : {
+			"queueNum" : "012",
+			"urgencyStatusCode" : 1,
+			"customerName" : "mpancs01",
+			"email" : "user@adnovum.sg",
+			"apptDateTimeInMillis" : 1445511600000,
+			"apptDateString" : "22 Oct 2015",
+			"apptTimeString" : "07:00 PM",
+			"transTypeOthers" : "Other transaction",
+			"refNum" : "MUL20151016004",
+			"companyName" : "adnovum",
+			"transGroupList" : [ {
+				"id" : 1,
+				"transactionTypeList" : [ {
+					"id" : 3,
+					"prefix" : "HUC",
+					"name" : "Update of craft particulars",
+					"quantity" : 1
+				}, {
+					"id" : 6,
+					"prefix" : "HRH",
+					"name" : "Return of HARTS",
+					"quantity" : 2
+				} ],
+				"name" : "Harbour Craft"
+			}, {
+				"id" : 2,
+				"transactionTypeList" : [ {
+					"id" : 14,
+					"prefix" : "PCO",
+					"name" : "Change of Ownership",
+					"quantity" : 1
+				} ],
+				"name" : "Pleasure Craft"
+			}, {
+				"id" : 3,
+				"transactionTypeList" : [ {
+					"id" : 11,
+					"prefix" : "CGD",
+					"name" : "General Declaration",
+					"quantity" : 3
+				} ],
+				"name" : "Port Clearance"
+			} ],
+			"contact" : "12345678",
+			"customerNric" : "S1234567C"
+		},
+		"returnMessage" : "success"
+	}

@@ -1,0 +1,76 @@
+{
+  "returnCode": 0,
+  "returnMessage": "success",
+  "returnPayload": {
+    "apptList": [{
+			"refNum": "MUL20151016001",
+            "apptDateTimeInMillis": 1523267525244,
+            "apptDateString" : 1523267525244,
+            "apptTimeString" : 1523267525244,
+            "transTypeOthers": "4",
+            "transGroupList": [
+                {
+                    "id": 1,
+                    "name": "Harbour Craft",
+                    "transactionTypeList": [
+                        {
+                            "id": 2,
+                            "name": "Application to de-licence",
+                            "quantity": 1,
+                            "prefix": "HAD"
+                        },
+                        {
+                            "id": 6,
+                            "name": "Return of HARTS",
+                            "quantity": 2,
+                            "prefix": "HRH"
+                        }
+                    ]
+                }
+            ],
+            "queueNum": "001",
+            "urgencyStatusCode": 1
+	},{
+            "refNum": "MUL20151016006",
+            "apptDateTimeInMillis": 1520589125264,
+            "apptDateString" : 1520589125264,
+            "apptTimeString" : 1520589125264,
+            "transTypeOthers": "1",
+            "transGroupList": [
+                {
+                    "id": 2,
+                    "name": "Pleasure Craft",
+                    "transactionTypeList": [
+                        {
+                            "id": 7,
+                            "name": "New / Renewal of licence",
+                            "quantity": 1,
+                            "prefix": "PNL"
+                        },
+                        {
+                            "id": 10,
+                            "name": "New / Renewal of PPCDL or APPCDL",
+                            "quantity": 1,
+                            "prefix": "PNP"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Port Clearance",
+                    "transactionTypeList": [
+                        {
+                            "id": 12,
+                            "name": "Application for launching permit",
+                            "quantity": 3,
+                            "prefix": "CAL"
+                        }
+                    ]
+                }
+            ],
+            "queueNum": "010",
+            "urgencyStatusCode": 3
+        }
+]
+  }
+}

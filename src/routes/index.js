@@ -13,6 +13,7 @@ import vas from './vas';
 import eWallet from './eWallet';
 import tidal from './tidal';
 import sts from './sts';
+import oas from './oas';
 
 export default [
   term,
@@ -30,4 +31,5 @@ export default [
   eWallet,
   tidal,
   sts,
+  oas,
 ];
