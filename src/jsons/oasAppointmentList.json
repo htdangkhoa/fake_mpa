@@ -5,8 +5,8 @@
     "apptList": [{
 			"refNum": "MUL20151016001",
             "apptDateTimeInMillis": 1523267525244,
-            "apptDateString" : '09 Apr 2018',
-            "apptTimeString" : '06:00 PM',
+            "apptDateString" : "09 Apr 2018",
+            "apptTimeString" : "06:00 PM",
             "transTypeOthers": "4",
             "transGroupList": [
                 {
@@ -33,8 +33,8 @@
 	},{
             "refNum": "MUL20151016006",
             "apptDateTimeInMillis": 1520589125264,
-            "apptDateString" : '09 Mar 2018',
-            "apptTimeString" : '06:00 PM',
+            "apptDateString" : "09 Mar 2018",
+            "apptTimeString" : "06:00 PM",
             "transTypeOthers": "1",
             "transGroupList": [
                 {
