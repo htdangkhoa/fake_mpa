@@ -65,17 +65,26 @@ router.get('/news_detail', async (req, res) => {
 
     const content = $(wpthemeInner).find('.wpthemeControlBody .content_wrapper.resize');
 
-    const date = $(content).find('strong').text();
+    let date = null;
+
+    $(wpthemeInner).find('.wpthemeControlBody .content_wrapper.resize strong').each((i, strong) => {
+      if (i === 0) date = $(strong).text();
+    });
 
     const arrayContent = [];
 
-    $(content).find('p').each((index, p) => {
-      const text = $(p).text().trim().replace(/  +/g, ' ');
+    $(content).find('div, p').each((index, p) => {
+      const pText = $(p).text().trim().replace(/  +/g, ' ') || null;
 
-      const realData = {};
+      const strong = $(p).find('strong').text().trim().replace(/  +/g, ' ') || null;
 
-      realData.p = text;
-      realData.img = $(p).find('img').attr('src') || null;
+      const img = $(p).find('img').attr('src') || null;
+
+      const realData = {
+        p: pText,
+        img,
+        strong,
+      };
 
       arrayContent.push(realData);
     });
