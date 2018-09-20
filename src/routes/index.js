@@ -14,6 +14,7 @@ import eWallet from './eWallet';
 import tidal from './tidal';
 import sts from './sts';
 import oas from './oas';
+import news from './news';
 
 export default [
   term,
@@ -32,4 +33,5 @@ export default [
   tidal,
   sts,
   oas,
+  news,
 ];
