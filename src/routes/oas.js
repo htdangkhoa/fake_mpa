@@ -2,7 +2,7 @@ import { Router } from 'express';
 import moment from 'moment';
 import oasAppointmentList from '../jsons/oasAppointmentList';
 import oasAppointmentDetails from '../jsons/oasAppointmentDetails';
-import availableTimeslots from '../jsons/availableTimeslots';
+import timeSlotsList from '../jsons/timeSlotsList';
 
 const router = Router();
 
@@ -196,13 +196,13 @@ router.post('/checkQStatus', (req, res) => {
   });
 });
 
-router.post('/getAvailableTimeslots', (req, res) => {
+router.post('/getTimeSlotsList', (req, res) => {
   const {
     userId, orgCode, apptType, transTypeOthers, transGroupList,
   } = req.body;
 
   if (userId === 'mpancs06' && orgCode === 'MPA' && apptType === '4') {
-    return res.status(200).json(availableTimeslots);
+    return res.status(200).json(timeSlotsList);
   }
 
   return res.status(400).json(global.errors);
