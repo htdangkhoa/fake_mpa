@@ -1,0 +1,885 @@
+{
+  "startDayString": "25 Sep 2018",
+  "timeSlotsList": [
+    {
+      "dayString": "25 Sep 2018",
+      "flag": 4,
+      "timeSlotList": [
+        {
+          "timeString": "09:00 AM",
+          "timeInMillis": 1537837200000
+        },
+        {
+          "timeString": "09:15 AM",
+          "timeInMillis": 1537838100000
+        },
+        {
+          "timeString": "09:30 AM",
+          "timeInMillis": 1537839000000
+        },
+        {
+          "timeString": "09:45 AM",
+          "timeInMillis": 1537839900000
+        },
+        {
+          "timeString": "10:00 AM",
+          "timeInMillis": 1537840800000
+        },
+        {
+          "timeString": "10:15 AM",
+          "timeInMillis": 1537841700000
+        },
+        {
+          "timeString": "10:30 AM",
+          "timeInMillis": 1537842600000
+        },
+        {
+          "timeString": "10:45 AM",
+          "timeInMillis": 1537843500000
+        },
+        {
+          "timeString": "11:00 AM",
+          "timeInMillis": 1537844400000
+        },
+        {
+          "timeString": "11:15 AM",
+          "timeInMillis": 1537845300000
+        },
+        {
+          "timeString": "11:30 AM",
+          "timeInMillis": 1537846200000
+        },
+        {
+          "timeString": "11:45 AM",
+          "timeInMillis": 1537847100000
+        },
+        {
+          "timeString": "02:30 PM",
+          "timeInMillis": 1537857000000
+        },
+        {
+          "timeString": "02:45 PM",
+          "timeInMillis": 1537857900000
+        },
+        {
+          "timeString": "03:00 PM",
+          "timeInMillis": 1537858800000
+        },
+        {
+          "timeString": "03:15 PM",
+          "timeInMillis": 1537859700000
+        },
+        {
+          "timeString": "03:30 PM",
+          "timeInMillis": 1537860600000
+        },
+        {
+          "timeString": "03:45 PM",
+          "timeInMillis": 1537861500000
+        },
+        {
+          "timeString": "04:00 PM",
+          "timeInMillis": 1537862400000
+        }
+      ]
+    },
+    {
+      "dayString": "26 Sep 2018",
+      "flag": 4,
+      "timeSlotList": [
+        {
+          "timeString": "09:00 AM",
+          "timeInMillis": 1537923600000,
+          "selected": true
+        },
+        {
+          "timeString": "09:15 AM",
+          "timeInMillis": 1537924500000,
+          "selected": false
+        },
+        {
+          "timeString": "09:30 AM",
+          "timeInMillis": 1537925400000,
+          "selected": false
+        },
+        {
+          "timeString": "09:45 AM",
+          "timeInMillis": 1537926300000,
+          "selected": false
+        },
+        {
+          "timeString": "10:00 AM",
+          "timeInMillis": 1537927200000,
+          "selected": false
+        },
+        {
+          "timeString": "10:15 AM",
+          "timeInMillis": 1537928100000,
+          "selected": false
+        },
+        {
+          "timeString": "10:30 AM",
+          "timeInMillis": 1537929000000,
+          "selected": false
+        },
+        {
+          "timeString": "10:45 AM",
+          "timeInMillis": 1537929900000,
+          "selected": false
+        },
+        {
+          "timeString": "11:00 AM",
+          "timeInMillis": 1537930800000,
+          "selected": false
+        },
+        {
+          "timeString": "11:15 AM",
+          "timeInMillis": 1537931700000,
+          "selected": false
+        },
+        {
+          "timeString": "11:30 AM",
+          "timeInMillis": 1537932600000,
+          "selected": false
+        },
+        {
+          "timeString": "11:45 AM",
+          "timeInMillis": 1537933500000,
+          "selected": false
+        },
+        {
+          "timeString": "02:30 PM",
+          "timeInMillis": 1537943400000,
+          "selected": false
+        },
+        {
+          "timeString": "02:45 PM",
+          "timeInMillis": 1537944300000,
+          "selected": false
+        },
+        {
+          "timeString": "03:00 PM",
+          "timeInMillis": 1537945200000,
+          "selected": false
+        },
+        {
+          "timeString": "03:15 PM",
+          "timeInMillis": 1537946100000,
+          "selected": false
+        },
+        {
+          "timeString": "03:30 PM",
+          "timeInMillis": 1537947000000,
+          "selected": false
+        },
+        {
+          "timeString": "03:45 PM",
+          "timeInMillis": 1537947900000,
+          "selected": false
+        },
+        {
+          "timeString": "04:00 PM",
+          "timeInMillis": 1537948800000,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "dayString": "27 Sep 2018",
+      "flag": 4,
+      "timeSlotList": [
+        {
+          "timeString": "09:00 AM",
+          "timeInMillis": 1538010000000,
+          "selected": true
+        },
+        {
+          "timeString": "09:15 AM",
+          "timeInMillis": 1538010900000,
+          "selected": false
+        },
+        {
+          "timeString": "09:30 AM",
+          "timeInMillis": 1538011800000,
+          "selected": false
+        },
+        {
+          "timeString": "09:45 AM",
+          "timeInMillis": 1538012700000,
+          "selected": false
+        },
+        {
+          "timeString": "10:00 AM",
+          "timeInMillis": 1538013600000,
+          "selected": false
+        },
+        {
+          "timeString": "10:15 AM",
+          "timeInMillis": 1538014500000,
+          "selected": false
+        },
+        {
+          "timeString": "10:30 AM",
+          "timeInMillis": 1538015400000,
+          "selected": false
+        },
+        {
+          "timeString": "10:45 AM",
+          "timeInMillis": 1538016300000,
+          "selected": false
+        },
+        {
+          "timeString": "11:00 AM",
+          "timeInMillis": 1538017200000,
+          "selected": false
+        },
+        {
+          "timeString": "11:15 AM",
+          "timeInMillis": 1538018100000,
+          "selected": false
+        },
+        {
+          "timeString": "11:30 AM",
+          "timeInMillis": 1538019000000,
+          "selected": false
+        },
+        {
+          "timeString": "11:45 AM",
+          "timeInMillis": 1538019900000,
+          "selected": false
+        },
+        {
+          "timeString": "02:30 PM",
+          "timeInMillis": 1538029800000,
+          "selected": false
+        },
+        {
+          "timeString": "02:45 PM",
+          "timeInMillis": 1538030700000,
+          "selected": false
+        },
+        {
+          "timeString": "03:00 PM",
+          "timeInMillis": 1538031600000,
+          "selected": false
+        },
+        {
+          "timeString": "03:15 PM",
+          "timeInMillis": 1538032500000,
+          "selected": false
+        },
+        {
+          "timeString": "03:30 PM",
+          "timeInMillis": 1538033400000,
+          "selected": false
+        },
+        {
+          "timeString": "03:45 PM",
+          "timeInMillis": 1538034300000,
+          "selected": false
+        },
+        {
+          "timeString": "04:00 PM",
+          "timeInMillis": 1538035200000,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "dayString": "28 Sep 2018",
+      "flag": 4,
+      "timeSlotList": [
+        {
+          "timeString": "09:00 AM",
+          "timeInMillis": 1538096400000,
+          "selected": true
+        },
+        {
+          "timeString": "09:15 AM",
+          "timeInMillis": 1538097300000,
+          "selected": false
+        },
+        {
+          "timeString": "09:30 AM",
+          "timeInMillis": 1538098200000,
+          "selected": false
+        },
+        {
+          "timeString": "09:45 AM",
+          "timeInMillis": 1538099100000,
+          "selected": false
+        },
+        {
+          "timeString": "10:00 AM",
+          "timeInMillis": 1538100000000,
+          "selected": false
+        },
+        {
+          "timeString": "10:15 AM",
+          "timeInMillis": 1538100900000,
+          "selected": false
+        },
+        {
+          "timeString": "10:30 AM",
+          "timeInMillis": 1538101800000,
+          "selected": false
+        },
+        {
+          "timeString": "10:45 AM",
+          "timeInMillis": 1538102700000,
+          "selected": false
+        },
+        {
+          "timeString": "11:00 AM",
+          "timeInMillis": 1538103600000,
+          "selected": false
+        },
+        {
+          "timeString": "11:15 AM",
+          "timeInMillis": 1538104500000,
+          "selected": false
+        },
+        {
+          "timeString": "11:30 AM",
+          "timeInMillis": 1538105400000,
+          "selected": false
+        },
+        {
+          "timeString": "11:45 AM",
+          "timeInMillis": 1538106300000,
+          "selected": false
+        },
+        {
+          "timeString": "02:30 PM",
+          "timeInMillis": 1538116200000,
+          "selected": false
+        },
+        {
+          "timeString": "02:45 PM",
+          "timeInMillis": 1538117100000,
+          "selected": false
+        },
+        {
+          "timeString": "03:00 PM",
+          "timeInMillis": 1538118000000,
+          "selected": false
+        },
+        {
+          "timeString": "03:15 PM",
+          "timeInMillis": 1538118900000,
+          "selected": false
+        },
+        {
+          "timeString": "03:30 PM",
+          "timeInMillis": 1538119800000,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "dayString": "29 Sep 2018",
+      "flag": 2,
+      "timeSlotList": null
+    },
+    {
+      "dayString": "30 Sep 2018",
+      "flag": 2,
+      "timeSlotList": null
+    },
+    {
+      "dayString": "01 Oct 2018",
+      "flag": 4,
+      "timeSlotList": [
+        {
+          "timeString": "09:00 AM",
+          "timeInMillis": 1538355600000
+        },
+        {
+          "timeString": "09:15 AM",
+          "timeInMillis": 1538356500000
+        },
+        {
+          "timeString": "09:30 AM",
+          "timeInMillis": 1538357400000
+        },
+        {
+          "timeString": "09:45 AM",
+          "timeInMillis": 1538358300000
+        },
+        {
+          "timeString": "10:00 AM",
+          "timeInMillis": 1538359200000
+        },
+        {
+          "timeString": "10:15 AM",
+          "timeInMillis": 1538360100000
+        },
+        {
+          "timeString": "10:30 AM",
+          "timeInMillis": 1538361000000
+        },
+        {
+          "timeString": "10:45 AM",
+          "timeInMillis": 1538361900000
+        },
+        {
+          "timeString": "11:00 AM",
+          "timeInMillis": 1538362800000
+        },
+        {
+          "timeString": "11:15 AM",
+          "timeInMillis": 1538363700000
+        },
+        {
+          "timeString": "11:30 AM",
+          "timeInMillis": 1538364600000
+        },
+        {
+          "timeString": "11:45 AM",
+          "timeInMillis": 1538365500000
+        },
+        {
+          "timeString": "02:30 PM",
+          "timeInMillis": 1538375400000
+        },
+        {
+          "timeString": "02:45 PM",
+          "timeInMillis": 1538376300000
+        },
+        {
+          "timeString": "03:00 PM",
+          "timeInMillis": 1538377200000
+        },
+        {
+          "timeString": "03:15 PM",
+          "timeInMillis": 1538378100000
+        },
+        {
+          "timeString": "03:30 PM",
+          "timeInMillis": 1538379000000
+        },
+        {
+          "timeString": "03:45 PM",
+          "timeInMillis": 1538379900000
+        },
+        {
+          "timeString": "04:00 PM",
+          "timeInMillis": 1538380800000
+        }
+      ]
+    },
+    {
+      "dayString": "02 Oct 2018",
+      "flag": 4,
+      "timeSlotList": [
+        {
+          "timeString": "09:00 AM",
+          "timeInMillis": 1538442000000
+        },
+        {
+          "timeString": "09:15 AM",
+          "timeInMillis": 1538442900000
+        },
+        {
+          "timeString": "09:30 AM",
+          "timeInMillis": 1538443800000
+        },
+        {
+          "timeString": "09:45 AM",
+          "timeInMillis": 1538444700000
+        },
+        {
+          "timeString": "10:00 AM",
+          "timeInMillis": 1538445600000
+        },
+        {
+          "timeString": "10:15 AM",
+          "timeInMillis": 1538446500000
+        },
+        {
+          "timeString": "10:30 AM",
+          "timeInMillis": 1538447400000
+        },
+        {
+          "timeString": "10:45 AM",
+          "timeInMillis": 1538448300000
+        },
+        {
+          "timeString": "11:00 AM",
+          "timeInMillis": 1538449200000
+        },
+        {
+          "timeString": "11:15 AM",
+          "timeInMillis": 1538450100000
+        },
+        {
+          "timeString": "11:30 AM",
+          "timeInMillis": 1538451000000
+        },
+        {
+          "timeString": "11:45 AM",
+          "timeInMillis": 1538451900000
+        },
+        {
+          "timeString": "02:30 PM",
+          "timeInMillis": 1538461800000
+        },
+        {
+          "timeString": "02:45 PM",
+          "timeInMillis": 1538462700000
+        },
+        {
+          "timeString": "03:00 PM",
+          "timeInMillis": 1538463600000
+        },
+        {
+          "timeString": "03:15 PM",
+          "timeInMillis": 1538464500000
+        },
+        {
+          "timeString": "03:30 PM",
+          "timeInMillis": 1538465400000
+        },
+        {
+          "timeString": "03:45 PM",
+          "timeInMillis": 1538466300000
+        },
+        {
+          "timeString": "04:00 PM",
+          "timeInMillis": 1538467200000
+        }
+      ]
+    },
+    {
+      "dayString": "03 Oct 2018",
+      "flag": 4,
+      "timeSlotList": [
+        {
+          "timeString": "09:00 AM",
+          "timeInMillis": 1538528400000
+        },
+        {
+          "timeString": "09:15 AM",
+          "timeInMillis": 1538529300000
+        },
+        {
+          "timeString": "09:30 AM",
+          "timeInMillis": 1538530200000
+        },
+        {
+          "timeString": "09:45 AM",
+          "timeInMillis": 1538531100000
+        },
+        {
+          "timeString": "10:00 AM",
+          "timeInMillis": 1538532000000
+        },
+        {
+          "timeString": "10:15 AM",
+          "timeInMillis": 1538532900000
+        },
+        {
+          "timeString": "10:30 AM",
+          "timeInMillis": 1538533800000
+        },
+        {
+          "timeString": "10:45 AM",
+          "timeInMillis": 1538534700000
+        },
+        {
+          "timeString": "11:00 AM",
+          "timeInMillis": 1538535600000
+        },
+        {
+          "timeString": "11:15 AM",
+          "timeInMillis": 1538536500000
+        },
+        {
+          "timeString": "11:30 AM",
+          "timeInMillis": 1538537400000
+        },
+        {
+          "timeString": "11:45 AM",
+          "timeInMillis": 1538538300000
+        },
+        {
+          "timeString": "02:30 PM",
+          "timeInMillis": 1538548200000
+        },
+        {
+          "timeString": "02:45 PM",
+          "timeInMillis": 1538549100000
+        },
+        {
+          "timeString": "03:00 PM",
+          "timeInMillis": 1538550000000
+        },
+        {
+          "timeString": "03:15 PM",
+          "timeInMillis": 1538550900000
+        },
+        {
+          "timeString": "03:30 PM",
+          "timeInMillis": 1538551800000
+        },
+        {
+          "timeString": "03:45 PM",
+          "timeInMillis": 1538552700000
+        },
+        {
+          "timeString": "04:00 PM",
+          "timeInMillis": 1538553600000
+        }
+      ]
+    },
+    {
+      "dayString": "04 Oct 2018",
+      "flag": 4,
+      "timeSlotList": [
+        {
+          "timeString": "09:00 AM",
+          "timeInMillis": 1538614800000
+        },
+        {
+          "timeString": "09:15 AM",
+          "timeInMillis": 1538615700000
+        },
+        {
+          "timeString": "09:30 AM",
+          "timeInMillis": 1538616600000
+        },
+        {
+          "timeString": "09:45 AM",
+          "timeInMillis": 1538617500000
+        },
+        {
+          "timeString": "10:00 AM",
+          "timeInMillis": 1538618400000
+        },
+        {
+          "timeString": "10:15 AM",
+          "timeInMillis": 1538619300000
+        },
+        {
+          "timeString": "10:30 AM",
+          "timeInMillis": 1538620200000
+        },
+        {
+          "timeString": "10:45 AM",
+          "timeInMillis": 1538621100000
+        },
+        {
+          "timeString": "11:00 AM",
+          "timeInMillis": 1538622000000
+        },
+        {
+          "timeString": "11:15 AM",
+          "timeInMillis": 1538622900000
+        },
+        {
+          "timeString": "11:30 AM",
+          "timeInMillis": 1538623800000
+        },
+        {
+          "timeString": "11:45 AM",
+          "timeInMillis": 1538624700000
+        },
+        {
+          "timeString": "02:30 PM",
+          "timeInMillis": 1538634600000
+        },
+        {
+          "timeString": "02:45 PM",
+          "timeInMillis": 1538635500000
+        },
+        {
+          "timeString": "03:00 PM",
+          "timeInMillis": 1538636400000
+        },
+        {
+          "timeString": "03:15 PM",
+          "timeInMillis": 1538637300000
+        },
+        {
+          "timeString": "03:30 PM",
+          "timeInMillis": 1538638200000
+        },
+        {
+          "timeString": "03:45 PM",
+          "timeInMillis": 1538639100000
+        },
+        {
+          "timeString": "04:00 PM",
+          "timeInMillis": 1538640000000
+        }
+      ]
+    },
+    {
+      "dayString": "05 Oct 2018",
+      "flag": 4,
+      "timeSlotList": [
+        {
+          "timeString": "09:00 AM",
+          "timeInMillis": 1538701200000
+        },
+        {
+          "timeString": "09:15 AM",
+          "timeInMillis": 1538702100000
+        },
+        {
+          "timeString": "09:30 AM",
+          "timeInMillis": 1538703000000
+        },
+        {
+          "timeString": "09:45 AM",
+          "timeInMillis": 1538703900000
+        },
+        {
+          "timeString": "10:00 AM",
+          "timeInMillis": 1538704800000
+        },
+        {
+          "timeString": "10:15 AM",
+          "timeInMillis": 1538705700000
+        },
+        {
+          "timeString": "10:30 AM",
+          "timeInMillis": 1538706600000
+        },
+        {
+          "timeString": "10:45 AM",
+          "timeInMillis": 1538707500000
+        },
+        {
+          "timeString": "11:00 AM",
+          "timeInMillis": 1538708400000
+        },
+        {
+          "timeString": "11:15 AM",
+          "timeInMillis": 1538709300000
+        },
+        {
+          "timeString": "11:30 AM",
+          "timeInMillis": 1538710200000
+        },
+        {
+          "timeString": "11:45 AM",
+          "timeInMillis": 1538711100000
+        },
+        {
+          "timeString": "02:30 PM",
+          "timeInMillis": 1538721000000
+        },
+        {
+          "timeString": "02:45 PM",
+          "timeInMillis": 1538721900000
+        },
+        {
+          "timeString": "03:00 PM",
+          "timeInMillis": 1538722800000
+        },
+        {
+          "timeString": "03:15 PM",
+          "timeInMillis": 1538723700000
+        },
+        {
+          "timeString": "03:30 PM",
+          "timeInMillis": 1538724600000
+        }
+      ]
+    },
+    {
+      "dayString": "06 Oct 2018",
+      "flag": 2,
+      "timeSlotList": null
+    },
+    {
+      "dayString": "07 Oct 2018",
+      "flag": 2,
+      "timeSlotList": null
+    },
+    {
+      "dayString": "08 Oct 2018",
+      "flag": 4,
+      "timeSlotList": [
+        {
+          "timeString": "09:00 AM",
+          "timeInMillis": 1538960400000
+        },
+        {
+          "timeString": "09:15 AM",
+          "timeInMillis": 1538961300000
+        },
+        {
+          "timeString": "09:30 AM",
+          "timeInMillis": 1538962200000
+        },
+        {
+          "timeString": "09:45 AM",
+          "timeInMillis": 1538963100000
+        },
+        {
+          "timeString": "10:00 AM",
+          "timeInMillis": 1538964000000
+        },
+        {
+          "timeString": "10:15 AM",
+          "timeInMillis": 1538964900000
+        },
+        {
+          "timeString": "10:30 AM",
+          "timeInMillis": 1538965800000
+        },
+        {
+          "timeString": "10:45 AM",
+          "timeInMillis": 1538966700000
+        },
+        {
+          "timeString": "11:00 AM",
+          "timeInMillis": 1538967600000
+        },
+        {
+          "timeString": "11:15 AM",
+          "timeInMillis": 1538968500000
+        },
+        {
+          "timeString": "11:30 AM",
+          "timeInMillis": 1538969400000
+        },
+        {
+          "timeString": "11:45 AM",
+          "timeInMillis": 1538970300000
+        },
+        {
+          "timeString": "02:30 PM",
+          "timeInMillis": 1538980200000
+        },
+        {
+          "timeString": "02:45 PM",
+          "timeInMillis": 1538981100000
+        },
+        {
+          "timeString": "03:00 PM",
+          "timeInMillis": 1538982000000
+        },
+        {
+          "timeString": "03:15 PM",
+          "timeInMillis": 1538982900000
+        },
+        {
+          "timeString": "03:30 PM",
+          "timeInMillis": 1538983800000
+        },
+        {
+          "timeString": "03:45 PM",
+          "timeInMillis": 1538984700000
+        },
+        {
+          "timeString": "04:00 PM",
+          "timeInMillis": 1538985600000
+        }
+      ]
+    }
+  ],
+  "endDayString": "08 Oct 2018"
+}

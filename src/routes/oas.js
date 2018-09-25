@@ -2,6 +2,7 @@ import { Router } from 'express';
 import moment from 'moment';
 import oasAppointmentList from '../jsons/oasAppointmentList';
 import oasAppointmentDetails from '../jsons/oasAppointmentDetails';
+import availableTimeslots from '../jsons/availableTimeslots';
 
 const router = Router();
 
@@ -193,6 +194,18 @@ router.post('/checkQStatus', (req, res) => {
       urgencyStatusCode: 1,
     },
   });
+});
+
+router.post('/getAvailableTimeslots', (req, res) => {
+  const {
+    userId, orgCode, apptType, transTypeOthers, transGroupList,
+  } = req.body;
+
+  if (userId === 'mpancs06' && orgCode === 'MPA' && apptType === '4') {
+    return res.status(200).json(availableTimeslots);
+  }
+
+  return res.status(400).json(global.errors);
 });
 
 export default router;

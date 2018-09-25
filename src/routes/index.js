@@ -15,6 +15,7 @@ import tidal from './tidal';
 import sts from './sts';
 import oas from './oas';
 import news from './news';
+import circulars from './circulars';
 
 export default [
   term,
@@ -34,4 +35,5 @@ export default [
   sts,
   oas,
   news,
+  circulars,
 ];
