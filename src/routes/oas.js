@@ -3,6 +3,7 @@ import moment from 'moment';
 import oasAppointmentList from '../jsons/oasAppointmentList';
 import oasAppointmentDetails from '../jsons/oasAppointmentDetails';
 import timeSlotsList from '../jsons/timeSlotsList';
+import customerInfo from '../jsons/customerInfo';
 
 const router = Router();
 
@@ -207,6 +208,16 @@ router.post('/getTimeSlotsList', (req, res) => {
       returnMessage: 'success',
       returnPayload: timeSlotsList,
     });
+  }
+
+  return res.status(400).json(global.errors);
+});
+
+router.post('/getCustomerInfo', (req, res) => {
+  const { userId, orgCode } = req.body;
+
+  if (userId === 'mpancs04' && orgCode === 'MPA') {
+    return res.status(200).json(customerInfo);
   }
 
   return res.status(400).json(global.errors);

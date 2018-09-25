@@ -1,0 +1,124 @@
+{
+  "returnCode": 0,
+  "returnMessage": "success",
+  "returnPayload": {
+    "type": 1,
+    "nric": "S1234567X",
+    "loginId": "mpancs01",
+    "loginName": "NCS Performance Test ID",
+    "orgCode": "MPA",
+    "companyName": "RESERVE FOR MPA",
+    "email": "performance_test@ncs.com",
+    "mobile": "91234567",
+    "transactionGroupList": [
+      {
+        "id": 1,
+        "name": "Harbour Craft,",
+        "transactionTypeList": [
+          {
+            "id": 1,
+            "name": "New / Renewal of licence",
+            "quantity": 0,
+            "prefix": "HNL"
+          },
+          {
+            "id": 2,
+            "name": "Application to de-licence",
+            "quantity": 0,
+            "prefix": "HAD"
+          },
+          {
+            "id": 3,
+            "name": "Update of craft particulars",
+            "quantity": 0,
+            "prefix": "HUC"
+          },
+          {
+            "id": 4,
+            "name": "Change of ownership",
+            "quantity": 0,
+            "prefix": "HCO"
+          },
+          {
+            "id": 5,
+            "name": "New / Renewal / Replacement of Manning licence",
+            "quantity": 0,
+            "prefix": "HNM"
+          },
+          {
+            "id": 6,
+            "name": "Return of Transponder/ECS",
+            "quantity": 0,
+            "prefix": "HRH"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Pleasure Craft,",
+        "transactionTypeList": [
+          {
+            "id": 7,
+            "name": "New / Renewal of licence",
+            "quantity": 0,
+            "prefix": "PNL"
+          },
+          {
+            "id": 8,
+            "name": "Application to de-licence",
+            "quantity": 0,
+            "prefix": "PAD"
+          },
+          {
+            "id": 9,
+            "name": "Update of craft particulars",
+            "quantity": 0,
+            "prefix": "PUC"
+          },
+          {
+            "id": 10,
+            "name": "New / Renewal of PPCDL or APPCDL",
+            "quantity": 0,
+            "prefix": "PNP"
+          },
+          {
+            "id": 11,
+            "name": "Change of Ownership",
+            "quantity": 0,
+            "prefix": "PCO"
+          },
+          {
+            "id": 12,
+            "name": "Return of Transponder/ECS",
+            "quantity": 0,
+            "prefix": "PRH"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Port Clearance",
+        "transactionTypeList": [
+          {
+            "id": 14,
+            "name": "Application for launching permit",
+            "quantity": 0,
+            "prefix": "CAL"
+          },
+          {
+            "id": 15,
+            "name": "Application for Break-up permit",
+            "quantity": 0,
+            "prefix": "CAB"
+          },
+          {
+            "id": 13,
+            "name": "General Declaration",
+            "quantity": 0,
+            "prefix": "CGD"
+          }
+        ]
+      }
+    ]
+  }
+}
