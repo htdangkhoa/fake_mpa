@@ -202,7 +202,11 @@ router.post('/getTimeSlotsList', (req, res) => {
   } = req.body;
 
   if (userId === 'mpancs06' && orgCode === 'MPA' && apptType === '4') {
-    return res.status(200).json(timeSlotsList);
+    return res.status(200).json({
+      returnCode: 0,
+      returnMessage: 'success',
+      returnPayload: timeSlotsList,
+    });
   }
 
   return res.status(400).json(global.errors);
