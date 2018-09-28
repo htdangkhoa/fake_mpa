@@ -78,11 +78,11 @@ router.get('/news_detail', async (req, res) => {
 
       const strong = $(p).find('strong').text().trim().replace(/  +/g, ' ') || null;
 
-      const img = `${rootHost}${$(p).find('img').attr('src')}` || null;
+      const img = $(p).find('img').attr('src') || null;
 
       const realData = {
         p: pText,
-        img,
+        img: (img) ? `${rootHost}${img}` : null,
         strong,
       };
 
