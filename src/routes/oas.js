@@ -229,6 +229,15 @@ router.post('/validateCraftNumbers', (req, res) => {
 
   const { craftNumbers } = req.body;
 
+  if (!craftNumbers) {
+    return res.status(200).json({
+      returnCode: 0,
+      isSuccessful: true,
+      returnPayload: null,
+      returnMessage: '',
+    });
+  }
+
   if (!isArray(craftNumbers)) return res.status(400).json(global.errors);
 
   let msg = '';
