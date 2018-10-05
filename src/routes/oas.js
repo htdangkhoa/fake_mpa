@@ -243,23 +243,16 @@ router.post('/validateCraftNumbers', (req, res) => {
     }
   }
 
-  if (countDuplicates !== 0) {
-    for (let i = 0; i < countDuplicates; i += 1) {
-      msg += 'Please enter a non-duplicate Craft Number<br/>';
-    }
-
-    return res.json({
-      returnCode: 0,
-      isSuccessful: false,
-      returnPayload: null,
-      returnMessage: msg,
-    });
-  }
-
   for (let i = 0; i < craftNumbers.length; i += 1) {
     const craft = craftNumbers[i];
 
     if (listValid.indexOf(craft) === -1) msg += 'Please enter a valid Craft Number<br/>';
+  }
+
+  if (countDuplicates !== 0) {
+    for (let i = 0; i < countDuplicates; i += 1) {
+      msg += 'Please enter a non-duplicate Craft Number<br/>';
+    }
   }
 
   return res.json({
