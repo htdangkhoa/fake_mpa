@@ -229,7 +229,7 @@ router.post('/validateCraftNumbers', (req, res) => {
 
   const { craftNumbers } = req.body;
 
-  if (!isArray(craftNumbers)) return res.json(global.errors);
+  if (!isArray(craftNumbers)) return res.status(400).json(global.errors);
 
   let msg = '';
 
@@ -255,7 +255,7 @@ router.post('/validateCraftNumbers', (req, res) => {
     }
   }
 
-  return res.json({
+  return res.status(200).json({
     returnCode: 0,
     isSuccessful: msg === '',
     returnPayload: null,
