@@ -68,7 +68,11 @@ router.get('/news_detail', async (req, res) => {
     let date = null;
 
     $(wpthemeInner).find('.wpthemeControlBody .content_wrapper.resize strong').each((i, strong) => {
-      if (i === 0) date = $(strong).text();
+      const dateParsed = Date.parse($(strong).text());
+
+      if (!isNaN(dateParsed)) date = $(strong).text();
+
+      return;
     });
 
     const arrayContent = [];

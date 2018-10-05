@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { isArray } from 'lodash';
 import moment from 'moment';
 import oasAppointmentList from '../jsons/oasAppointmentList';
 import oasAppointmentDetails from '../jsons/oasAppointmentDetails';
@@ -221,6 +222,52 @@ router.post('/getCustomerInfo', (req, res) => {
   }
 
   return res.status(400).json(global.errors);
+});
+
+router.post('/validateCraftNumbers', (req, res) => {
+  const listValid = ['SB 0715B', 'SB 0765I', 'SB 0394G'];
+
+  const { craftNumbers } = req.body;
+
+  if (!isArray(craftNumbers)) return res.json(global.errors);
+
+  let msg = '';
+
+  let countDuplicates = 0;
+
+  for (let i = 0; i <= craftNumbers.length; i += 1) {
+    for (let j = i; j <= craftNumbers.length; j += 1) {
+      if (i !== j && craftNumbers[i] === craftNumbers[j]) {
+        countDuplicates += 1;
+      }
+    }
+  }
+
+  if (countDuplicates !== 0) {
+    for (let i = 0; i < countDuplicates; i += 1) {
+      msg += 'Please enter a non-duplicate Craft Number<br/>';
+    }
+
+    return res.json({
+      returnCode: 0,
+      isSuccessful: false,
+      returnPayload: null,
+      returnMessage: msg,
+    });
+  }
+
+  for (let i = 0; i < craftNumbers.length; i += 1) {
+    const craft = craftNumbers[i];
+
+    if (listValid.indexOf(craft) === -1) msg += 'Please enter a valid Craft Number<br/>';
+  }
+
+  return res.json({
+    returnCode: 0,
+    isSuccessful: msg === '',
+    returnPayload: null,
+    returnMessage: msg,
+  });
 });
 
 export default router;
