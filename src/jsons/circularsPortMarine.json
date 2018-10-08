@@ -1,0 +1,206 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "id": "23bace76-89df-4e94-9093-394bf19c0833",
+      "title": "MPA Event 2",
+      "type": "Circulars",
+      "category": "Port Marine Circulars",
+      "publishedDate": "19 Jan 2018 18:28:31",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "sc_no_16_of_2010.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/b21ea5aa-b96f-4576-a4f6-f4c593507004/sc_no_16_of_2010.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "0b882980-69c3-4848-b7a6-80af5f6740e9",
+      "title": "MPA Event",
+      "type": "Circulars",
+      "category": "Port Marine Circulars",
+      "publishedDate": "19 Jan 2018 17:15:23",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": " "
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "sc_no_16_of_2010.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/11001e6b-64ea-45c4-bcdd-78041bf60a27/sc_no_16_of_2010.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "f726d445-91be-49a9-acd3-2c068679d2fc",
+      "title": "HC UAT on Port circular",
+      "type": "Circulars",
+      "category": "Port Marine Circulars",
+      "publishedDate": "05 Jan 2018 17:31:39",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "This is a sample circular text"
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "c58f165d-9259-4b2c-b733-00bde9460fd8",
+      "title": "ABC",
+      "type": "Circulars",
+      "category": "Port Marine Circulars",
+      "publishedDate": "22 Dec 2017 11:46:46",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "5b142536-b642-4187-b1a1-cd49c6cc12f1",
+      "title": "Port marine circular bby HC",
+      "type": "Circulars",
+      "category": "Port Marine Circulars",
+      "publishedDate": "21 Dec 2017 11:16:36",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "This is HC!"
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "e5d8318a-a9e0-459d-a8bb-4872646b397e",
+      "title": "P.Marine Circular A",
+      "type": "Circulars",
+      "category": "Port Marine Circulars",
+      "publishedDate": "20 Dec 2017 18:21:26",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "Test Content"
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2e0ed8f8-3a9f-43f1-b479-e60bfa61066e",
+      "title": "MARITIME AND PORT AUTHORITY OF SINGAPORE REVOKES TRANSOCEAN OIL PTE LTD’S BUNKERING LICENCES",
+      "type": "Circulars",
+      "category": "Port Marine Circulars",
+      "publishedDate": "07 Nov 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc17-20.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/3a18e765-f9a4-4e0f-87b0-b3352e829276/pc17-20.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "090487ae-3b8e-4a85-bf6b-52b7ad997b25",
+      "title": "PORT DUES CONCESSION FOR CONTAINER VESSELS, BULK CARRIERS AND OFFSHORE SUPPORT VESSELS",
+      "type": "Circulars",
+      "category": "Port Marine Circulars",
+      "publishedDate": "26 Oct 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc17-18.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/e8d0a781-67b1-4c68-a927-49cc944f2ad8/pc17-18.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "db782492-de7a-413d-a8c4-f6f25baf9f49",
+      "title": "REVISION TO THE PRE-ARRIVAL NOTIFICATION (PAN)",
+      "type": "Circulars",
+      "category": "Port Marine Circulars",
+      "publishedDate": "26 Oct 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc17-19.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/7c300e78-5ae4-4702-b184-a0a06aa37fd6/pc17-19.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "f0ea6ae1-c62f-4177-8b21-1961e1eb7131",
+      "title": "WITHDRAWAL OF 50% PORT DUES CONCESSION FOR MARPOL COMPLIANT DOUBLE-HULLED PORT LIMIT BUNKER TANKERS FROM 1 JAN 2018",
+      "type": "Circulars",
+      "category": "Port Marine Circulars",
+      "publishedDate": "09 Oct 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc17-17.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/9583eed2-98b6-4ce8-ac2b-5f33cb919ab5/pc17-17.pdf?MOD=AJPERES"
+        }
+      ]
+    }
+  ]
+}

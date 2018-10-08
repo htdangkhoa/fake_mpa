@@ -1,0 +1,206 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "id": "c8b323ad-362e-4b8e-ba63-cfc9d92e0517",
+      "title": "circular",
+      "type": "Notices",
+      "category": "Port Marine Notices",
+      "publishedDate": "21 Dec 2017 17:40:08",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "asdasd"
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "5b142536-b642-4187-b1a1-cd49c6cc12f1",
+      "title": "Port marine circular bby HC",
+      "type": "Notices",
+      "category": "Port Marine Notices",
+      "publishedDate": "21 Dec 2017 11:16:36",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "This is HC!"
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "c6fed5dd-df0e-48a6-9e1d-05e022cf30fd",
+      "title": "A SENTINAL FISH CAGE INSTALLED OFF SELETAR DAM",
+      "type": "Notices",
+      "category": "Port Marine Notices",
+      "publishedDate": "29 Sep 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pn17-133.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/df84a818-810d-4321-a646-480894af8b50/pn17-133.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "b0dd38e7-67d5-410e-82eb-e41259e4bc94",
+      "title": "UPDATE ON THE IMPLEMENTATION OF THE BALLAST WATER MANAGEMENT CONVENTION (BWMC), 2004",
+      "type": "Notices",
+      "category": "Port Marine Notices",
+      "publishedDate": "07 Sep 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pn17-120.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/a3bfa977-034c-43d4-b799-970ab702f0aa/pn17-120.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "83699086-5979-44ba-865a-ea941f757ce6",
+      "title": "MOORING AND UNMOORING OF VESSELS OFF EASTERN PART OF TUAS VIEW EXTENSION",
+      "type": "Notices",
+      "category": "Port Marine Notices",
+      "publishedDate": "17 Aug 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pn17-115.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/aebcca62-3e73-4958-bc37-f289753be90f/pn17-115.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "2089acdf-2c6a-4c88-a88e-967e3510843a",
+      "title": "PUBLICATION OF NEW EDITION DUAL BADGED CHARTS 4042, 4043 AND 4044",
+      "type": "Notices",
+      "category": "Port Marine Notices",
+      "publishedDate": "14 Aug 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pn17-112.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/718f33ab-db28-43e3-bf3e-60328bd1a335/pn17-112.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "65a003a1-2789-45b4-b78d-64506d41192f",
+      "title": "PUBLICATION OF NEW EDITION CHARTS FOR SMALL CRAFT",
+      "type": "Notices",
+      "category": "Port Marine Notices",
+      "publishedDate": "14 Aug 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pn17-113.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/f6785399-e5ef-404c-8096-ea5d56933c20/pn17-113.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "52f9d89e-9686-4d29-96e9-59cae9d5fcdd",
+      "title": "NEW EDITIONS OF SINGAPORE ELECTRONIC CHARTS (ENC) TO BE RELEASED ON 17 JULY 2017",
+      "type": "Notices",
+      "category": "Port Marine Notices",
+      "publishedDate": "21 Jun 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pn17-090.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/873ae87a-ca3b-41db-a3c6-4b3e52a1d9d6/pn17-090.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "0630da8d-9f80-4da7-9144-e7176c757c18",
+      "title": "PUBLICATION OF NEW EDITION DUAL-BADGED CHART 4038",
+      "type": "Notices",
+      "category": "Port Marine Notices",
+      "publishedDate": "06 Jun 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pn16-13.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/87638a05-7cc8-4761-a35a-a6cc6e6c914c/pn16-13.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "03f7e875-129d-4920-ad2b-a35e491e921e",
+      "title": "PUBLICATION OF NEW EDITION DUAL BADGED CHARTS 4030, 4031 AND 4033",
+      "type": "Notices",
+      "category": "Port Marine Notices",
+      "publishedDate": "06 Jun 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pn16-12.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/98013b58-7aeb-4b3f-9047-98e5075a5d4a/pn16-12.pdf?MOD=AJPERES"
+        }
+      ]
+    }
+  ]
+}

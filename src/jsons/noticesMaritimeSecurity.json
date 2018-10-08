@@ -1,0 +1,206 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "id": "c58f165d-9259-4b2c-b733-00bde9460fd8",
+      "title": "ABC",
+      "type": "Notices",
+      "category": "Maritime Security Notices",
+      "publishedDate": "22 Dec 2017 11:46:46",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "8332fb64-6b9b-4bce-b341-b049d1faf6e1",
+      "title": "PLEASURE CRAFT SECURITY CODE",
+      "type": "Notices",
+      "category": "Maritime Security Notices",
+      "publishedDate": "28 Mar 2006 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc06-08.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/dff73c43-30af-40d5-a8f6-5b8157afd080/pc06-08.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "1e62ecff-9546-4fb2-b669-e35a3594dae7",
+      "title": "(A) GUIDANCE TO MASTERS, COMPANIES AND DULY AUTHORISED OFFICERS ON THE REQUIREMENT RELATING TO THE SUBMISSION OF SECURITY-RELATED INFORMATION PRIOR TO THE ENTRY OF A SHIP INTO PORT - MSC/CIRC.1130 (B) REVISION TO THE PRE-ARRIVAL NOTIFICATION OF SECUR",
+      "type": "Notices",
+      "category": "Maritime Security Notices",
+      "publishedDate": "01 Dec 2005 18:21:56",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc05-25.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/0449313f-0dfa-429b-a78f-1326c981cc57/pc05-25.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "abd16f72-8803-436b-97ee-4171e234da77",
+      "title": "GUIDANCE ON THE ACCESS OF PUBLIC AUTHORITIES, EMERGENCY RESPONSE SERVICES AND PILOTS ON BOARD SHIPS TO WHICH SOLAS CHAPTER XI-2 AND THE ISPS CODE APPLY - MSC/CIRC. 1156",
+      "type": "Notices",
+      "category": "Maritime Security Notices",
+      "publishedDate": "17 Jun 2005 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc05-16.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/811bac92-d96e-48d0-926f-c12fe7ba7990/pc05-16.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "a51f16ad-fe78-4804-abf5-5a47dba4e59b",
+      "title": "GUIDANCE RELATING TO THE IMPLEMENTATION OF SOLAS CHAPTER XI-2 AND THE ISPS CODE - MSC/CIRC. 1132",
+      "type": "Notices",
+      "category": "Maritime Security Notices",
+      "publishedDate": "07 Feb 2005 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc05-03.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/4d9e0355-0f7d-41b4-b922-da35e37195af/pc05-03.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "220ed8e6-ed22-4cac-8989-d65b3d574966",
+      "title": "(A) HARBOUR CRAFT SECURITY CODE AND HARBOUR CRAFT SECURITY LOG",
+      "type": "Notices",
+      "category": "Maritime Security Notices",
+      "publishedDate": "30 Jun 2004 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc04-18.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/61d5670e-c562-4a22-a7b4-3df52c9c5e57/pc04-18.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "2510dd91-681c-4802-803e-1042d3bf027b",
+      "title": "DECLARATION OF IMO SECURITY LEVEL",
+      "type": "Notices",
+      "category": "Maritime Security Notices",
+      "publishedDate": "29 Jun 2004 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc04-17.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/81f0144d-ee28-4752-99f2-5caa90dad155/pc04-17.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "c753974d-7871-4660-830b-cfe08c66a413",
+      "title": "MARITIME SECURITY: GUIDANCE RELATING TO THE IMPLEMENTATION OF SOLAS CHAPTER XI-2 AND THE ISPS CODE",
+      "type": "Notices",
+      "category": "Maritime Security Notices",
+      "publishedDate": "11 Jun 2004 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "Applicable to: This circular is for the attention of shipowners, shipmanagers, masters and officers.\n\nThe International Maritime Organization (IMO), recognizing and considering the need for additional information to assist Contracting Governments and the industry with the implementation of, and compliance with new SOLAS chapter XI-2 and the ISPS Code, has issued a circular, MSC/Circ.1111, to provide additional guidance on specific aspects of the measures to enhance maritime security.\nThe guidance relating to the implementation of SOLAS chapter XI-2 and the ISPS Code is given at Annex 1 of MSC/Circ.1111.\nThe Maritime Safety Committee (MSC), at its seventy-eighth session (12 to 21 May 2004), also adopted resolution MSC.159(78) on Interim guidance on control and compliance measures to enhance maritime security which is given at Annex 2 of MSC/Circ.1111.\nA copy of MSC/Circ.1111 can be found in our website.\nAny queries relating to this circular should be directed to Mr. Mark Lim at 6325 2410.\n\nLEE SENG KONG\nDIRECTOR OF MARINE"
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "54b20c06-ec1b-49cd-a756-cbc36c488855",
+      "title": "PROMULGATION OF LEGISLATION TO EFFECT SPECIAL MEASURES FOR THE ENHANCEMENT OF MARITIME SECURITY",
+      "type": "Notices",
+      "category": "Maritime Security Notices",
+      "publishedDate": "09 Jun 2004 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc04-12.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/2dfa619d-7475-4a11-9009-af85ad57e77d/pc04-12.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "8210af83-4267-4354-8cef-f84d05dca356",
+      "title": "CONTACT DETAILS FOR PROPER RECIPIENTS OF MARITIME SECURITY - RELATED COMMUNICATIONS",
+      "type": "Notices",
+      "category": "Maritime Security Notices",
+      "publishedDate": "09 Jun 2004 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc04-13.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/5a7d59f8-b9a3-4412-bf1c-79e59e713371/pc04-13.pdf?MOD=AJPERES"
+        }
+      ]
+    }
+  ]
+}

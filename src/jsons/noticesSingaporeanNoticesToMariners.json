@@ -1,0 +1,206 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "id": "0bd29079-29c1-467a-9ef9-4f06dcacf285",
+      "title": "final speech",
+      "type": "Notices",
+      "category": "Singaporean Notices to Mariners",
+      "publishedDate": "21 Dec 2017 12:05:27",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "final speech"
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "58f1b742-3930-4c81-9c11-b6282b836f0d",
+      "title": "notices for hc",
+      "type": "Notices",
+      "category": "Singaporean Notices to Mariners",
+      "publishedDate": "21 Dec 2017 11:59:19",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "notices for hc\n\n \n\n \n\nHELLO"
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "e92b7af6-a852-458e-b70c-448b3557f475",
+      "title": "NOV",
+      "type": "Notices",
+      "category": "Singaporean Notices to Mariners",
+      "publishedDate": "31 Oct 2017 16:30:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "notmarinov17.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/620385ef-258f-4357-bda5-6366147fc009/notmarinov17.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "5bd8a830-2b4a-4db1-aa6e-e5b1ac534e57",
+      "title": "OCT (Additional)",
+      "type": "Notices",
+      "category": "Singaporean Notices to Mariners",
+      "publishedDate": "20 Oct 2017 09:30:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "notmarioctb17.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/43f43ec4-bfdc-4735-b4d2-f2263c3dd9d6/notmarioctb17.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "2ea43631-fcd6-4727-a009-50eed589ba9b",
+      "title": "OCT (Additional)",
+      "type": "Notices",
+      "category": "Singaporean Notices to Mariners",
+      "publishedDate": "07 Oct 2017 01:45:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "notmariocta17.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/1e5eac28-8b3c-4573-8ee8-d25c4064a23f/notmariocta17.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "a75f2af9-a97d-46b5-8790-e053ad96e74e",
+      "title": "OCT",
+      "type": "Notices",
+      "category": "Singaporean Notices to Mariners",
+      "publishedDate": "29 Sep 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "notmarioct17.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/45300485-6bf8-4d79-bb51-922fd87809f8/notmarioct17.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "074a15b2-b166-4a6c-9c7b-95c929d4c4ea",
+      "title": "SEP (Additional)",
+      "type": "Notices",
+      "category": "Singaporean Notices to Mariners",
+      "publishedDate": "27 Sep 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "notmarisepb17.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/67e141c5-c578-4a0a-a05d-f1e5cf42f884/notmarisepb17.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "03f21218-3f6d-422e-b2e4-0b491a5cff95",
+      "title": "SEP (Additional)",
+      "type": "Notices",
+      "category": "Singaporean Notices to Mariners",
+      "publishedDate": "07 Sep 2017 11:15:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "notmarisepa17.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/4711cee9-5a65-4fa1-ba96-afb5b81bd546/notmarisepa17.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "3560c541-e8eb-4bbf-9b0c-281c17b8d3c9",
+      "title": "SEP",
+      "type": "Notices",
+      "category": "Singaporean Notices to Mariners",
+      "publishedDate": "31 Aug 2017 09:55:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "notmarisep17.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/f130c351-2cc2-4691-a6f4-c712e279290a/notmarisep17.pdf?MOD=AJPERES"
+        }
+      ]
+    },
+    {
+      "id": "3823e0b7-625a-4989-96fe-f6f05fda25c3",
+      "title": "AUG",
+      "type": "Notices",
+      "category": "Singaporean Notices to Mariners",
+      "publishedDate": "31 Jul 2017 11:45:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "notmariaug17.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/5782f70f-fed9-41b6-8bb8-f7f250840be0/notmariaug17.pdf?MOD=AJPERES"
+        }
+      ]
+    }
+  ]
+}

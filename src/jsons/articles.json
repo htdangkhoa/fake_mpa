@@ -1,0 +1,54 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "id": "0644d7f3-fe57-4b6a-9910-ef1d5c452de7",
+      "title": "Testing of Autonomous underwater vehicle (AUV) off small craft anchorage 'A'",
+      "type": "News",
+      "category": "",
+      "publishedDate": "27 Jun 2018 10:58:42",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "test"
+        }
+      ]
+    },
+    {
+      "id": "0483c969-4e51-4030-a831-96d384837e5a",
+      "title": "Testing of Autonomous underwater vehicle (AUV) off small craft anchorage 'A'",
+      "type": "News",
+      "category": "",
+      "publishedDate": "27 Jun 2018 10:45:18",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "test"
+        }
+      ]
+    },
+    {
+      "id": "23bace76-89df-4e94-9093-394bf19c0833",
+      "title": "MPA Event 2",
+      "type": "Circulars",
+      "category": "Port Marine Circulars",
+      "publishedDate": "19 Jan 2018 18:28:31",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "sc_no_16_of_2010.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/b21ea5aa-b96f-4576-a4f6-f4c593507004/sc_no_16_of_2010.pdf?MOD=AJPERES"
+        }
+      ]
+    }
+  ]
+}

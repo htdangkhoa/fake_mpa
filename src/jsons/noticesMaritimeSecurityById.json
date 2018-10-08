@@ -1,0 +1,26 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "id": "074a15b2-b166-4a6c-9c7b-95c929d4c4ea",
+      "title": "SEP (Additional)",
+      "type": "Notices",
+      "category": "Maritime Security Notices",
+      "publishedDate": "27 Sep 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "notmarisepb17.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/67e141c5-c578-4a0a-a05d-f1e5cf42f884/notmarisepb17.pdf?MOD=AJPERES"
+        }
+      ]
+    }
+  ]
+}

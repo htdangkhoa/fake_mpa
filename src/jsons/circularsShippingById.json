@@ -1,0 +1,26 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "id": "db782492-de7a-413d-a8c4-f6f25baf9f49",
+      "title": "REVISION TO THE PRE-ARRIVAL NOTIFICATION (PAN)",
+      "type": "Circulars",
+      "category": "Shipping Circulars",
+      "publishedDate": "26 Oct 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": ""
+        },
+        {
+          "type": "file",
+          "name": "PDF File",
+          "fileName": "pc17-19.pdf",
+          "value": "http://www-t.mpa.gov.sg/web/wcm/connect/www/7c300e78-5ae4-4702-b184-a0a06aa37fd6/pc17-19.pdf?MOD=AJPERES"
+        }
+      ]
+    }
+  ]
+}
