@@ -1,0 +1,426 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": [
+    {
+      "id": "0644d7f3-fe57-4b6a-9910-ef1d5c452de7",
+      "title": "Testing of Autonomous underwater vehicle (AUV) off small craft anchorage 'A'",
+      "type": "News",
+      "category": "",
+      "publishedDate": "27 Jun 2018 10:58:42",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "test"
+        }
+      ]
+    },
+    {
+      "id": "0483c969-4e51-4030-a831-96d384837e5a",
+      "title": "Testing of Autonomous underwater vehicle (AUV) off small craft anchorage 'A'",
+      "type": "News",
+      "category": "",
+      "publishedDate": "27 Jun 2018 10:45:18",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "test"
+        }
+      ]
+    },
+    {
+      "id": "b85d7617-c859-40b5-a0cd-2b9b37339b1e",
+      "title": "MPA Steps Up Efforts To Enhance Safety At Sea During The Year-End Festive Season",
+      "type": "News",
+      "category": "",
+      "publishedDate": "21 Dec 2017 17:59:25",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "weq"
+        }
+      ]
+    },
+    {
+      "id": "f18afc7a-559c-41c6-b364-2f80c9a043a6",
+      "title": "Ghost",
+      "type": "News",
+      "category": "",
+      "publishedDate": "21 Dec 2017 17:41:45",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "qwqewqwqe"
+        }
+      ]
+    },
+    {
+      "id": "8eda35a1-eee5-4657-965e-19af6c986a13",
+      "title": "cpf lidw",
+      "type": "News",
+      "category": "",
+      "publishedDate": "21 Dec 2017 17:16:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "wer"
+        }
+      ]
+    },
+    {
+      "id": "b811d504-bbee-45a7-9d2e-5c719563b79c",
+      "title": "def",
+      "type": "News",
+      "category": "",
+      "publishedDate": "21 Dec 2017 17:07:31",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "wqeqwe"
+        }
+      ]
+    },
+    {
+      "id": "d2d2eb74-1a38-424e-8362-e455c4b3d75b",
+      "title": "abc",
+      "type": "News",
+      "category": "",
+      "publishedDate": "21 Dec 2017 17:06:52",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "wqe"
+        }
+      ]
+    },
+    {
+      "id": "4032bfa6-120f-4b6c-81ed-0d025e5b8f0b",
+      "title": "new alert 3 hc",
+      "type": "News",
+      "category": "",
+      "publishedDate": "21 Dec 2017 11:48:36",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "new alert 3 hc"
+        }
+      ]
+    },
+    {
+      "id": "123383e2-b312-4b78-8c9e-5b9bcd358c06",
+      "title": "news release hc",
+      "type": "News",
+      "category": "",
+      "publishedDate": "21 Dec 2017 11:39:38",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "news release hc"
+        }
+      ]
+    },
+    {
+      "id": "98ab61e9-af66-47ff-ba5f-786f9419174e",
+      "title": "MPA news HC",
+      "type": "News",
+      "category": "",
+      "publishedDate": "21 Dec 2017 11:19:30",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "Bonius Issue!"
+        }
+      ]
+    },
+    {
+      "id": "83e415f0-33b7-4cfb-9479-9a6104ce84cd",
+      "title": "Speeches A",
+      "type": "News",
+      "category": "",
+      "publishedDate": "20 Dec 2017 18:25:34",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "Test Content"
+        }
+      ]
+    },
+    {
+      "id": "e7e33366-3b95-47c1-8f2f-53a46bea6642",
+      "title": "[Test] Email 2",
+      "type": "News",
+      "category": "",
+      "publishedDate": "20 Dec 2017 15:33:08",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "ssfddasd"
+        }
+      ]
+    },
+    {
+      "id": "72474b87-7a98-4900-9b42-8833278c4f24",
+      "title": "[Test] Email 1",
+      "type": "News",
+      "category": "",
+      "publishedDate": "20 Dec 2017 15:15:48",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "dadddd"
+        }
+      ]
+    },
+    {
+      "id": "08a0abcf-8dc4-4cc8-a1be-1ff7e10b3dd7",
+      "title": "[Email] Test 2",
+      "type": "News",
+      "category": "",
+      "publishedDate": "20 Dec 2017 12:04:27",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "testing"
+        }
+      ]
+    },
+    {
+      "id": "d32fcc0b-7a05-43a1-9276-e55cbd6b835d",
+      "title": "[Email] Test 3",
+      "type": "News",
+      "category": "",
+      "publishedDate": "20 Dec 2017 12:01:03",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "testing"
+        }
+      ]
+    },
+    {
+      "id": "e5a20174-f1f7-4c44-a7b3-b312f8fde373",
+      "title": "[Email] Test 2",
+      "type": "News",
+      "category": "",
+      "publishedDate": "20 Dec 2017 11:52:06",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "Testing Testing Testing Testing Testing \n\nTesting Testing Testing Testing \n\nTesting Testing Testing \n\nTesting Testing \n\nTesting \n\nTesting Testing \n\nTesting Testing Testing \n\nTesting Testing Testing Testing \n\nTesting Testing Testing Testing Testing "
+        }
+      ]
+    },
+    {
+      "id": "d54d9648-62ce-42c5-b47d-f271ffd85aa8",
+      "title": "[Email] Test",
+      "type": "News",
+      "category": "",
+      "publishedDate": "20 Dec 2017 11:25:13",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing Testing \n\nTesting Testing Testing Testing Testing Testing Testing \n\nTesting Testing Testing Testing Testing \n\nTesting Testing Testing \n\nTesting "
+        }
+      ]
+    },
+    {
+      "id": "e3d316e2-bcde-41a8-853f-4be90bd2b370",
+      "title": "[Test] Mail",
+      "type": "News",
+      "category": "",
+      "publishedDate": "11 Dec 2017 18:33:47",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "aaa"
+        }
+      ]
+    },
+    {
+      "id": "3a0e0a54-3e18-4a48-894c-935c18fec121",
+      "title": "News Releases",
+      "type": "News",
+      "category": "",
+      "publishedDate": "11 Dec 2017 17:34:12",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "test"
+        }
+      ]
+    },
+    {
+      "id": "7df41305-a830-4b4a-aee3-81175b1c2920",
+      "title": "Speeches A",
+      "type": "News",
+      "category": "",
+      "publishedDate": "11 Dec 2017 17:27:01",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "Test Content"
+        }
+      ]
+    },
+    {
+      "id": "4587235c-5cfd-46e1-8850-8d1eb1adcb47",
+      "title": "MPA Introduces Service Enhancements And Training For Singapore-Registered Ships And Maritime Companies",
+      "type": "News",
+      "category": "",
+      "publishedDate": "17 Nov 2017 10:55:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "More than 4,600 ships flying the Singapore flag will benefit from service enhancements to be introduced from November 2017 by the Maritime and Port Authority of Singapore (MPA). Singapore-incorporated maritime companies will also receive assistance in the form of training on sustainability reporting. These initiatives were announced by Chief Executive of MPA, Mr Andrew Tan, at the Singapore Registry of Ships (SRS) Forum today. \n\n \n\n2 Themed \"Innovation in Challenging Times\", this year's SRS Forum focuses on how companies could leverage on innovative practices such as Blockchain and e-certification to improve work processes.  \n\n \n\n3 Mr Andrew Tan said, \"IoT, digitalisation and new technologies such as blockchain and smart drones are changing the way we work. To stay ahead, the Singapore Registry of Ships needs to embrace these technologies to offer value-added services to its customer. As a responsible flag administration, we will continue to find new ways to promote clean, efficient and sustainable shipping.\" \n\n \n\nService enhancements & digitalising Singapore-registered ships\n\n \n\n24/7 hotline for urgent assistance\n\n \n\n4 Effective 1 November 2017, owners, managers and operators of Singapore-registered ships requiring urgent assistance after office hours will be able to call MPA’s new 24/7 customer service hotline at (+65) 6-CALL-SRS (6-2255-777). The 24/7 hotline was introduced following feedback from the industry that a hotline would be useful for them to contact MPA officers after office hours for urgent cases relating to crewing, registry and ship’s technical matters. \n\n \n\nE-certs and expansion of Marinet online services \n\n \n\n5 Currently, MPA authorises Recognised Organisations (ROs) to issue electronic certificates (E-Certs) to Singapore-registered ships. By end of this year, in addition to E-Certs issued by ROs, MPA will also issue e-certificates directly to Singapore-registered ships. The use of E-Certs will save time and costs. It reduces the need for hard copies, allows for instantaneous and simultaneous transmissions of documents as well as reduce the risk of fraud. \n\n \n\n6 Singapore will be among the first Flag Administrations in Asia to issue E-Certs. Before E-Certs, hard copies of over two dozen certificates such as Certificate of Registry, Safe Manning Certificate and Load Line Certificates among others, are kept on board ships to provide proof that the vessels are compliant with the various regulations or conventions applicable to them. Converting the hardcopy certificates to E-Certs reduces the manpower and financial commitments in the preparation, printing and delivery of these certificates.\n\n \n\n7 In addition, MPA has also expanded the Marinet to include two new online services namely application for ship registration and appointment of manager form as well as application for various documents  issued by SRS. The expansion will provide timely issuance of certificate/declaration to the vessel.\n\n \n\nLeveraging on new technologies to conduct ship survey\n\n \n\n8 Increasingly, new technologies such as aerial drones armed with cameras and ship inspecting robots are being used for ship surveys. Such methods of remote inspection are safer and can save time and cost for ship-owners as it eliminates the need for traditional method of survey such as erecting staging in the cargo tanks. Marine surveyors also do not have to risk their lives by having to climb high places or be exposed to adverse conditions to check for defects. \n\n \n\n9 Following several trials using drones to survey cargo tanks of ships, MPA is developing the acceptance criteria for the usage of such remote inspection techniques on board Singapore-registered ships. The acceptance criteria will be ready by first quarter next year.\n\nPromoting sustainable shipping\n\n \n\n10 To encourage more maritime companies comply with the Singapore Stock Exchange’s (SGX) mandatory sustainability reporting  requirements, a Memorandum of Understanding (MOU) was signed at the forum. The MOU seeks to provide Singapore-incorporated maritime companies listed on SGX with training on sustainability reporting, organise a CEO/CFO Roundtable of which the discussion will be compiled into a Maritime Sustainability/Integrated Reporting Guidelines and launch a MPA-sponsored award in the GCNS Singapore Apex Corporate Sustainability Award. About 43 maritime companies are expected to benefit from the training. \n\n \n\n11 The MOU was signed by Mr Andrew Tan and Mr Wilson Ang, Executive Director of GCNS. \n\n \n\n12 The forum also saw MPA’s Green Ship  certificates presented to 78 Green Ships from 48 companies. Two companies were also recognised for contributing up to the 89th million GT milestone in the SRS tonnage . About 250 senior maritime professionals attended the forum. \n\n \n\n\n\n MPA Chief Executive, Andrew Tan, giving his opening address at the SRS Forum 2017.\n\n \n MPA signed MOU Global Compact Networks to provide Singapore-incorporated Maritime companies with training on sustainability reporting.\n \n\n\n http://www-t.mpa.gov.sg/web/wcm/connect/www/19913e18-c2c8-4d82-90d2-18478fbf0b7a/3/img.png?MOD=AJPERES&CACHEID=19913e18-c2c8-4d82-90d2-18478fbf0b7a/3 \n Mr Rene Piil Pedersen receiving the Green Ship certificate on behalf of A.P. Moeller Singapore Pte Ltd."
+        }
+      ]
+    },
+    {
+      "id": "a3fb5c81-7174-44ab-bd4a-0a193b2567bd",
+      "title": "Final update – Incident involving DREDGER JBB DE RONG 19 and TANKER KARTIKA SEGARA",
+      "type": "News",
+      "category": "",
+      "publishedDate": "10 Nov 2017 13:45:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "1. Following the above incident in Singapore territorial waters on 13 September 2017, a body has been found and positively identified as the last missing crew member of dredger JBB DE RONG 19. The body was found inside the accommodation structure of the dredger by divers during salvage operations on 5 November 2017. \n\n \n\n2. As all 12 crew members on board JBB DE RONG 19 are now accounted for, with seven rescued and five bodies recovered, search and recovery operations have concluded. "
+        }
+      ]
+    },
+    {
+      "id": "b3611b11-db2e-441b-8851-0f23da10c881",
+      "title": "Maritime And Port Authority Of Singapore Revokes Transocean Oil Pte Ltd’s Bunkering Licences",
+      "type": "News",
+      "category": "",
+      "publishedDate": "06 Nov 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "The Maritime and Port Authority of Singapore (MPA) has revoked the bunker supplier and bunker craft operator licences of Transocean Oil Pte Ltd (“Transocean”), with effect from 6 November 2017. Transocean will no longer be allowed to operate as bunker supplier and bunker craft operator in the Port of Singapore.\n\n \n\n2        As part of MPA’s ongoing regulatory efforts to ensure the integrity of bunkering in Singapore, checks were conducted on Transocean in March and April this year. MPA’s investigations revealed that there were several falsifications of records and discrepancies in the stock movement logbooks on board the bunker tankers operated by Transocean, which breached the terms and conditions of their bunker supplier and bunker craft operator licences. \n\n \n\n3        MPA reminds all licensed bunker suppliers and bunker craft operators to adhere strictly to the terms and conditions of their bunker licences. MPA will take firm action against any licensee who has acted in contravention of its licence(s), including the suspension or revocation of licence(s)."
+        }
+      ]
+    },
+    {
+      "id": "a334a85c-7179-498e-843d-6ed89073a98d",
+      "title": "MPA and Shell Shipping & Maritime Sign MOU to Advance Clean Fuels Technology, Automation and Port Digitalisation",
+      "type": "News",
+      "category": "",
+      "publishedDate": "31 Oct 2017 15:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": " \n \n\n          The Maritime and Port Authority of Singapore (MPA) and Shell Eastern\nTrading (PTE) LTD (Shell) have signed a Memorandum of Understanding (MOU), to\ncooperate in the research and development and test-bedding of projects within\nthe maritime industry in areas of clean fuel technologies, automation and digitalisation.\n \n2.       Under the MOU, MPA in\npartnership with Shell, will collaborate on the following key areas: \n\n Developing innovative solutions to reduce emissions in the port\n Explore greater use of automation in the port\n Support study and development of digitalisation efforts, including\nelectronic data exchanges among various stakeholders, to enhance safety, efficiency\nand security of maritime communication. \n\n \n3.    The MOU was signed by Mr\nNick Potter, General Manager, Asia Pacific-Middle East, Shipping & Maritime\nand Mr Andrew Tan, Chief Executive of MPA at the Singapore Maritime Institute\n(SMI) Forum 2017, an annual event held to foster closer\ncollaboration between industry, research institutions and solution providers. Witnessing the signing ceremony was Senior Minister of State for\nTransport and Health, Dr Lam Pin Min. \n \n4.     “Singapore will continue to\ninvest in future capabilities to build up a strong maritime cluster to\ngenerate good employment opportunities and stay ahead of the competition. We\nare pleased to work with industry partners like Shell to\ndrive the\ndigital transformation of the maritime industry in Singapore in the areas of\nelectronic data interchange, automation, intelligent systems and cleaner energy,” said Mr Andrew Tan.\n\n http://www-t.mpa.gov.sg/web/wcm/connect/www/d7c2de3e-bb79-47ad-ae11-3696c440c1c4/1/img.jpeg?MOD=AJPERES&CACHEID=d7c2de3e-bb79-47ad-ae11-3696c440c1c4/1 The MOU was signed by Mr Nick Potter, General manager, Asia Pacific-Middle East, Shipping & Maritime and Mr Andrew Tan, Chief Executive of MPA at the Singapore Maritime Institute (SMI) Forum 2017.\n\n \n http://www-t.mpa.gov.sg/web/wcm/connect/www/d7c2de3e-bb79-47ad-ae11-3696c440c1c4/2/img.jpeg?MOD=AJPERES&CACHEID=d7c2de3e-bb79-47ad-ae11-3696c440c1c4/2 \n Witnessing the signing ceremony was Senior Minister of State for Transport and Health, Dr Lam Pin Min."
+        }
+      ]
+    },
+    {
+      "id": "70c10907-8492-4910-abd7-6bfd701ca921",
+      "title": "Update 3 – Incident involving DREDGER JBB DE RONG 19 and TANKER KARTIKA SEGARA",
+      "type": "News",
+      "category": "",
+      "publishedDate": "23 Oct 2017 11:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "1 Following the above incident in Singapore territorial waters on 13 September 2017, two new bodies have been identified to be missing crew members of JBB DE RONG 19.  \n \n\n\n \n\n2 The first body was found south of Raffles Lighthouse in Singapore waters on 16 September 2017 and family members of the crew member have since claimed the body. A second body was found 1.9 nautical miles northwest of Tanjung Sengkuang in Indonesian waters, off Batam, on 17 September 2017 and is in the process of being claimed by family members.  \n\n \n\n3 Of the 12 crew members on JBB DE RONG 19, seven have been rescued, and four bodies, including the two new ones, have been recovered and identified. The last crew member remains missing.  \n\n \n\n4 The Maritime and Port Authority of Singapore will continue to issue safety broadcasts to ships in the area to keep a lookout for the last crew member.    "
+        }
+      ]
+    },
+    {
+      "id": "45513781-b264-42bd-a79e-df45c1b34ccf",
+      "title": "OPENING ADDRESS BY MR ANDREW TAN, CHIEF EXECUTIVE, MARITIME AND PORT AUTHORITY OF SINGAPORE, AT SMOU AWARDS 13 OCTOBER 2017",
+      "type": "News",
+      "category": "",
+      "publishedDate": "16 Oct 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "Opening Address by CE MPA\n\n \n\n1 Greetings. Happy to be here at the SMOU bursary & scholarship awards presentation ceremony. As a scholarship holder myself, appreciate the opportunity the government has given me to pursue an overseas education which my parents would not have been able to afford. I know many of you appreciate the hard work that our parents have put in to bring us up – and we may not say this as much as we should - so let me nudge this process a little by encouraging everyone to turn to your parents to say thank you! And I know every little bit of help you get from not only yourselves but partners as SMOU and Wavelink Enterprise among others, go some way to assist. So thank you to our bursary and scholarship award sponsors as well!\n\n \n\n2 This morning, a total of $29,300 will be presented to 44 recipients. The scholarships are fully sponsored by SMOU while the bursaries are jointly funded by SMOU and NTUC U Care Education Co-funding scheme, which allows the union to provide more support to the low income members’ children. SMOU’s social enterprise, Wavelink Co-operative, will also be sponsoring 21 members’ children with Wavelink Book Awards worth a total of $9,600.\n\n \n\n3 These are exciting times for the maritime industry in Singapore. Many new developments to share with you. We have plans for a new port, twice the current capacity, that is being built at Tuas. This port will deploy state of the art technologies, from automated guided vehicles to remote quay cranes. Our new port will serve the larger vessels of the mega shipping alliances as the industry consolidates into a few key players. We will anchor all these key players in Singapore.\n\n \n\n4 Beyond the port, we are also a leading maritime cluster, The Menon Report & Xinhua-Baltic Exchange Index names us as the world’s leading maritime centre. All kinds of maritime services have set up a presence in Singapore. Beyond the ship owners and operators, we now have banks, classification societies, P&I Clubs and law firms all represented in Singapore. We are determined to grow our maritime cluster further by attracting more of these players to deepen and expand their presence in Singapore.\n\n \n\n5 Beyond the port and IMC, we are also witnessing new developments that will impact on the industry. New technologies, including disruptive technologies, are also finding their way into the maritime sector. For example, digital technologies are allowing vessels to be better monitored through a vast array of sensors and IoT, and such monitoring can be done from shore. Blockchain is being tested out in areas such as electronic bills of lading. Mobile apps are becoming popular ways to allow for B2B and B2C transactions. With the rise of e-commerce, online platforms such as Alibaba and Amazon are connecting businesses and consumers in ways never seen before.\n\n \n\n6 All these changes will bring both opportunities and challenges. The maritime sector is one of the oldest sectors in Singapore. Singapore’s growth as a global city has followed the fortunes of its port, from the humble beginnings to what it is today.  Some of you may wonder whether we can compete against other ports and maritime centres as more ports are built, as new trade routes are being explored or developed, as others learn and catch up with us.\n\n \n\n7 Let me assure you that we are not being complacent. We cannot be complacent. While we cannot compete on the basis of cost alone, we must be able to compete on the basis of our wits, ability to think out of the box and to take calculated bets. All these attributes are exactly the kind of attributes that the maritime industry likes. It is an industry that is not based on whether you simply have a piece of paper. It is based on skills, knowledge, experience and relationships. \n\n \n\n8 Take for example, Mr Abu Bakar Mohd Nor, who recently won the Berita Harian Achiever of the Year 2017 Award. Coming from a humble family, he worked all his way up with just a diploma from Singapore Polytechnic to become MD (gas & Specialised Vessels) for Keppel Offshore & Marine and MD of Singmarine. And there are many like him in the maritime sector.\n\n \n\n9 Let me also add that a maritime career is not associated with seafaring as many people think. There are growing opportunities for shore based careers as our maritime cluster grows. Take for example Capt Cheong Kwee Thiam who is here with us today. Capt Cheong holds a CoC Class 1 and sailed with NOL before holding senior operational management roles in the office of NOL and Pacific Carrier Lines (PCL). He is currently a senior lecturer at the Singapore Maritime Academy (SMA). His son, Eldrick Cheong is also with us today receiving a scholarship award for NUS.\n\n \n\n10 The best part of being part of the maritime cluster in Singapore are the unique partnerships of all the stakeholders. The Singapore Maritime Cluster is a cohesive community.\n\n \n\n11 Today, we see all this at work. The tripartite relationship between the government, unions and industry brings everyone together for the common good. It forms the bedrock of our efforts as we tackle the new challenges together. I am confident we can overcome all odds if we work together and step into a future that is exciting as it is increasingly complex.\n\n \n\n12 Last but not least, to all of you who are receiving an award or bursary. Never forget that you must dream. Not dream small, but dream big. Singapore is where it is today because we never allowed our size to constrain our aspirations. We have always asked ourselves what can we do to make ourselves relevant to the rest of the world. And I hope that one day, all of you will do Singapore proud by excelling in your passions, whatever that may be. So go forth, do your best. Find your moon shot!"
+        }
+      ]
+    },
+    {
+      "id": "76685879-0c39-4eea-b056-6a04bb4844ab",
+      "title": "Building Global Leadership from Singapore",
+      "type": "News",
+      "category": "",
+      "publishedDate": "09 Oct 2017 10:45:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "MPA Academy’s Maritime Public Leaders’ Programme trains more than 130 Global Maritime Leaders from Over 60 Countries \n\n \n\n  The Maritime and Port Authority of Singapore’s (MPA) training arm, the MPA Academy (MPAA) and the Nanyang Technological University (NTU), will jointly organise the 7th Maritime Public Leaders’ Programme (MPLP) from 9 to 13 October 2017. Since its launch in 2011, the programme has trained more than 130 senior maritime officials from over 60 countries. \n\n \n\n2 This year, the programme welcomes 20 new distinguished participants from various regions including Africa, Asia, the Caribbean, Europe, Latin America and the Middle East. \n\n \n\n3 As one of three flagship programmes organised by MPAA, this executive programme will cover a wide spectrum of industry-relevant topics, ranging from port planning and management, shipping economics and finance, maritime law and security, to public leadership and governance. Specially designed for high-level senior executives from maritime administrations around the world, participants will attend classroom sessions conducted in consultation with industry experts and prominent maritime leaders, visit key maritime facilities otherwise not open to the public, such as PSA and Jurong Port terminals, as well as have the opportunity to network with key industry players.  \n\n \n\n4 Dr Rashid Al Kiyumi, Director-General of Maritime Affairs, Ministry of Transport and Communications Oman, said, “The maritime industry is an integrated, dynamic and competitive industry. Therefore, to be efficient and effective in such an industry, one should be updated with trends, policies and current practices. Through participation in programmes such as the MPLP, I am able to establish a network of regional counterparts for future interactions. I hope to apply and implement the knowledge that I will gain to establish efficient methods of governance and operations in my country.”\n\n \n\n5 Capt Oscar Gomez, Permanent Representative to the IMO, Paraguay Embassy in London, UK, said, “The 7th MPLP is an opportunity to optimise my capacity for public leadership and government. This is directly relevant to the promotion, development and performance of the Paraguayan port system and river navigation in the Paraguay-Paraná waterway. Through the application of my knowledge, I hope to be able to manage projects and proposals applicable in the fluvial-maritime area of Paraguay.\"\n\n \n\n6 Mr Andrew Tan, Chief Executive of MPA, added, \"The MPLP is one of the flagship leadership development programmes of the MPA Academy that seeks to train future maritime leaders in the areas of port management, maritime industry development, and best practices in safety, efficiency and innovation, all of which are hallmarks of Maritime Singapore. This year, we welcome 20 participants from 18 countries.\""
+        }
+      ]
+    },
+    {
+      "id": "3c0aa947-49f1-4c2e-8390-a1b124ec8648",
+      "title": "10th Co-operation Forum on Safety of Navigation and Environmental Protection in the Straits of Malacca and Singapore",
+      "type": "News",
+      "category": "",
+      "publishedDate": "03 Oct 2017 10:31:33",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "10th Co-operation\nForum on Safety of Navigation and Environmental Protection in the Straits of\nMalacca and Singapore\nSingapore, Indonesia and Malaysia\nsign MOU for Phase Two of Joint Hydrographic Survey with the Malacca Strait\nCouncil of Japan \n \n          To demonstrate multilateral cooperation\nbetween littoral states and stakeholders to improve navigational safety in the Straits\nof Malacca and Singapore (SOMS), Phase Two of a Joint Hydrographic Survey was\nformally launched via a Memorandum of Understanding (MOU) signed today at the\n10th Co-operation Forum held from 2nd to 3rd\nOctober 2017 at Kota Kinabalu, Malaysia. Besides the littoral states, the\nsurvey is supported by the Malacca Strait Council (MSC) of Japan.\n \n2        Phase Two, which is a continuation from Phase One, will cover the\nremaining areas of the Traffic Separation Scheme (TSS) within the SOMS which\nare shallower than 30m. The data obtained from the survey would be used to\nproduce up-to-date, large-scale nautical charts for safe navigation and better\nvoyage planning in the SOMS, one of the busiest waterways in the world. It\nwould also be put to good use by the industry and academia for research in\nrelevant areas. \n \n3     Hosted by the Marine\nDepartment of Malaysia this year, the Co-operative Forum provides an avenue for\nthe littoral states and other stakeholders of the SOMS to exchange views on\nissues of common interest in the Straits. It is one of three components of the\nCo-operative Mechanism[1]\n \n \n on Safety of Navigation and Environmental Protection in the SOMS. \n\n \n4    Signatories to the MOU\nincluded: Mr Andrew Tan, Chief Executive, Maritime and Port Authority of\nSingapore, Mr Nyoman Sukayadnya, on behalf of Director-General of Sea\nTransportation, Director of Navigation, Dr Harjo Susmoro, Chief of Indonesian\nHydrographic Centre, Mr Tatsuhiko Miyazaki, President, Malacca Strait Council\nof Japan and Dato’ Hj. Baharin Bin Dato’ Abdul Hamid, Director-General of\nMalaysia Marine Department.\n \n5    Mr Andrew Tan, Chief\nExecutive of MPA said, \"The Joint Hydrographic Survey for the SOMS will\nallow navigational charts to be updated with the latest nautical information\nand help improve navigational safety in one of the world's most well-used\nwaterways. It reflects the joint efforts of the three littoral states in\npromoting safety of navigation in the Straits.\"\n\n\n\n\n Caption: Signatories to the MOU for Phase Two of the\nJoint Hydrographic Survey at the 10th Co-operation Forum\n\n\n \n \n \n [1] The Co-operative Mechanism is the key platform for the littoral states of the SOMS, user states, the industry and other stakeholders to engage in regular dialogue, exchange information and share valuable perspectives on important issues relating to the SOMS."
+        }
+      ]
+    },
+    {
+      "id": "b902d90e-d76c-4745-9ca9-8fae4ae45571",
+      "title": "120 Volunteers Collect Marine Trash On Kayaks In Conjunction With International Coastal Clean-Up Day",
+      "type": "News",
+      "category": "",
+      "publishedDate": "30 Sep 2017 10:30:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "120 volunteers turned up for the Clean-Up on Kayak activity organised by Maritime and Port Authority of Singapore (MPA) at Sembawang PA Water Venture this morning. Held in conjunction with International Coastal Clean-up Day (ICC Day), 100 volunteers were on kayaks to collect marine debris in Singapore waters while 20 remained on land to sort and record the marine litter for data analysis.\n\n \n\n2. Clean-Up on Kayak is an initiative started by MPA last year to raise greater awareness on the importance of protecting Singapore’s marine environment to young Singaporeans. 60 volunteers participated in the inaugural event in 2016. The ICC Day is an annual event that encourages people around the world to remove trash from the world’s beaches and waterways.  \n\n \n\n\n \n\n3. Marine debris not only cause pollutions that could harm the environment, they can also be navigational hazards to ships. To keep our port waters clean and ensure that vessels are able to navigate safety, MPA deploys garbage collection and flotsam retrieval craft to collect garbage from ships anchored in our port and to retrieve flotsam and debris along the common channels, fairways and anchorages. Since February this year, MPA increased the number of craft deployed daily from four to five with the twin results of covering a wider area and clearing these marine debris at a faster pace.\n\n \n\n\n \n\n4. MPA also works with other government agencies such as NEA and NParks as well as the maritime community to keep Singapore waters and the beaches clean.  Mr Andrew Tan, Chief Executive of MPA, said, “Keeping our waters clean is a shared responsibility and we would like to support more ground-up efforts from the community to encourage fellow Singaporeans to do their part for marine environment sustainability.”\n\n \n\n5. To galvanise ground-up efforts and greater participation from the community, MPA is identifying partners to organise the Clean-Up on Kayak activity on a quarterly instead of annual basis. The Republic Polytechnic (RP) is taking the lead to organise a session in March 2018. Students from the School of Outdoor and Adventure Learning will plan what, where and how to run the Clean-Up on Kayak activity next March. \n\n \n\n6. Mr Aqil Luqman Bin Zamberi, a second-year student from Republic Polytechnic who is pursuing a Diploma in Outdoor and Adventure Learning Republic Polytechnic, said, “This is a meaningful activity and we are excited with the opportunity to lead the March event next year. We hope that other environmental enthusiasts will also take up the challenge to encourage fellow Singaporeans to join us in keeping Singapore waters clean and do their part for the environment.” "
+        }
+      ]
+    },
+    {
+      "id": "1722db49-eb06-449b-b9f4-9bb7e7fc717e",
+      "title": "OPENING ADDRESS BY MR ANDREW TAN, CHIEF EXECUTIVE, MARITIME AND PORT AUTHORITY OF SINGAPORE, AT THE CLEAN-UP ON KAYAK EVENT ON SATURDAY, 30 SEPTEMBER 2017, 9.30AM, AT SEMBAWANG PARK",
+      "type": "News",
+      "category": "",
+      "publishedDate": "30 Sep 2017 00:00:00",
+      "data": [
+        {
+          "type": "text",
+          "name": "Content",
+          "value": "Ladies and Gentlemen,\n\n\n \n \n \n\n\n        Good morning. Thank you for spending your Saturday morning to participate in the Clean-Up on Kayak event, held in conjunction with International Coastal Clean-up Day (ICC Day). This is the second year that we organizing this meaningful activity to keep our waters and beaches clean.  \n\n\n \n \n \n\n\n Clean-Up on Kayak Initiative\n\n\n 2.    The Maritime and Port Authority of Singapore, or MPA, started the ‘Clean-Up on Kayak’ initiative last year to cultivate a sense of awareness and responsibility for marine environment. We had about 60 volunteers in the inaugural event last year.  \n\n\n \n \n \n\n\n 3.    I understand that for this year, we have twice the number and we have 120 volunteers with us this morning. About 100 of you will be on the kayaks to collect marine debris and another 20 will be on land to sort the marine litter for data analysis. I am heartened to see your enthusiasm to do your part for our marine environment. \n\n\n  \n\n\n \n \n \n\n\n Marine pollution\n\n\n 4.    Globally there are increasing concerns with marine pollution as it not only harms the environment and marine life but also poses potential threats to navigational safety. \n\n\n \n \n \n\n\n 5.    To keep our port waters clean and ensure that vessels are able to navigate safety, MPA deploys garbage collection and flotsam retrieval craft daily to collect garbage from ships anchored in our port and to retrieve flotsam and debris along the common channels, fairways and anchorages. Since February this year, MPA has increased the number of craft deployed daily from four to five with the twin results of covering a wider area and clearing these marine debris at a faster pace.\n\n\n \n \n \n\n\n Protecting the environment is a shared responsibility \n\n\n 6.    MPA also works with other government agencies such as NEA and NParks, and liaise with owners of waterfront properties to ensure that they also do their part to clear their own areas of flotsam and debris.\n\n\n \n \n \n\n\n 7.    Keeping our waters clean is a shared responsibility. Together with MPA’s existing marine environmental protection and safety efforts, we hope this Clean-Up on Kayak event can help young Singaporeans understand the importance of protecting Singapore’s port waters and marine environment. \n\n\n \n \n \n\n\n 8.    To encourage the community to do their part for marine sustainability, we plan to have the Clean-Up on Kayak activity on a quarterly instead of on annual basis. We hope to see more ground-up efforts from the community to take the lead to encourage fellow Singaporean to do their part for marine environment sustainability. \n\n\n \n \n \n\n\n 9.    We are pleased to have secured Republic Polytechnic (RP) for them to take the lead to organise a session in March next year.  The students from RP’s school in Outdoor and Adventure Learning will plan where, when and how they will conduct the Clean-Up on Kayak activity, as well as encourage the participation of their fellow students. \n\n\n \n \n \n\n\n 10.   I am delighted by the enthusiasm of these youths and hope to see more and younger participants partaking in such worthwhile activities to shape the future for a better and sustainable environment. I hope that more schools, institutions and the public will come forward to partner us in this initiative. Such efforts will go a long way to help protect the marine environment and eco-system.\n\n\n \n \n \n\n\n Conclusion\n\n\n 11.   Thank you once again for joining us this morning. Do enjoy the experience, whether you are on kayaks to pick up marine litter or on Seletar Island to sort and record the trash. Have a pleasant day ahead."
+        }
+      ]
+    }
+  ]
+}
