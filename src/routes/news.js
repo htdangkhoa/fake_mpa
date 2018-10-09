@@ -32,13 +32,13 @@ router.get('/news', (req, res) => {
 router.get('/circulars', (req, res) => {
   const { category, id } = req.query;
 
-  switch (category) {
-    case 'Shipping Circulars': {
+  switch (category.toLowerCase()) {
+    case 'shipping circulars': {
       if (id) return res.status(200).json(circularsShippingById);
 
       return res.status(200).json(circularsShipping);
     }
-    case 'Port Marine Circulars': {
+    case 'port marine circulars': {
       if (id) return res.status(200).json(circularsPortMarineById);
 
       return res.status(200).json(circularsPortMarine);
@@ -51,18 +51,18 @@ router.get('/circulars', (req, res) => {
 router.get('/notices', (req, res) => {
   const { category, id } = req.query;
 
-  switch (category) {
-    case 'Port Marine Notices': {
+  switch (category.toLowerCase()) {
+    case 'port parine notices': {
       if (id) return res.status(200).json(noticesPortMarineById);
 
       return res.status(200).json(noticesPortMarine);
     }
-    case 'Maritime Security Notices': {
+    case 'maritime security notices': {
       if (id) return res.status(200).json(noticesMaritimeSecurityById);
 
       return res.status(200).json(noticesMaritimeSecurity);
     }
-    case 'Singaporean Notices to Mariners': {
+    case 'singaporean notices to mariners': {
       if (id) return res.status(200).json(noticesSingaporeanNoticesToMarinersById);
 
       return res.status(200).json(noticesSingaporeanNoticesToMariners);
