@@ -96,7 +96,7 @@ router.post('/submitAuthentication', (req, res) => {
   const time = moment(new Date()).format('MMM DD YYYY hh:mm A');
 
   return res.status(200).json({
-    returnCode: 0,
+    returnCode: 1,
     returnMessage: `Login ID ${user.userId} last system access ${time}`,
     returnPayload: {
       userId: user.userId,
