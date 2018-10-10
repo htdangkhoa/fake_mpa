@@ -1,0 +1,9 @@
+{
+  "returnCode": 0,
+  "returnMessage": "",
+  "returnPayload": {
+    "transactionDate": "09/10/2018",
+    "userId":"cabacc07",
+    "balance": "20.90"
+  }
+}

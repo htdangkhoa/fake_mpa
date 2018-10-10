@@ -52,7 +52,7 @@ router.get('/notices', (req, res) => {
   const { category, id } = req.query;
 
   switch (category.toLowerCase()) {
-    case 'port parine notices': {
+    case 'port marine notices': {
       if (id) return res.status(200).json(noticesPortMarineById);
 
       return res.status(200).json(noticesPortMarine);
