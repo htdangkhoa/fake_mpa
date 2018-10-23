@@ -1,6 +1,7 @@
 import './logger';
 import dotenv from 'dotenv';
 import express from 'express';
+import basicAuth from 'express-basic-auth';
 import bodyParser from 'body-parser';
 import helmet from 'helmet';
 import timeout from 'connect-timeout';
@@ -28,11 +29,20 @@ app.use([
   timeout('120s'),
 ]);
 
-app.use('/api', route);
+// app.use(
+//   basicAuth({
+//     users: { admin: 'UJj&p3@9y{86:J6p' },
+//     challenge: false,
+//     unauthorizedResponse: req => ({
+//       returnCode: 0,
+//       isSuccessful: false,
+//       returnPayload: null,
+//       returnMessage: `You don't have permission to access ${req.path} on this server.`,
+//     }),
+//   }),
+// );
 
-app.get('/', (req, res) => {
-  res.send(`MPA Server.`);
-});
+app.use('/api', route);
 
 if (cluster.isMaster) {
   console.info(`Server is running on port: ${process.env.PORT}`);
