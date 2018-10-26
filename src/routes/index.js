@@ -16,6 +16,7 @@ import sts from './sts';
 import oas from './oas';
 import news from './news';
 import circulars from './circulars';
+import weather from './weather';
 
 export default [
   term,
@@ -36,4 +37,5 @@ export default [
   oas,
   news,
   circulars,
+  weather,
 ];
