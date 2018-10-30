@@ -39,4 +39,16 @@ router.post('/getVASConfiguration', (req, res) => {
   return res.status(400).json(global.errors);
 });
 
+router.post('/removeVASConfiguration', (req, res) => {
+  const { userId, vslId } = req.body;
+
+  if (!userId || !vslId) return res.status(400).json(global.errors);
+
+  return res.status(200).json({
+    returnCode: 0,
+    returnMessage: '',
+    returnPayload: '',
+  });
+});
+
 export default router;

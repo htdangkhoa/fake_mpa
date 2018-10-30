@@ -90,6 +90,33 @@ router.post('/updateEWalletAutoUpdate', (req, res) => {
   });
 });
 
+router.post('/updateAccountAutoTopup', (req, res) => {
+  const {
+    userId, orgCode, autoTopup, autoTopupAccountNo, autoTopupAmount, mat,
+  } = req.body;
+
+  const amtValid = ['10.00', '50.00'];
+
+  if (
+    userId === 'mpancs04'
+    && orgCode === 'MPA'
+    && autoTopupAccountNo === '1234567'
+    && amtValid.indexOf(autoTopupAmount) !== -1
+  ) {
+    return res.status(200).json({
+      returnCode: 0,
+      returnMessage: '',
+      returnPayload: '',
+    });
+  }
+
+  return res.status(400).json({
+    returnCode: 1,
+    returnMessage: 'An error has been encountered while trying to process your request.',
+    returnPayload: '',
+  });
+});
+
 router.post('/submitEWalletTopup', (req, res) => {
   const {
     userId, orgCode, purType, purValue, purMatCode, purAccountNo,
@@ -119,7 +146,11 @@ router.post('/submitEWalletTopup', (req, res) => {
 router.post('/confirmEWalletTopup', (req, res) => {
   const { userId, orgCode, transId } = req.body;
 
-  if (userId === 'mpancs04' && orgCode === 'MPA' && transId === 'd3b02b31-8fea-4d1d-a92b-a055712a9e8e') {
+  if (
+    userId === 'mpancs04'
+    && orgCode === 'MPA'
+    && transId === 'd3b02b31-8fea-4d1d-a92b-a055712a9e8e'
+  ) {
     return res.status(200).json(confirmEWalletTopupSuccess);
   }
 
