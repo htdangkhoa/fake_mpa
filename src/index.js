@@ -44,6 +44,24 @@ app.use([
 
 app.use('/api', route);
 
+app.post('/api/test', (req, res) => {
+  const { params } = req.body;
+
+  if (!params) return res.status(400).send('Bad request.');
+
+  console.log(params);
+
+  const data = JSON.parse(params);
+
+  for (let i = 0; i < data.length; i++) {
+    const element = data[i];
+    
+    console.log(typeof element)
+  }
+
+  return res.status(200).send('ok');
+})
+
 if (cluster.isMaster) {
   console.info(`Server is running on port: ${process.env.PORT}`);
   console.info(`Master ${process.pid} is running`);

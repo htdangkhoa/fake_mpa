@@ -7,6 +7,7 @@ import announcements from './announcement';
 import feedback from './feedback';
 import inbox from './inbox';
 import move from './move';
+import moveV2 from './moveV2';
 import vessel from './vessel';
 import authentication from './authentication';
 import vas from './vas';
@@ -28,6 +29,7 @@ export default [
   feedback,
   inbox,
   move,
+  moveV2,
   vessel,
   authentication,
   vas,

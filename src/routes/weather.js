@@ -28,8 +28,6 @@ router.post('/getWeatherData', (req, res) => {
 
     const { forecast } = data.query.results.channel.item;
 
-    console.log(data.query.results.channel.item);
-
     return res.status(200).json({
       returnCode: 0,
       returnMessage: '',
